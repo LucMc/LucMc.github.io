@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "//lucmc.github.io/static/css/main.073c9b0a.css",
+    "main.js": "//lucmc.github.io/static/js/main.716e942f.js",
+    "static/js/787.28cb0dcd.chunk.js": "//lucmc.github.io/static/js/787.28cb0dcd.chunk.js",
+    "static/media/logo.svg": "//lucmc.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "//lucmc.github.io/index.html",
+    "main.073c9b0a.css.map": "//lucmc.github.io/static/css/main.073c9b0a.css.map",
+    "main.716e942f.js.map": "//lucmc.github.io/static/js/main.716e942f.js.map",
+    "787.28cb0dcd.chunk.js.map": "//lucmc.github.io/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.716e942f.js"
+  ]
+}
