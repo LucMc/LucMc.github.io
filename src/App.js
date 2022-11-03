@@ -1,20 +1,26 @@
-import React from "react";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
-import Testimonials from "./components/Testimonials";
+import React from 'react';
+import Navbar from './components/Navbar';
+import './App.css';
+import Home from './components/pages/Home';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Publications from './components/pages/Publications';
+import AboutUs from './components/pages/AboutUs';
+import SignUp from './components/pages/ContactUs';
 
-export default function App() {
+function App() {
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
-      <Navbar />
-      <About />
-      <Projects />
-      <Skills />
-      <Testimonials />
-      <Contact />
-    </main>
+    <>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path='/' exact component={Home} />
+          <Route path='/aboutus' component={AboutUs} />
+          <Route path='/publications' component={Publications} />
+          <Route path='/sign-up' component={SignUp} />
+        </Switch>
+      </Router>
+    </>
   );
 }
+
+export default App;

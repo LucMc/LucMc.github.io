@@ -1,33 +1,80 @@
-import { ArrowRightIcon } from "@heroicons/react/solid";
-import React from "react";
+import React, { useState, useEffect } from 'react';
+import { Button } from './Button';
+import { Link } from 'react-router-dom';
+import './Navbar.css';
 
-export default function Navbar() {
+function Navbar() {
+  const [click, setClick] = useState(false);
+  const [button, setButton] = useState(true);
+
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
+
+  const showButton = () => {
+    if (window.innerWidth <= 960) {
+      setButton(false);
+    } else {
+      setButton(true);
+    }
+  };
+
+  useEffect(() => {
+    showButton();
+  }, []);
+
+  window.addEventListener('resize', showButton);
+
   return (
-    <header className="bg-gray-800 md:sticky top-0 z-10">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a className="title-font font-medium text-white mb-4 md:mb-0">
-          <a href="#about" className="ml-3 text-xl">
-            Reed Barger
-          </a>
-        </a>
-        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
-          <a href="#projects" className="mr-5 hover:text-white">
-            Past Work
-          </a>
-          <a href="#skills" className="mr-5 hover:text-white">
-            Skills
-          </a>
-          <a href="#testimonials" className="mr-5 hover:text-white">
-            Testimonials
-          </a>
-        </nav>
-        <a
-          href="#contact"
-          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
-          Hire Me
-          <ArrowRightIcon className="w-4 h-4 ml-1" />
-        </a>
-      </div>
-    </header>
+    <>
+      <nav className='navbar'>
+        <div className='navbar-container'>
+          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+            CAV Lab
+            <i class='fab fa-typo3' />
+          </Link>
+          <div className='menu-icon' onClick={handleClick}>
+            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+          </div>
+          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+            <li className='nav-item'>
+              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                Home
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/aboutus'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                About Us
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/publications'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Publications
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                to='/sign-up'
+                className='nav-links-mobile'
+                onClick={closeMobileMenu}
+              >
+                Sign Up
+              </Link>
+            </li>
+          </ul>
+          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+        </div>
+      </nav>
+    </>
   );
 }
+
+export default Navbar;
