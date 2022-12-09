@@ -7,7 +7,7 @@ function DynamicBackground() {
   return (
     <div className='hero-container'>
       //<video src='/videos/driving_stock.mp4' autoPlay loop muted />
-      <img src='../images/img-1.jpg' />
+      <img src='images/img-1.jpg' />
       <h1>AUTONOMOUS AI RESEARCH</h1>
       <p>What are you waiting for?</p>
       <div className='hero-btns'>
