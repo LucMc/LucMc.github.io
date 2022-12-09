@@ -3,16 +3,16 @@ import '../App.css';
 import { Button } from './Button';
 import './DynamicBackground.css';
 //import backgroundImg from'../img-1.jpg'
-
+import background_vid from '../images/background_video.mp4'
 
 function DynamicBackground() {
   return (
     <div className='hero-container'>
-      {/* //<video src='/videos/driving_stock.mp4' autoPlay loop muted />
-      <img src={backgroundImg} /> */}
+      <video src={background_vid} autoPlay loop muted />
+      {/*<img src={backgroundImg} /> */}
       <h1>CONNECTED AND AUTONOMOUS VEHICLES LAB</h1>
       <p>AUTOMOTIVE AND ROBOTICS AI RESEARCH</p>
-      <div className='hero-btns'>
+      {/* <div className='hero-btns'>
         <Button
           className='btns'
           buttonStyle='btn--outline'
@@ -27,8 +27,8 @@ function DynamicBackground() {
           onClick={console.log('hey')}
         >
           WATCH TRAILER <i className='far fa-play-circle' />
-        </Button>
-      </div>
+        </Button> 
+      </div>*/}
     </div>
   );
 }
