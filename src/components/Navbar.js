@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import cav_lab_logo from '../images/CAV-LAB_logo_white.png'
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -29,8 +30,8 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            <img src='images/CAV-LAB_logo.png'/>
-            <i class='fab fa-typo3' />
+            <img src={cav_lab_logo} width="20%" height="10%"/>
+            {/* <i class='fab fa-typo3' /> */}
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

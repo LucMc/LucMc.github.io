@@ -2,14 +2,16 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './DynamicBackground.css';
+//import backgroundImg from'../img-1.jpg'
+
 
 function DynamicBackground() {
   return (
     <div className='hero-container'>
-      //<video src='/videos/driving_stock.mp4' autoPlay loop muted />
-      <img src='images/img-1.jpg' />
-      <h1>AUTONOMOUS AI RESEARCH</h1>
-      <p>What are you waiting for?</p>
+      {/* //<video src='/videos/driving_stock.mp4' autoPlay loop muted />
+      <img src={backgroundImg} /> */}
+      <h1>CONNECTED AND AUTONOMOUS VEHICLES LAB</h1>
+      <p>AUTOMOTIVE AND ROBOTICS AI RESEARCH</p>
       <div className='hero-btns'>
         <Button
           className='btns'
