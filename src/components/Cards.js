@@ -5,19 +5,19 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Check out our projects!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
               src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
+              text='Satellite Imagery for CAV Localisation (SatCAV) - SPIRINT'
               label='Adventure'
               path='/services'
             />
             <CardItem
               src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
+              text='Cloud Assisted Real-time Methods for Autonomy (CARMA) – EPSRC & JLR'
               label='Luxury'
               path='/services'
             />
@@ -25,22 +25,58 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+              text='Future AI and Robotics Hub for Space (Fair-Space) – EPSRC & UKSA'
               label='Mystery'
               path='/services'
             />
             <CardItem
               src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
+              text='5G Above the Cloud – Innovate UK'
               label='Adventure'
               path='/products'
             />
             <CardItem
               src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
+              text='Ground Penetrating Radar for Localisation of Autonomous Cars – Innovate UK'
               label='Adrenaline'
               path='/sign-up'
             />
+            {/* <CardItem
+              src='images/img-4.jpg'
+              text='Energy Management of a Fleet of Connected Electric Delivery Vehicles – KTP'
+              label='Adventure'
+              path='/products'
+            />
+            <CardItem
+              src='images/img-4.jpg'
+              text='Predictive fault detection for reconfigurable control systems – IAA-EPSRC'
+              label='Adventure'
+              path='/products'
+            />
+            <CardItem
+              src='images/img-4.jpg'
+              text='Autonomous Decision Support System – SPRINT'
+              label='Adventure'
+              path='/products'
+            />
+            <CardItem
+              src='images/img-4.jpg'
+              text='Optimization of scalable real-time models and functional testing for e-drive concepts (Obelics) – EU Commission'
+              label='Adventure'
+              path='/products'
+            />
+            <CardItem
+              src='images/img-4.jpg'
+              text='Improved Trustworthiness and Weather-Independence of Conditionally Automated Vehicles in Mixed Traffic Scenarios (TrustVehicle) – EU Commission'
+              label='Adventure'
+              path='/products'
+            />
+            <CardItem
+              src='images/img-4.jpg'
+              text='Integrated Control of Multiple-Motor and Multiple-Storage Fully Electric Vehicles (iCompose) – EU Commission'
+              label='Adventure'
+              path='/products'
+            /> */}
           </ul>
         </div>
       </div>
