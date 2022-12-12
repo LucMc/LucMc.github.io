@@ -1,9 +1,9 @@
 import React from 'react';
 import '../../App.css';
-import './AboutUs.css';
+import './About.css';
 import Footer from '../Footer';
 
-export default function AboutUs() {
+export default function About() {
   return ( 
 <>
 <div class="AboutUsBody">
@@ -12,7 +12,7 @@ export default function AboutUs() {
   <h1 className='aboutus'>ABOUT US</h1>
   <br></br><br></br>
 
-  <div className="info" style={{margin: "5%", marginTop: "2%"}}>
+  <div className="info">
   <h3>Safe and Trustworthy AI for Autonomous Driving</h3><br></br>
   <ul>
     <li>

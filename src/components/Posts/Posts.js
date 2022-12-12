@@ -8,7 +8,7 @@ import Post from "../Post";
 const Posts = () => {
 const newsPosts = [
 	{
-	title: "Information Transfer in Artificial and Biological Systems",
+	title: "Connected Vehicle Demonstration",
 	body: `The CAV-Lab presentation at the University of Surrey captivated audiences with a demonstration of
 			internally developed connected vehicle technology. The cars seen above have been designed, engioneered
 			and programmed to operate through a WiFi connection.\n\n

@@ -30,7 +30,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            <img src={cav_lab_logo} width="20%" height="10%"/>
+            <img src={cav_lab_logo} width="20%" height="10%" />
             {/* <i class='fab fa-typo3' /> */}
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -44,11 +44,11 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/aboutus'
+                to='/about'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                About Us
+                About
               </Link>
             </li>
             <li className='nav-item'>
@@ -68,8 +68,18 @@ function Navbar() {
               >
                 News
               </Link>
-            </li></ul>
-            {/* <li>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/team'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Team
+              </Link>
+            </li>
+          </ul>
+          {/* <li>
               <Link
                 to='/sign-up'
                 className='nav-links-mobile'
