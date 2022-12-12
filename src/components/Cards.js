@@ -12,13 +12,13 @@ function Cards() {
             <CardItem
               src='images/img-9.jpg'
               text='Satellite Imagery for CAV Localisation (SatCAV) - SPIRINT'
-              label='Adventure'
+              label='Vision'
               path='/services'
             />
             <CardItem
               src='images/img-2.jpg'
               text='Cloud Assisted Real-time Methods for Autonomy (CARMA) – EPSRC & JLR'
-              label='Luxury'
+              label='Connect'
               path='/services'
             />
           </ul>
@@ -26,19 +26,19 @@ function Cards() {
             <CardItem
               src='images/img-3.jpg'
               text='Future AI and Robotics Hub for Space (Fair-Space) – EPSRC & UKSA'
-              label='Mystery'
+              label='Robotics'
               path='/services'
             />
             <CardItem
               src='images/img-4.jpg'
               text='5G Above the Cloud – Innovate UK'
-              label='Adventure'
+              label='Connect'
               path='/products'
             />
             <CardItem
               src='images/img-8.jpg'
               text='Ground Penetrating Radar for Localisation of Autonomous Cars – Innovate UK'
-              label='Adrenaline'
+              label='Automotive'
               path='/sign-up'
             />
             {/* <CardItem

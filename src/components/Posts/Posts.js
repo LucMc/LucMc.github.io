@@ -6,7 +6,7 @@ import Post from "../Post";
 /* ALL IMAGES ARE OF RATIO 2500pxH 6000pxW (25:60)*/
 
 const Posts = () => {
-const blogPosts = [
+const newsPosts = [
 	{
 	title: "Information Transfer in Artificial and Biological Systems",
 	body: `The CAV-Lab presentation at the University of Surrey captivated audiences with a demonstration of
@@ -21,7 +21,7 @@ const blogPosts = [
 			with a veriety of precise sensors designed to enable autonomous navigation.
 
 			`,
-	author: "November 12th 2021",
+	date: "12th November 2021",
 	imgUrl:
 	require('./PostMedia/demonstration.png'),
 	}		
@@ -37,7 +37,7 @@ const blogPosts = [
 	stack for the longest period of time. So, it
 	can be simply seen to follow LIFO(Last In
 	First Out)/FILO(First In Last Out) order.`,
-	author: "12/01/2022",
+	date: "12/01/2022",
 	imgUrl:
 		"https://media.geeksforgeeks.org/img-practice/banner/cp-maths-java-thumbnail.png",
 
@@ -51,7 +51,7 @@ const blogPosts = [
 	that step-by-step define how a work is to be
 	executed upon in order to get the expected
 	results. `,
-	author: "12/01/2022",
+	date: "12/01/2022",
 	imgUrl:
 		"https://media.geeksforgeeks.org/img-practice/banner/google-test-series-thumbnail.png",
 	},
@@ -75,7 +75,7 @@ const blogPosts = [
 
 return (
 	<div className="posts-container">
-	{blogPosts.map((post, index) => (
+	{newsPosts.map((post, index) => (
 		<Post key={index} index={index} post={post} />
 	))}
 	</div>

@@ -2,13 +2,14 @@ import React from 'react';
 import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
+import cav_lab_logo from '../images/CAV-LAB_logo_white.png'
 
 function Footer() {
   return (
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Join the CAV-Lab newsletter to receive the latest news!
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
@@ -33,7 +34,7 @@ function Footer() {
             <Link to='/'>Testimonials</Link>
             <Link to='/'>Careers</Link>
             <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
+            {/* <Link to='/'>Terms of Service</Link> */}
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
@@ -63,10 +64,10 @@ function Footer() {
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
-              CAV Lab
-              <i class='fab fa-typo3' />
-            </Link>
+          <Link to='/' className='social-logo'>
+            <img src={cav_lab_logo} width="20%" height="10%"/>
+            {/* <i class='fab fa-typo3' /> */}
+          </Link>
           </div>
           <small class='website-rights'>CAV Lab © 2022</small>
           <div class='social-icons'>

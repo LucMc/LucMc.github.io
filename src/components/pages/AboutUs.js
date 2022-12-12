@@ -10,6 +10,8 @@ export default function AboutUs() {
 
   <br></br><br></br>
   <h1 className='aboutus'>ABOUT US</h1>
+  <br></br><br></br>
+
   <div className="info" style={{margin: "5%", marginTop: "2%"}}>
   <h3>Safe and Trustworthy AI for Autonomous Driving</h3><br></br>
   <ul>
