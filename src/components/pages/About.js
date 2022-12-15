@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../App.css';
-import './About.css';
+import './Pages.css';
 import Footer from '../Footer';
 
 export default function About() {

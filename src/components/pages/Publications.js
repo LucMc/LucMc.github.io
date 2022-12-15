@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../App.css';
-import './Publications.css'
+import './Pages.css'
 import Footer from '../Footer';
 
 export default function Publications() {

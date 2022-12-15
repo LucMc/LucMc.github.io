@@ -7,6 +7,7 @@ import Publications from './components/pages/Publications';
 import About from './components/pages/About';
 import News from './components/pages/News';
 import Team from './components/pages/Team';
+import Blog from './components/pages/Blog';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path='/publications' component={Publications} />
           <Route path='/news' component={News} />
           <Route path='/team' component={Team} />
+          <Route path='/blog' component={Blog} />
 
         </Switch>
       </Router>
