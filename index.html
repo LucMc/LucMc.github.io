@@ -145,19 +145,30 @@
         toggleBtn.innerText = isDarkModeOn ? "☀️" : "🌓";
       });
 
-      document.addEventListener('DOMContentLoaded', () => {
-      // Check if the user prefers dark mode
-      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        // Apply the dark mode class to the body
-        document.body.classList.add("dark-mode");
-        // Update the toggle button text or icon
-        document.getElementById("dark-mode-toggle").innerText = "☀️";
-      } else {
-        // If not preferring dark mode, ensure light mode is active
-        document.body.classList.remove("dark-mode");
-        document.getElementById("dark-mode-toggle").innerText = "🌓";
-      }
-    });
+      function toggleDarkMode() {
+    const body = document.body;
+    const toggleBtn = document.getElementById("dark-mode-toggle");
+    body.classList.toggle("dark-mode");
+    const isDarkModeOn = body.classList.contains("dark-mode");
+    toggleBtn.innerText = isDarkModeOn ? "☀️" : "🌓";
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    // Check if the user prefers dark mode
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      // Apply the dark mode class to the body
+      document.body.classList.add("dark-mode");
+      // Update the toggle button text or icon
+      document.getElementById("dark-mode-toggle").innerText = "☀️";
+    } else {
+      // If not preferring dark mode, ensure light mode is active
+      document.body.classList.remove("dark-mode");
+      document.getElementById("dark-mode-toggle").innerText = "🌓";
+    }
+
+    // Add event listener for the toggle button
+    document.getElementById("dark-mode-toggle").addEventListener("click", toggleDarkMode);
+  });
 
     // Event listener for the toggle button
     document.getElementById("dark-mode-toggle").addEventListener("click", () => {

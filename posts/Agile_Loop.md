@@ -4,7 +4,8 @@
       <img src="https://media.licdn.com/dms/image/D4D0BAQHHGFD2dGE8aQ/company-logo_200_200/0/1686225260874?e=1717027200&v=beta&t=Jqp6pwORyELVG0WlcB-VTfzRf-1i8ZyYdUmbnPc1BwE" alt="Agile Loop Logo" style="width: 100%;">
     </td>
     <td style="vertical-align: middle;">
-      <h1 style="margin: 0;">Lead Research Scientist @ <a href="https://agileloop.ai">Agile Loop</a></h1>
+      <a href="https://agileloop.ai">Agile Loop</a>
+      <h1 style="margin: 0;">Lead Research Scientist</h1>
     </td>
   </tr>
 </table>

@@ -1,11 +1,19 @@
-#  PhD Student @ <a href="https://cav-research-lab.org">University of Surrey: CAV-Lab</a>
+#  
 Full-time (Oct 21 - Present)
 <br>
 <!-- <img src="https://avatars.githubusercontent.com/u/73850696?v=4" width="50%" alt="CAV-Lab"> -->
-<img src="https://www.cav-lab.io/static/media/LUC-IROS.835aa865.jpg" height="100%" alt="IROS 2024">
 <br>
 
-
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td style="vertical-align: middle; width: 15%; padding-right: 5%">
+    <img src="https://www.cav-lab.io/static/media/LUC-IROS.835aa865.jpg" height="100%" alt="IROS 2024">
+    </td>
+    <td style="vertical-align: middle;">
+      <h1 style="margin: 0;">PhD Student @ <a href="https://cav-research-lab.org">University of Surrey: CAV-Lab</a></h1>
+    </td>
+  </tr>
+</table>
 
 ## Research Topics 
 
