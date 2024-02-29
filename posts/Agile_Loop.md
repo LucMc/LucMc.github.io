@@ -1,6 +1,5 @@
 #  Lead Research Scientist
-Part-time position (Oct 23 - Present)
-@ Agile Loop
+Part-time position (Oct 23 - Present) @ Agile Loop
 
 <br>
 <img src="https://agileloop.ai/wp-content/uploads/2023/06/AL-Logo-Long-Black.png" height="200">

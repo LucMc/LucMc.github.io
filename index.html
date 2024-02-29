@@ -154,8 +154,10 @@
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
   <script>
-      const postsList = document.getElementById('posts-list');
+    const postsList = document.getElementById('posts-list');
     const projectsList = document.getElementById('projects-list');
+    const ListeningList = document.getElementById('listening-list');
+
     const converter = new showdown.Converter({
       simpleLineBreaks: true,
       strikethrough: true,
@@ -176,8 +178,7 @@
       }
 
       const randomFiles = shuffleArray(files);
-      const maxVisibleItems = folder === 'posts' ? 3 : folder === 'projects' ? 5 : Infinity;
-      let itemCount = 0;
+      const maxVisibleItems = folder === 'posts' ? 4 : folder === 'projects' ? 4 : folder === 'listening' ? 4 : Infinity;      let itemCount = 0;
 
       for (const file of randomFiles) {
         if (file.name.endsWith('.md')) {
@@ -204,22 +205,23 @@
             } else if (folder === 'listening') {
               document.getElementById('listening-list').innerHTML += fileCard;
             }
-          } else {
-            if (folder !== 'listening') {
+          }
+           else {
               const hiddenCard = `<div class='hidden'>${fileCard}</div>`;
               if (folder === 'posts') {
                 postsList.innerHTML += hiddenCard;
               } else if (folder === 'projects') {
                 projectsList.innerHTML += hiddenCard;
+              }else if (folder === 'listening') {
+                ListeningList.innerHTML += hiddenCard;
               }
-            }
           }
           itemCount++;
         }
       }
 
-    if (folder !== 'listening' && itemCount > maxVisibleItems) {
-      const container = folder === 'posts' ? postsList : projectsList;
+      if (itemCount > maxVisibleItems) {
+      const container = folder === 'posts' ? postsList : folder === 'projects' ? projectsList : ListeningList;
       createShowMoreButton(container);
     }
   }
