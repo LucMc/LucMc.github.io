@@ -1,6 +1,6 @@
 <br>
-<img src="https://agileloop.ai/wp-content/uploads/2023/06/AL-Logo-Long-Black.png" height="200">
-<br>
+<img src="https://agileloop.ai/wp-content/uploads/2023/06/AL-Logo-Long-Black.png" height="200" alt="Agile Loop Logo">
+<br><br>
 
 #  Lead Research Scientist @ [Agile Loop](https://agileloop.ai)
 Part-time position (Oct 23 - Present)

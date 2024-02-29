@@ -1,7 +1,7 @@
-#  PhD Student @ [University of Surrey: CAV-Lab](https://cav-research-lab.org)
-Full-time Position (Oct 21 - Present) 
+#  PhD Student @ <a href="https://cav-research-lab.org">University of Surrey: CAV-Lab</a>
+Full-time Position (Oct 21 - Present) Full-time Position (Oct 21 - Present) 
 <br>
-<img src="https://agileloop.ai/wp-content/uploads/2023/06/AL-Logo-Long-Black.png" height="200">
+<img src="https://www.cav-lab.io/static/media/LUC-IROS.835aa865.jpg" height="200">
 <br>
 
 ## Research Topics 
