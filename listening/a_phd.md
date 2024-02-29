@@ -4,7 +4,7 @@
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
     <td style="vertical-align: middle; width: 15%; padding-right: 5%">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvRXLxG2sNIhrbxtL6YRNBNOSJw7Qy1kBvjfVfsQ9p9bmrVghFBYP6jECpruosULKrCnE&usqp=CAU" width="30%" alt="UoS">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvRXLxG2sNIhrbxtL6YRNBNOSJw7Qy1kBvjfVfsQ9p9bmrVghFBYP6jECpruosULKrCnE&usqp=CAU" width="100%" alt="UoS">
     </td>
     <td style="vertical-align: middle;">
       <h1 style="margin: 0;">PhD Researcher <a href="https://cav-research-lab.org"></a></h1>
