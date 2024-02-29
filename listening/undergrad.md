@@ -2,10 +2,11 @@
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
     <td style="vertical-align: middle; width: 15%; padding-right: 5%">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvRXLxG2sNIhrbxtL6YRNBNOSJw7Qy1kBvjfVfsQ9p9bmrVghFBYP6jECpruosULKrCnE&usqp=CAU" width="100%" alt="UoS">
+    <a href="https://www.surrey.ac.uk/">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvRXLxG2sNIhrbxtL6YRNBNOSJw7Qy1kBvjfVfsQ9p9bmrVghFBYP6jECpruosULKrCnE&usqp=CAU" width="100%" alt="UoS"></a>
     </td>
     <td style="vertical-align: middle;">
-      <h1 style="margin: 0;">Undergraduate Student <a href="https://www.surrey.ac.uk/"></a></h1>
+      <h1 style="margin: 0;">Undergraduate Student</h1>
       <h2>University of Surrey: Computer Science (BSc)</h2>
     </td>
   </tr>

@@ -4,8 +4,8 @@
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvRXLxG2sNIhrbxtL6YRNBNOSJw7Qy1kBvjfVfsQ9p9bmrVghFBYP6jECpruosULKrCnE&usqp=CAU" width="100%" alt="UoS">
     </td>
     <td style="vertical-align: middle;">
-      <h1 style="margin: 0;">PhD Researcher <a href="https://cav-research-lab.org"></a></h1>
-      <h2>University of Surrey: CAV-Lab</h2>
+      <h1 style="margin: 0;">PhD Researcher </h1>
+      <h2>University of Surrey: <a href="https://cav-research-lab.org">CAV-Lab</a></h2>
     </td>
   </tr>
 </table>
@@ -22,7 +22,7 @@
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
 <p>Many thanks go to Veolia and EPSRC for sponsoring this research project</p>
-<img src="https://www.1min30.com/wp-content/uploads/2018/04/Veolia-logo.jpg" style="width: 20%;" alt="Veolia">
+<img src="https://www.1min30.com/wp-content/uploads/2018/04/Veolia-logo.jpg" style="width: 18%;" alt="Veolia">
 <img src="https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/v1472038346/wpf64tebfxvwmvlpkdur.png" style="width: 10%;" alt="EPSRC">
 </div>
 <br>
