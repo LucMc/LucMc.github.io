@@ -1,7 +1,8 @@
 <div style="display: flex; align-items: center; gap: 20px;">
-  <img src="https://media.licdn.com/dms/image/D4D0BAQHHGFD2dGE8aQ/company-logo_200_200/0/1686225260874?e=1717027200&v=beta&t=Jqp6pwORyELVG0WlcB-VTfzRf-1i8ZyYdUmbnPc1BwE" width="15%" alt="Agile Loop Logo" >
-  <h1>Lead Research Scientist @ <a href="https://agileloop.ai">Agile Loop</a></h1>
+  <img src="https://media.licdn.com/dms/image/D4D0BAQHHGFD2dGE8aQ/company-logo_200_200/0/1686225260874?e=1717027200&v=beta&t=Jqp6pwORyELVG0WlcB-VTfzRf-1i8ZyYdUmbnPc1BwE" width="15%" alt="Agile Loop Logo">
+  <h1 style="margin: 0; flex-grow: 1;">Lead Research Scientist @ <a href="https://agileloop.ai">Agile Loop</a></h1>
 </div>
+
 Part-time (Oct 23 - Present)
 <!-- style="margin-right: 10px;" -->
 <br><br>

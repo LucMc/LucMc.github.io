@@ -1,7 +1,7 @@
 #  PhD Student @ <a href="https://cav-research-lab.org">University of Surrey: CAV-Lab</a>
 Full-time (Oct 21 - Present)
 <br>
-<img src="https://avatars.githubusercontent.com/u/73850696?v=4" width="10%" alt="CAV-Lab">
+<img src="https://avatars.githubusercontent.com/u/73850696?v=4" width="50%" alt="CAV-Lab">
 <!-- <img src="https://www.cav-lab.io/static/media/LUC-IROS.835aa865.jpg" height="200" alt="IROS 2024"> -->
 <br>
 
