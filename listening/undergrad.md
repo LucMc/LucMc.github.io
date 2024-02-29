@@ -1,4 +1,16 @@
-#  Undergraduate Student @ <a href="https://www.surrey.ac.uk/">University of Surrey: Computer Science (BSc)</a>
+
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td style="vertical-align: middle; width: 15%; padding-right: 5%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvRXLxG2sNIhrbxtL6YRNBNOSJw7Qy1kBvjfVfsQ9p9bmrVghFBYP6jECpruosULKrCnE&usqp=CAU" width="100%" alt="UoS">
+    </td>
+    <td style="vertical-align: middle;">
+      <h1 style="margin: 0;">Undergraduate Student <a href="https://www.surrey.ac.uk/"></a></h1>
+      <h2>University of Surrey: Computer Science (BSc)</h2>
+    </td>
+  </tr>
+</table>
+
 <i>Full-time (Oct 18 - Jul 21)</i>
 <br>
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0px;">

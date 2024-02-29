@@ -13,13 +13,14 @@
 
 <p><i>Part-time (Oct 23 - Present)</i></p?>
 <!-- style="margin-right: 10px;" -->
-<br><br>
 
-## Responsibilities
+<h2>Responsibilities</h2>
 
-* Leading a team of 15 researchers 
-* Designing powerful architectures to tackle complex new problems
-* Overseeing and guiding implementation from thought to product
+<ul>
+  <li>Leading a team of 15 researchers</li>
+  <li>Designing powerful architectures to tackle complex new problems</li>
+  <li>Overseeing and guiding implementation from thought to product</li>
+</ul>
 
 <br>
 

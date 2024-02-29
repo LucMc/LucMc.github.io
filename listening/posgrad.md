@@ -9,7 +9,6 @@
     <td style="vertical-align: middle;">
       <h1 style="margin: 0;">PhD Researcher <a href="https://cav-research-lab.org"></a></h1>
       <h2>University of Surrey: CAV-Lab</h2>
-
     </td>
   </tr>
 </table>
