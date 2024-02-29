@@ -15,8 +15,8 @@ Full-time (Oct 21 - Present)
 
 Many thanks go to Veolia and EPSRC for sponsoring this research project
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0px;">
-<img src="https://www.1min30.com/wp-content/uploads/2018/04/Veolia-logo.jpg" height="30%" alt="Veolia">
-<img src="https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/v1472038346/wpf64tebfxvwmvlpkdur.png" height="30%" alt="EPSRC">
+<img src="https://www.1min30.com/wp-content/uploads/2018/04/Veolia-logo.jpg" width="40%" alt="Veolia">
+<img src="https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/v1472038346/wpf64tebfxvwmvlpkdur.png" width="20%" alt="EPSRC">
 <br>
 
 </div>
