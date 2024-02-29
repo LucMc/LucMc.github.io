@@ -1,7 +1,5 @@
 #  PhD Student
-Full-time Position (Oct 21 - Present)
-@ CAV Research Lab
-
+Full-time Position (Oct 21 - Present) @ [CAV Research Lab](https://cav-research-lab.org)
 <br>
 <img src="https://agileloop.ai/wp-content/uploads/2023/06/AL-Logo-Long-Black.png" height="200">
 <br>

@@ -3,7 +3,7 @@
 <br>
 
 #  Lead Research Scientist
-Part-time position (Oct 23 - Present) @ Agile Loop
+Part-time position (Oct 23 - Present) @ [Agile Loop](https://agileloop.ai)
 
 ## Responsibilities
 
