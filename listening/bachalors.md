@@ -1,5 +1,5 @@
 #  Undergraduate Student @ <a href="https://www.surrey.ac.uk/">University of Surrey: Computer Science (BSc)</a>
-Full-time (Oct 18 - Jul 21)
+<i>Full-time (Oct 18 - Jul 21)</i>
 <br>
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0px;">
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvRXLxG2sNIhrbxtL6YRNBNOSJw7Qy1kBvjfVfsQ9p9bmrVghFBYP6jECpruosULKrCnE&usqp=CAU" width="30%" alt="UoS">

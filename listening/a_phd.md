@@ -13,7 +13,7 @@
     </td>
   </tr>
 </table>
-Full-time (Oct 21 - Present)
+<i>Full-time (Oct 21 - Present)</i>
 
 ## Research Topics 
 
