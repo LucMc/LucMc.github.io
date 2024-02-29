@@ -1,7 +1,7 @@
 #  Predictive Model Delay Correction
 *Undelay* Randomly Reinforcement Learning environments
-<br>
 
+<br>
 <img src="https://camo.githubusercontent.com/32ecd225e2ae44fb1ee220c215a46c0d0dd447a0d60a0cd0eb916025e754e106/68747470733a2f2f692e696d6775722e636f6d2f306130665635642e706e67" height="200">
 <br>
 

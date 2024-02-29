@@ -1,16 +1,17 @@
-#  Lead Research Scientist
-Part-time position (Oct 23 - Present)
-@ Agile Loop
+#  PhD Student
+Full-time Position (Oct 21 - Present)
+@ CAV Research Lab
 
 <br>
 <img src="https://agileloop.ai/wp-content/uploads/2023/06/AL-Logo-Long-Black.png" height="200">
 <br>
 
-## Responsibilities
+## Research Topics 
 
-* Leading a team of 15 researchers 
-* Designing powerful architectures to tackle complex new problems
-* Overseeing and guiding implementation from thought to product
+* Time-delayed Reinforcement Learning
+* Lyapunov Safe AI
+* Offline Reinforcement Learning
+
 
 <br>
 
