@@ -1,9 +1,9 @@
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0px;">
-  <img src="https://media.licdn.com/dms/image/D4D0BAQHHGFD2dGE8aQ/company-logo_200_200/0/1686225260874?e=1717027200&v=beta&t=Jqp6pwORyELVG0WlcB-VTfzRf-1i8ZyYdUmbnPc1BwE" height="5" alt="Agile Loop Logo" style="margin-right: 10px;">
+  <img src="https://media.licdn.com/dms/image/D4D0BAQHHGFD2dGE8aQ/company-logo_200_200/0/1686225260874?e=1717027200&v=beta&t=Jqp6pwORyELVG0WlcB-VTfzRf-1i8ZyYdUmbnPc1BwE" height="5" alt="Agile Loop Logo" >
   <h1>Lead Research Scientist @ <a href="https://agileloop.ai">Agile Loop</a></h1>
 </div>
 Part-time (Oct 23 - Present)
-
+<!-- style="margin-right: 10px;" -->
 <br><br>
 
 ## Responsibilities
