@@ -5,7 +5,7 @@
     </td>
     <td style="vertical-align: middle;">
       <h1><a href="https://agileloop.ai">Agile Loop</a></h1>
-      <h2 style="margin: 0;">Lead Research Scientist</h2>
+      <h3 style="margin: 0;">Lead Research Scientist</h3>
     </td>
   </tr>
 </table>
