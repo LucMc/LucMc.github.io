@@ -17,6 +17,8 @@
   <li>Lyapunov Safe AI</li>
   <li>Offline Reinforcement Learning</li>
 </ul>
+
+<br><br>
 <img src="https://www.cav-lab.io/static/media/LUC-IROS.835aa865.jpg" height="100%" alt="IROS 2024">
 <br><br>
 
