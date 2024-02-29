@@ -18,7 +18,7 @@
   <li>Offline Reinforcement Learning</li>
 </ul>
 <img src="https://www.cav-lab.io/static/media/LUC-IROS.835aa865.jpg" height="100%" alt="IROS 2024">
-
+<br><br>
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
 <p>Many thanks go to Veolia and EPSRC for sponsoring this research project</p>
