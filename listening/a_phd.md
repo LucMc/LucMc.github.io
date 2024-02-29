@@ -1,25 +1,26 @@
-#  
-Full-time (Oct 21 - Present)
-<br>
-<!-- <img src="https://avatars.githubusercontent.com/u/73850696?v=4" width="50%" alt="CAV-Lab"> -->
-<br>
+
+
 
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
     <td style="vertical-align: middle; width: 15%; padding-right: 5%">
-    <img src="https://www.cav-lab.io/static/media/LUC-IROS.835aa865.jpg" height="100%" alt="IROS 2024">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvRXLxG2sNIhrbxtL6YRNBNOSJw7Qy1kBvjfVfsQ9p9bmrVghFBYP6jECpruosULKrCnE&usqp=CAU" width="30%" alt="UoS">
     </td>
     <td style="vertical-align: middle;">
-      <h1 style="margin: 0;">PhD Student @ <a href="https://cav-research-lab.org">University of Surrey: CAV-Lab</a></h1>
+      <h1 style="margin: 0;">PhD Researcher <a href="https://cav-research-lab.org"></a></h1>
+      <h2>University of Surrey: CAV-Lab</h2>
+
     </td>
   </tr>
 </table>
+Full-time (Oct 21 - Present)
 
 ## Research Topics 
 
 * Time-delayed Reinforcement Learning
 * Lyapunov Safe AI
 * Offline Reinforcement Learning
+<img src="https://www.cav-lab.io/static/media/LUC-IROS.835aa865.jpg" height="100%" alt="IROS 2024">
 
 Many thanks go to Veolia and EPSRC for sponsoring this research project
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0px;">
