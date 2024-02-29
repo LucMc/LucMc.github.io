@@ -11,7 +11,7 @@
 </table>
 
 
-<i>Part-time (Oct 23 - Present)</i>
+<p><i>Part-time (Oct 23 - Present)</i></p?>
 <!-- style="margin-right: 10px;" -->
 <br><br>
 
