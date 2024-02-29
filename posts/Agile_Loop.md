@@ -1,5 +1,5 @@
 <br>
-<img src="https://agileloop.ai/wp-content/uploads/2023/06/AL-Logo-Long-Black.png" height="200" alt="Agile Loop Logo">
+<img src="https://media.licdn.com/dms/image/D4D0BAQHHGFD2dGE8aQ/company-logo_200_200/0/1686225260874?e=1717027200&v=beta&t=Jqp6pwORyELVG0WlcB-VTfzRf-1i8ZyYdUmbnPc1BwE" height="200" alt="Agile Loop Logo">
 <br><br>
 
 #  Lead Research Scientist @ [Agile Loop](https://agileloop.ai)
