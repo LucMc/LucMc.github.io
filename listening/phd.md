@@ -1,5 +1,5 @@
 #  PhD Student @ <a href="https://cav-research-lab.org">University of Surrey: CAV-Lab</a>
-Full-time Position (Oct 21 - Present) Full-time Position (Oct 21 - Present) 
+Full-time (Oct 21 - Present)
 <br>
 <img src="https://www.cav-lab.io/static/media/LUC-IROS.835aa865.jpg" height="200" alt="IROS 2024">
 <br>
