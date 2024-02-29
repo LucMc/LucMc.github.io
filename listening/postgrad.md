@@ -24,7 +24,7 @@
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
 <p>Many thanks go to Veolia and EPSRC for sponsoring this research project</p>
-<img src="https://www.1min30.com/wp-content/uploads/2018/04/Veolia-logo.jpg" style="width: 18%;" alt="Veolia">
+<img src="https://www.1min30.com/wp-content/uploads/2018/04/Veolia-logo.jpg" style="width: 16%;" alt="Veolia">
 <img src="https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/v1472038346/wpf64tebfxvwmvlpkdur.png" style="width: 10%;" alt="EPSRC">
 </div>
 <br>
