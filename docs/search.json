@@ -145,5 +145,12 @@
     "title": "Projects",
     "section": "Personal Projects",
     "text": "Personal Projects\n\n\n\n\n\n\nFacial Recognition System\nComputer vision project implementing real-time face detection and recognition pipelines.\n\n\n\n\n\n\n\nAutonomous RC Cars\nHardware/software project combining embedded systems with reinforcement learning for autonomous navigation.\n\n\n\n\n\n\n\nFighting Game\nGame development project built from scratch, implementing physics, AI opponents, and multiplayer networking.\n\n\n\n\n\n\n\nAutomation Tools\nCollection of workflow automation scripts and tools for productivity and system management.\n\n\n\n\n\n\n\nCTF Challenges\nCapture-the-flag security challenges — web exploitation, reverse engineering, and cryptography.\n\n\n\n\n\n\n\nWeb Development\nVarious full-stack web projects including personal sites and client work using modern frameworks."
+  },
+  {
+    "objectID": "index.html#research-engineer-vla-post-training",
+    "href": "index.html#research-engineer-vla-post-training",
+    "title": "Luc McCutcheon",
+    "section": "Research Engineer | VLA Post-Training",
+    "text": "Research Engineer | VLA Post-Training\nI’m a Research Engineer and PhD Candidate (completing Summer 2026) at the University of Surrey, specialising in reinforcement learning for distributed VLA post-training. I’m also Co-Founder and CTO of GeoSnap.\nMy work spans world models, Lyapunov stability functions, and sim-to-real transfer for humanoid robotics, with implementations in JAX and PyTorch. I’ve published at ICRA, NeurIPS, and IROS, and serve as a reviewer for top ML and robotics venues.\nPreviously, I’ve held research roles at Cambridge Consultants (humanoid RL) and Agile Loop (agentic AI pipelines), where I led teams and delivered production research to clients including Google Cloud and Lenovo.\n\n\nResearch Interests\n\nReinforcement learning for robotic control\nVision-Language-Action model fine-tuning\nNeural Lyapunov functions for stability\nContinual and transfer learning\nWorld models and model-based RL"
   }
 ]

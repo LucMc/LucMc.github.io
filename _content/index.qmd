@@ -1,4 +1,4 @@
-## Research Engineer & PhD Candidate
+## Research Engineer: VLA Post-Training
 
 I'm a Research Engineer and PhD Candidate (completing Summer 2026) at the University of Surrey, specialising in **reinforcement learning for distributed VLA post-training**. I'm also Co-Founder and CTO of GeoSnap.
 
