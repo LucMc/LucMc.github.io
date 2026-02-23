@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Luc McCutcheon"
+  favicon: "https://avatars.githubusercontent.com/u/61504689?s=400&u=1fa60abecd77faac384bba6c54ee26379ffd5aca&v=4"
+  navbar:
+    background: "#000000"
+    foreground: "#e8e8e8"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: cv.qmd
+        text: CV
+      - href: publications.qmd
+        text: Publications
+      - href: projects.qmd
+        text: Projects
+      - href: about.qmd
+        text: About
+    right:
+      - icon: github
+        href: https://github.com/LucMc
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/mccutcheon19313/
+        aria-label: LinkedIn
+      - icon: envelope-fill
+        href: mailto:lucmccutcheon.home@gmail.com
+        aria-label: Email
+  page-footer:
+    center: "&copy; 2026 Luc McCutcheon"
+    background: "#000000"
+    foreground: "#9ca3af"
+
+format:
+  html:
+    theme:
+      - darkly
+      - custom.scss
+    css: styles.css
+    toc: true
+    toc-depth: 3

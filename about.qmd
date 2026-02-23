@@ -1,0 +1,44 @@
+---
+title: "About"
+toc: true
+---
+
+## Speaking
+
+::: {.talk-card}
+**Google Agents Workshop**\
+Invited talk on agentic AI pipelines and reinforcement learning applications.
+:::
+
+::: {.talk-card}
+**University of Surrey Research Talks**\
+Presentations on PhD research: Neural Lyapunov functions, continual RL, and stability-constrained control.
+:::
+
+::: {.talk-card}
+**Cambridge Consultants Technical Talks**\
+Internal presentations on humanoid robotics, VLA fine-tuning, and sim-to-real transfer methodology.
+:::
+
+## Awards & Certifications
+
+- **Honourable Mention** — Grokathon 2026
+- **Bronze Medal** — Mathematics & Informatics Olympiad
+- **Grace Hopper Award** — University of Surrey
+- **Foundership Award** — Entrepreneurship recognition
+- **NVIDIA Deep Learning Certificate**
+- **Coursera Reinforcement Learning Specialisation**
+- **Extended Project Qualification (EPQ)**
+
+## Interests
+
+I'm passionate about a wide range of activities beyond research:
+
+- **GO** — 1 Dan player
+- **Jazz** — Band member
+- **Climbing** — Bouldering and sport climbing
+- **Calisthenics & Running** — Fitness and endurance training
+- **Life Drawing** — Regular practice
+- **Reading** — Philosophy, psychology, and science fiction
+- **Open Source** — Active in the EleutherAI community and RL reading groups
+- **Tools** — Neovim enthusiast
