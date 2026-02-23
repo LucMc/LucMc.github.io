@@ -1,38 +1,23 @@
 ---
-title: "Luc McCutcheon"
-about:
-  template: trestles
-  image: https://avatars.githubusercontent.com/u/61504689?s=400&u=1fa60abecd77faac384bba6c54ee26379ffd5aca&v=4
-  links:
-    - icon: github
-      text: GitHub
-      href: https://github.com/LucMc
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/mccutcheon19313/
-    - icon: mortarboard-fill
-      text: Google Scholar
-      href: https://scholar.google.com/citations?user=4bs1FyUAAAAJ&hl
-    - icon: envelope-fill
-      text: Email
-      href: mailto:lucmccutcheon.home@gmail.com
+pagetitle: "Luc McCutcheon"
 toc: false
 ---
 
-## Research Engineer & PhD Candidate
+::: {.hero-header}
 
-I'm a Research Engineer and PhD Candidate (completing Summer 2026) at the University of Surrey, specialising in **reinforcement learning for distributed VLA post-training**. I'm also Co-Founder and CTO of GeoSnap.
+<img src="https://avatars.githubusercontent.com/u/61504689?s=400&u=1fa60abecd77faac384bba6c54ee26379ffd5aca&v=4" class="hero-avatar" alt="Luc McCutcheon">
 
-My work spans **world models**, **Lyapunov stability functions**, and **sim-to-real transfer for humanoid robotics**, with implementations in JAX and PyTorch. I've published at **ICRA**, **NeurIPS**, and **IROS**, and serve as a reviewer for top ML and robotics venues.
+::: {.hero-title-block}
+[LUC MCCUTCHEON]{.hero-name}
 
-Previously, I've held research roles at Cambridge Consultants (humanoid RL) and Agile Loop (agentic AI pipelines), where I led teams and delivered production research to clients including Google Cloud and Lenovo.
+::: {.hero-links}
+[<i class="bi bi-github"></i>](https://github.com/LucMc){target="_blank"}
+[<i class="bi bi-linkedin"></i>](https://www.linkedin.com/in/mccutcheon19313/){target="_blank"}
+[<i class="bi bi-mortarboard-fill"></i>](https://scholar.google.com/citations?user=4bs1FyUAAAAJ&hl){target="_blank"}
+[<i class="bi bi-envelope-fill"></i>](mailto:lucmccutcheon.home@gmail.com)
+:::
+:::
 
----
+:::
 
-### Research Interests
-
-- Reinforcement learning for robotic control
-- Vision-Language-Action model fine-tuning
-- Neural Lyapunov functions for stability
-- Continual and transfer learning
-- World models and model-based RL
+{{< include _content/index.qmd >}}

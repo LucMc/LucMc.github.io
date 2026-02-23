@@ -1,6 +1,12 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - index.qmd
+    - cv.qmd
+    - publications.qmd
+    - projects.qmd
+    - about.qmd
 
 website:
   title: "Luc McCutcheon"
@@ -19,16 +25,6 @@ website:
         text: Projects
       - href: about.qmd
         text: About
-    right:
-      - icon: github
-        href: https://github.com/LucMc
-        aria-label: GitHub
-      - icon: linkedin
-        href: https://www.linkedin.com/in/mccutcheon19313/
-        aria-label: LinkedIn
-      - icon: envelope-fill
-        href: mailto:lucmccutcheon.home@gmail.com
-        aria-label: Email
   page-footer:
     center: "&copy; 2026 Luc McCutcheon"
     background: "#000000"
@@ -38,7 +34,12 @@ format:
   html:
     theme:
       - darkly
-      - custom.scss
-    css: styles.css
+      - _styles/custom.scss
+    css: _styles/styles.css
     toc: true
     toc-depth: 3
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">

@@ -1,0 +1,104 @@
+## First Author
+
+::: {.content-visible when-format="html"}
+:::: {.pub-entry}
+::: {.pub-thumb}
+![](images/pubs/lyapunov.svg)
+:::
+::: {.pub-body}
+[**Efficient Neural Lyapunov Function Approximation with Off-Policy Reinforcement Learning**]{.pub-title}\
+[**L. McCutcheon**, K. Sheridan, P. Hartley]{.pub-authors}\
+[ICRA 2025]{.pub-venue} — IEEE International Conference on Robotics and Automation
+:::
+::::
+
+:::: {.pub-entry}
+::: {.pub-thumb}
+![](images/pubs/adaptive-pd.svg)
+:::
+::: {.pub-body}
+[**Adaptive PD Control using Deep Reinforcement Learning**]{.pub-title}\
+[**L. McCutcheon**, K. Sheridan]{.pub-authors}\
+[IROS 2023]{.pub-venue} — IEEE/RSJ International Conference on Intelligent Robots and Systems
+:::
+::::
+
+:::: {.pub-entry}
+::: {.pub-thumb}
+![](images/pubs/continual.svg)
+:::
+::: {.pub-body}
+[**Learning Continually at Peak Performance**]{.pub-title}\
+[**L. McCutcheon**, K. Sheridan]{.pub-authors}\
+[Under Review]{.pub-venue}
+:::
+::::
+:::
+
+::: {.content-visible when-format="typst"}
+- **Efficient Neural Lyapunov Function Approximation with Off-Policy Reinforcement Learning**\
+  **L. McCutcheon**, K. Sheridan, P. Hartley — _ICRA 2025_
+
+- **Adaptive PD Control using Deep Reinforcement Learning**\
+  **L. McCutcheon**, K. Sheridan — _IROS 2023_
+
+- **Learning Continually at Peak Performance**\
+  **L. McCutcheon**, K. Sheridan — _Under Review_
+:::
+
+## Co-Author
+
+::: {.content-visible when-format="html"}
+:::: {.pub-entry}
+::: {.pub-thumb}
+![](images/pubs/metaworld.svg)
+:::
+::: {.pub-body}
+[**Meta-World+: Towards a Scalable Multi-Task Reinforcement Learning Benchmark**]{.pub-title}\
+[Co-authored]{.pub-authors}\
+[ICML 2025 Workshop (Spotlight) & NeurIPS 2025]{.pub-venue}
+:::
+::::
+
+:::: {.pub-entry}
+::: {.pub-thumb}
+![](images/pubs/in-context.svg)
+:::
+::: {.pub-body}
+[**Exploring In-Context Ensemble Strategies for Reinforcement Learning**]{.pub-title}\
+[Co-authored]{.pub-authors}\
+[NeurIPS 2024 Workshop]{.pub-venue}
+:::
+::::
+
+:::: {.pub-entry}
+::: {.pub-thumb}
+![](images/pubs/prediction-av.svg)
+:::
+::: {.pub-body}
+[**Prediction-Based Decision Making for Autonomous Vehicles**]{.pub-title}\
+[Co-authored]{.pub-authors}\
+[ITSC 2022]{.pub-venue} — IEEE International Conference on Intelligent Transportation Systems
+:::
+::::
+:::
+
+::: {.content-visible when-format="typst"}
+- **Meta-World+: Towards a Scalable Multi-Task Reinforcement Learning Benchmark**\
+  Co-authored — _ICML 2025 Workshop (Spotlight) & NeurIPS 2025_
+
+- **Exploring In-Context Ensemble Strategies for Reinforcement Learning**\
+  Co-authored — _NeurIPS 2024 Workshop_
+
+- **Prediction-Based Decision Making for Autonomous Vehicles**\
+  Co-authored — _ITSC 2022_
+:::
+
+## Reviewing
+
+I serve as a reviewer for the following venues:
+
+- **ICLR 2026** — International Conference on Learning Representations
+- **NeurIPS 2025** — Conference on Neural Information Processing Systems
+- **TNNLS 2025** — IEEE Transactions on Neural Networks and Learning Systems
+- **IROS 2025** — IEEE/RSJ International Conference on Intelligent Robots and Systems

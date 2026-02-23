@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Google Agents Workshop\nInvited talk on agentic AI pipelines and reinforcement learning applications.\n\n\nUniversity of Surrey Research Talks\nPresentations on PhD research: Neural Lyapunov functions, continual RL, and stability-constrained control.\n\n\nCambridge Consultants Technical Talks\nInternal presentations on humanoid robotics, VLA fine-tuning, and sim-to-real transfer methodology."
+  },
+  {
+    "objectID": "about.html#speaking",
+    "href": "about.html#speaking",
+    "title": "About",
+    "section": "",
+    "text": "Google Agents Workshop\nInvited talk on agentic AI pipelines and reinforcement learning applications.\n\n\nUniversity of Surrey Research Talks\nPresentations on PhD research: Neural Lyapunov functions, continual RL, and stability-constrained control.\n\n\nCambridge Consultants Technical Talks\nInternal presentations on humanoid robotics, VLA fine-tuning, and sim-to-real transfer methodology."
+  },
+  {
+    "objectID": "about.html#awards-certifications",
+    "href": "about.html#awards-certifications",
+    "title": "About",
+    "section": "Awards & Certifications",
+    "text": "Awards & Certifications\n\nHonourable Mention — Grokathon 2026\nBronze Medal — Mathematics & Informatics Olympiad\nGrace Hopper Award — University of Surrey\nFoundership Award — Entrepreneurship recognition\nNVIDIA Deep Learning Certificate\nCoursera Reinforcement Learning Specialisation\nExtended Project Qualification (EPQ)"
+  },
+  {
+    "objectID": "about.html#interests",
+    "href": "about.html#interests",
+    "title": "About",
+    "section": "Interests",
+    "text": "Interests\nI’m passionate about a wide range of activities beyond research:\n\nGO — 1 Dan player\nJazz — Band member\nClimbing — Bouldering and sport climbing\nCalisthenics & Running — Fitness and endurance training\nLife Drawing — Regular practice\nReading — Philosophy, psychology, and science fiction\nOpen Source — Active in the EleutherAI community and RL reading groups\nTools — Neovim enthusiast"
+  },
+  {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Publications",
@@ -32,14 +60,14 @@
     "href": "index.html",
     "title": "Luc McCutcheon",
     "section": "",
-    "text": "I’m a Research Engineer and PhD Candidate (completing Summer 2026) at the University of Surrey, specialising in reinforcement learning for distributed VLA post-training. I’m also Co-Founder and CTO of GeoSnap.\nMy work spans world models, Lyapunov stability functions, and sim-to-real transfer for humanoid robotics, with implementations in JAX and PyTorch. I’ve published at ICRA, NeurIPS, and IROS, and serve as a reviewer for top ML and robotics venues.\nPreviously, I’ve held research roles at Cambridge Consultants (humanoid RL) and Agile Loop (agentic AI pipelines), where I led teams and delivered production research to clients including Google Cloud and Lenovo.\n\n\n\n\nReinforcement learning for robotic control\nVision-Language-Action model fine-tuning\nNeural Lyapunov functions for stability\nContinual and transfer learning\nWorld models and model-based RL"
+    "text": "LUC MCCUTCHEON"
   },
   {
     "objectID": "index.html#research-engineer-phd-candidate",
     "href": "index.html#research-engineer-phd-candidate",
     "title": "Luc McCutcheon",
-    "section": "",
-    "text": "I’m a Research Engineer and PhD Candidate (completing Summer 2026) at the University of Surrey, specialising in reinforcement learning for distributed VLA post-training. I’m also Co-Founder and CTO of GeoSnap.\nMy work spans world models, Lyapunov stability functions, and sim-to-real transfer for humanoid robotics, with implementations in JAX and PyTorch. I’ve published at ICRA, NeurIPS, and IROS, and serve as a reviewer for top ML and robotics venues.\nPreviously, I’ve held research roles at Cambridge Consultants (humanoid RL) and Agile Loop (agentic AI pipelines), where I led teams and delivered production research to clients including Google Cloud and Lenovo.\n\n\n\n\nReinforcement learning for robotic control\nVision-Language-Action model fine-tuning\nNeural Lyapunov functions for stability\nContinual and transfer learning\nWorld models and model-based RL"
+    "section": "Research Engineer & PhD Candidate",
+    "text": "Research Engineer & PhD Candidate\nI’m a Research Engineer and PhD Candidate (completing Summer 2026) at the University of Surrey, specialising in reinforcement learning for distributed VLA post-training. I’m also Co-Founder and CTO of GeoSnap.\nMy work spans world models, Lyapunov stability functions, and sim-to-real transfer for humanoid robotics, with implementations in JAX and PyTorch. I’ve published at ICRA, NeurIPS, and IROS, and serve as a reviewer for top ML and robotics venues.\nPreviously, I’ve held research roles at Cambridge Consultants (humanoid RL) and Agile Loop (agentic AI pipelines), where I led teams and delivered production research to clients including Google Cloud and Lenovo.\n\n\nResearch Interests\n\nReinforcement learning for robotic control\nVision-Language-Action model fine-tuning\nNeural Lyapunov functions for stability\nContinual and transfer learning\nWorld models and model-based RL"
   },
   {
     "objectID": "cv.html",
@@ -89,34 +117,6 @@
     "title": "Curriculum Vitae",
     "section": "",
     "text": "Google Agents Workshop — Invited talk on agentic AI and reinforcement learning\nUniversity of Surrey — Research talks on Neural Lyapunov functions and continual RL\nCambridge Consultants — Technical talks on humanoid robotics and sim-to-real transfer"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Google Agents Workshop\nInvited talk on agentic AI pipelines and reinforcement learning applications.\n\n\nUniversity of Surrey Research Talks\nPresentations on PhD research: Neural Lyapunov functions, continual RL, and stability-constrained control.\n\n\nCambridge Consultants Technical Talks\nInternal presentations on humanoid robotics, VLA fine-tuning, and sim-to-real transfer methodology."
-  },
-  {
-    "objectID": "about.html#speaking",
-    "href": "about.html#speaking",
-    "title": "About",
-    "section": "",
-    "text": "Google Agents Workshop\nInvited talk on agentic AI pipelines and reinforcement learning applications.\n\n\nUniversity of Surrey Research Talks\nPresentations on PhD research: Neural Lyapunov functions, continual RL, and stability-constrained control.\n\n\nCambridge Consultants Technical Talks\nInternal presentations on humanoid robotics, VLA fine-tuning, and sim-to-real transfer methodology."
-  },
-  {
-    "objectID": "about.html#awards-certifications",
-    "href": "about.html#awards-certifications",
-    "title": "About",
-    "section": "Awards & Certifications",
-    "text": "Awards & Certifications\n\nHonourable Mention — Grokathon 2026\nBronze Medal — Mathematics & Informatics Olympiad\nGrace Hopper Award — University of Surrey\nFoundership Award — Entrepreneurship recognition\nNVIDIA Deep Learning Certificate\nCoursera Reinforcement Learning Specialisation\nExtended Project Qualification (EPQ)"
-  },
-  {
-    "objectID": "about.html#interests",
-    "href": "about.html#interests",
-    "title": "About",
-    "section": "Interests",
-    "text": "Interests\nI’m passionate about a wide range of activities beyond research:\n\nGO — 1 Dan player\nJazz — Band member\nClimbing — Bouldering and sport climbing\nCalisthenics & Running — Fitness and endurance training\nLife Drawing — Regular practice\nReading — Philosophy, psychology, and science fiction\nOpen Source — Active in the EleutherAI community and RL reading groups\nTools — Neovim enthusiast"
   },
   {
     "objectID": "projects.html",

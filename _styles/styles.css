@@ -1,0 +1,87 @@
+/* Additional CSS overrides — Brutalist theme */
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Profile image styling — square, not circular */
+.about-image img,
+.quarto-about-trestles .about-image img,
+.about-photo img {
+  border-radius: 0 !important;
+  border: 1px solid #1d4ed8;
+  max-width: 200px;
+}
+
+/* Navbar icon alignment */
+.navbar .bi {
+  font-size: 1.1rem;
+}
+
+/* Override Quarto title block */
+.quarto-title-block .quarto-title-banner {
+  background-color: #000000;
+}
+
+/* Format links button styling */
+.quarto-other-formats {
+  margin-top: 1rem;
+}
+
+.quarto-other-formats .quarto-other-formats-target a {
+  background-color: transparent;
+  border: 1px solid #1a1a1a;
+  color: #3b82f6;
+  padding: 0.5rem 1rem;
+  border-radius: 0 !important;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.quarto-other-formats .quarto-other-formats-target a:hover {
+  border-color: #3b82f6;
+  color: #ffffff;
+}
+
+/* Talk card — blue left-border */
+.talk-card {
+  background-color: transparent;
+  border: none;
+  border-left: 2px solid #1d4ed8;
+  border-radius: 0 !important;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.talk-card:hover {
+  border-left-color: #3b82f6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .research-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .interests-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-badge {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.5rem;
+  }
+
+  .hero-name {
+    font-size: clamp(2.2rem, 8vw, 4rem);
+  }
+}

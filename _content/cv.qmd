@@ -1,0 +1,145 @@
+# Luc McCutcheon
+
+::: {.content-visible when-format="html"}
+**Research Engineer & PhD Candidate** | [lucmccutcheon.home@gmail.com](mailto:lucmccutcheon.home@gmail.com) | [GitHub](https://github.com/LucMc) | [LinkedIn](https://www.linkedin.com/in/mccutcheon19313/) | [Google Scholar](https://scholar.google.com/citations?user=4bs1FyUAAAAJ&hl)
+:::
+
+::: {.content-visible when-format="typst"}
+**Research Engineer & PhD Candidate** | lucmccutcheon.home\@gmail.com | github.com/LucMc | linkedin.com/in/mccutcheon19313
+:::
+
+Research Engineer and PhD Candidate (completing Summer 2026) specialising in RL for distributed VLA post-training. Co-Founder/CTO of GeoSnap. Expert in JAX/PyTorch. Published at ICRA, NeurIPS, and IROS.
+
+## Experience
+
+::: {.experience-entry}
+### Research Scientist (Fixed-Term)
+[Cambridge Consultants — Oct 2025 -- Mar 2026]{.meta}
+
+- Developed reinforcement learning pipelines for the Unitree G1 humanoid robot
+- Fine-tuned Vision-Language-Action models (GR00T) for manipulation tasks
+- Built simulation environments in MuJoCo and NVIDIA Isaac Sim
+- Designed and executed sim-to-real transfer experiments
+:::
+
+::: {.experience-entry}
+### Lead Research Scientist (Part-Time)
+[Agile Loop — Oct 2023 -- Apr 2025]{.meta}
+
+- Led a team of 10 researchers across multiple agentic AI projects
+- Developed agentic pipelines combining RL and VLM LoRA fine-tuning
+- Presented technical results and product demos to Google Cloud stakeholders
+:::
+
+::: {.experience-entry}
+### Research Scientist (Part-Time)
+[Agile Loop — Jun 2023 -- Oct 2023]{.meta}
+
+- Built RL environments for software testing and evaluation
+- Developed computer vision systems for product applications
+- Designed hybrid edge/cloud model routing architecture for Lenovo
+:::
+
+::: {.experience-entry}
+### Assistant Research Volunteer
+[Connected & Autonomous Vehicle Lab — Jun 2022 -- Aug 2022]{.meta}
+
+- Implemented Noisy Neural Networks and Deep Q-Learning for autonomous driving
+- Developed LSTM-based prediction models for vehicle trajectory forecasting
+:::
+
+::: {.experience-entry}
+### Software Engineer Intern
+[QinetiQ — Jul 2018--Sep 2018 & Jul 2019--Sep 2019]{.meta}
+
+- Developed voice cryptography systems in C++ and Python
+- Conducted red team security assessments and penetration testing
+:::
+
+## Education
+
+::: {.experience-entry}
+### PhD Reinforcement Learning (Sponsored)
+[University of Surrey — 2021 -- Present]{.meta}
+
+Research focus: world models, Neural Lyapunov functions for stability, time-delay control systems, and large-scale JAX implementations. Supervised research with publications at top robotics and ML venues.
+:::
+
+::: {.experience-entry}
+### BSc Computer Science (Hons) — First Class
+[University of Surrey — 2018 -- 2021]{.meta}
+
+CyberFirst Scholarship recipient. Strong foundation in algorithms, systems, and applied machine learning.
+:::
+
+## Skills
+
+::: {.content-visible when-format="html"}
+::: {.content-block}
+**Frameworks & Libraries**
+
+[JAX]{.skill-badge} [PyTorch]{.skill-badge} [Gymnasium]{.skill-badge} [vLLM]{.skill-badge} [NumPy]{.skill-badge}
+
+**Languages**
+
+[Python]{.skill-badge} [C++]{.skill-badge} [Rust]{.skill-badge} [JavaScript]{.skill-badge}
+
+**RL & ML**
+
+[PPO]{.skill-badge} [GRPO]{.skill-badge} [LoRA]{.skill-badge} [VLA]{.skill-badge} [SAC]{.skill-badge} [RAINBOW]{.skill-badge} [ResNet]{.skill-badge}
+
+**Infrastructure & Tools**
+
+[Unitree G1]{.skill-badge} [SLURM]{.skill-badge} [GCP]{.skill-badge} [AWS]{.skill-badge} [Docker]{.skill-badge}
+
+**Languages (Human)**
+
+[French (C1)]{.skill-badge}
+:::
+:::
+
+::: {.content-visible when-format="typst"}
+**Frameworks & Libraries:** JAX, PyTorch, Gymnasium, vLLM, NumPy
+
+**Languages:** Python, C++, Rust, JavaScript
+
+**RL & ML:** PPO, GRPO, LoRA, VLA, SAC, RAINBOW, ResNet
+
+**Infrastructure & Tools:** Unitree G1, SLURM, GCP, AWS, Docker
+
+**Languages (Human):** French (C1)
+:::
+
+## Publications
+
+### First Author
+
+- **Efficient Neural Lyapunov Function Approximation with Off-Policy Reinforcement Learning** — ICRA 2025
+- **Adaptive PD Control using Deep Reinforcement Learning** — IROS 2023
+- **Learning Continually at Peak Performance** — Under Review
+
+### Co-Author
+
+- **Meta-World+: Towards a Scalable Multi-Task Reinforcement Learning Benchmark** — ICML 2025 Workshop (Spotlight) & NeurIPS 2025
+- **Exploring In-Context Ensemble Strategies for Reinforcement Learning** — NeurIPS 2024 Workshop
+- **Prediction-Based Decision Making for Autonomous Vehicles** — ITSC 2022
+
+### Reviewing
+
+ICLR 2026 | NeurIPS 2025 | TNNLS 2025 | IROS 2025
+
+## Awards & Certifications
+
+- Honourable Mention — Grokathon 2026
+- Bronze Medal — Mathematics & Informatics Olympiad
+- Grace Hopper Award — University of Surrey
+- Foundership Award
+- NVIDIA Deep Learning Certificate
+- Coursera Reinforcement Learning Specialisation
+- Extended Project Qualification (EPQ)
+
+## Speaking
+
+- **Google Agents Workshop** — Invited talk on agentic AI and reinforcement learning
+- **University of Surrey** — Research talks on Neural Lyapunov functions and continual RL
+- **Cambridge Consultants** — Technical talks on humanoid robotics and sim-to-real transfer

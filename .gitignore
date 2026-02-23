@@ -1,2 +1,5 @@
 /.quarto/
 _site/
+_pdf-output/
+portfolio-pdf.html
+portfolio-pdf_files/

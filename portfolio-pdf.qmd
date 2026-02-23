@@ -1,0 +1,33 @@
+---
+title: "Luc McCutcheon"
+subtitle: "Research Engineer & PhD Candidate"
+format: typst
+---
+
+# About
+
+{{< include _content/index.qmd >}}
+
+{{< pagebreak >}}
+
+# Curriculum Vitae
+
+{{< include _content/cv.qmd >}}
+
+{{< pagebreak >}}
+
+# Publications
+
+{{< include _content/publications.qmd >}}
+
+{{< pagebreak >}}
+
+# Projects
+
+{{< include _content/projects.qmd >}}
+
+{{< pagebreak >}}
+
+# About Me
+
+{{< include _content/about.qmd >}}
