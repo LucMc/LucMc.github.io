@@ -3,7 +3,7 @@
 ::: {.content-visible when-format="html"}
 :::: {.pub-entry}
 ::: {.pub-thumb}
-![](images/pubs/lyapunov.svg)
+![](images/pubs/Lyapunov.JPG)
 :::
 ::: {.pub-body}
 [**Efficient Neural Lyapunov Function Approximation with Off-Policy Reinforcement Learning**]{.pub-title}\
@@ -14,7 +14,7 @@
 
 :::: {.pub-entry}
 ::: {.pub-thumb}
-![](images/pubs/adaptive-pd.svg)
+![](images/pubs/adaptive-pd.JPG)
 :::
 ::: {.pub-body}
 [**Adaptive PD Control using Deep Reinforcement Learning**]{.pub-title}\
@@ -25,7 +25,7 @@
 
 :::: {.pub-entry}
 ::: {.pub-thumb}
-![](images/pubs/continual.svg)
+![](images/pubs/CPR.JPG)
 :::
 ::: {.pub-body}
 [**Learning Continually at Peak Performance**]{.pub-title}\
@@ -36,14 +36,55 @@
 :::
 
 ::: {.content-visible when-format="typst"}
-- **Efficient Neural Lyapunov Function Approximation with Off-Policy Reinforcement Learning**\
-  **L. McCutcheon**, K. Sheridan, P. Hartley — _ICRA 2025_
 
-- **Adaptive PD Control using Deep Reinforcement Learning**\
-  **L. McCutcheon**, K. Sheridan — _IROS 2023_
+```{=typst}
+#let pub-entry(img-path, title, authors, venue) = {
+  block(
+    width: 100%,
+    stroke: (bottom: 0.5pt + rgb("#e5e7eb")),
+    inset: (y: 10pt),
+  )[
+    #grid(
+      columns: (100pt, 1fr),
+      gutter: 14pt,
+      box(
+        clip: true,
+        stroke: 0.5pt + rgb("#e5e7eb"),
+        image(img-path, width: 100pt),
+      ),
+      [
+        #text(size: 8pt, fill: rgb("#2563eb"), font: "Liberation Mono", weight: "medium")[#upper(venue)]\
+        #v(2pt)
+        #text(weight: "bold", fill: rgb("#111827"), size: 10pt)[#title]\
+        #v(2pt)
+        #text(fill: rgb("#6b7280"), size: 9pt)[#authors]
+      ],
+    )
+  ]
+}
 
-- **Learning Continually at Peak Performance**\
-  **L. McCutcheon**, K. Sheridan — _Under Review_
+#pub-entry(
+  "images/pubs/Lyapunov.JPG",
+  "Efficient Neural Lyapunov Function Approximation with Off-Policy Reinforcement Learning",
+  [*L. McCutcheon*, K. Sheridan, P. Hartley],
+  "ICRA 2025",
+)
+
+#pub-entry(
+  "images/pubs/adaptive-pd.JPG",
+  "Adaptive PD Control using Deep Reinforcement Learning",
+  [*L. McCutcheon*, K. Sheridan],
+  "IROS 2023",
+)
+
+#pub-entry(
+  "images/pubs/CPR.JPG",
+  "Learning Continually at Peak Performance",
+  [*L. McCutcheon*, K. Sheridan],
+  "Under Review",
+)
+```
+
 :::
 
 ## Co-Author
@@ -51,7 +92,7 @@
 ::: {.content-visible when-format="html"}
 :::: {.pub-entry}
 ::: {.pub-thumb}
-![](images/pubs/metaworld.svg)
+![](images/pubs/metaworld.JPG)
 :::
 ::: {.pub-body}
 [**Meta-World+: Towards a Scalable Multi-Task Reinforcement Learning Benchmark**]{.pub-title}\
@@ -62,7 +103,7 @@
 
 :::: {.pub-entry}
 ::: {.pub-thumb}
-![](images/pubs/in-context.svg)
+![](images/pubs/ICE.JPG)
 :::
 ::: {.pub-body}
 [**Exploring In-Context Ensemble Strategies for Reinforcement Learning**]{.pub-title}\
@@ -73,7 +114,7 @@
 
 :::: {.pub-entry}
 ::: {.pub-thumb}
-![](images/pubs/prediction-av.svg)
+![](images/pubs/ITSC.JPG)
 :::
 ::: {.pub-body}
 [**Prediction-Based Decision Making for Autonomous Vehicles**]{.pub-title}\
@@ -84,14 +125,30 @@
 :::
 
 ::: {.content-visible when-format="typst"}
-- **Meta-World+: Towards a Scalable Multi-Task Reinforcement Learning Benchmark**\
-  Co-authored — _ICML 2025 Workshop (Spotlight) & NeurIPS 2025_
 
-- **Exploring In-Context Ensemble Strategies for Reinforcement Learning**\
-  Co-authored — _NeurIPS 2024 Workshop_
+```{=typst}
+#pub-entry(
+  "images/pubs/metaworld.JPG",
+  "Meta-World+: Towards a Scalable Multi-Task Reinforcement Learning Benchmark",
+  [Co-authored],
+  "ICML 2025 Workshop (Spotlight) & NeurIPS 2025",
+)
 
-- **Prediction-Based Decision Making for Autonomous Vehicles**\
-  Co-authored — _ITSC 2022_
+#pub-entry(
+  "images/pubs/ICE.JPG",
+  "Exploring In-Context Ensemble Strategies for Reinforcement Learning",
+  [Co-authored],
+  "NeurIPS 2024 Workshop",
+)
+
+#pub-entry(
+  "images/pubs/ITSC.JPG",
+  "Prediction-Based Decision Making for Autonomous Vehicles",
+  [Co-authored],
+  "ITSC 2022 — IEEE Intl. Conf. on Intelligent Transportation Systems",
+)
+```
+
 :::
 
 ## Reviewing

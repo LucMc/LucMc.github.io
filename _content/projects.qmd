@@ -1,43 +1,180 @@
+## Professional Projects
+
+::: {.content-visible when-format="html"}
+::: {.project-grid}
+
+:::: {.project-card}
+::: {.project-thumb}
+![](images/projects/cc-medical.svg)
+:::
+::: {.project-body}
+### Medical Device Platform
+Cambridge Consultants — Developed embedded software for a connected medical device, integrating real-time sensor processing with cloud-based analytics.
+:::
+::::
+
+:::: {.project-card}
+::: {.project-thumb}
+![](images/projects/cc-industrial.svg)
+:::
+::: {.project-body}
+### Industrial IoT System
+Cambridge Consultants — Built firmware and data pipeline for an industrial monitoring platform, enabling predictive maintenance through edge computing.
+:::
+::::
+
+:::: {.project-card}
+::: {.project-thumb}
+![](images/projects/cc-consumer.svg)
+:::
+::: {.project-body}
+### Consumer Electronics Prototype
+Cambridge Consultants — Delivered proof-of-concept software for a next-generation consumer device, from low-level drivers to companion app integration.
+:::
+::::
+
+:::: {.project-card}
+::: {.project-thumb}
+![](images/projects/side-project.svg)
+:::
+::: {.project-body}
+### Paid Side Projects
+Contract work across web applications, data tooling, and automation — delivering production systems for small businesses and startups.
+:::
+::::
+
+:::
+:::
+
+::: {.content-visible when-format="typst"}
+
+```{=typst}
+#let project-grid-card(img-path, title, description) = {
+  box(
+    width: 100%,
+    stroke: 0.5pt + rgb("#e5e7eb"),
+    inset: 10pt,
+  )[
+    #image(img-path, width: 100%, height: 80pt, fit: "contain")
+    #v(6pt)
+    #text(weight: "bold", fill: rgb("#111827"), size: 9.5pt)[#title]\
+    #v(2pt)
+    #text(fill: rgb("#6b7280"), size: 8.5pt)[#description]
+  ]
+}
+
+#grid(
+  columns: (1fr, 1fr),
+  gutter: 8pt,
+  project-grid-card(
+    "images/projects/cc-medical.svg",
+    "Medical Device Platform",
+    "Cambridge Consultants — Developed embedded software for a connected medical device, integrating real-time sensor processing with cloud-based analytics.",
+  ),
+  project-grid-card(
+    "images/projects/cc-industrial.svg",
+    "Industrial IoT System",
+    "Cambridge Consultants — Built firmware and data pipeline for an industrial monitoring platform, enabling predictive maintenance through edge computing.",
+  ),
+  project-grid-card(
+    "images/projects/cc-consumer.svg",
+    "Consumer Electronics Prototype",
+    "Cambridge Consultants — Delivered proof-of-concept software for a next-generation consumer device, from low-level drivers to companion app integration.",
+  ),
+  project-grid-card(
+    "images/projects/side-project.svg",
+    "Paid Side Projects",
+    "Contract work across web applications, data tooling, and automation — delivering production systems for small businesses and startups.",
+  ),
+)
+```
+
+:::
+
 ## GeoSnap
 
 ::: {.content-visible when-format="html"}
-:::: {.project-card}
-::: {.project-thumb}
+:::: {.project-featured}
+::: {.project-featured-thumb}
 ![](images/projects/geosnap.svg)
 :::
-::: {.project-body}
-### Co-Founder & CTO
+::: {.project-featured-body}
+::: {.meta}
+Co-Founder & CTO
+:::
+### GeoSnap
 A geography-based social platform. Built the full technical stack from concept to deployment, managing architecture decisions, development, and infrastructure.
 :::
 ::::
 :::
 
 ::: {.content-visible when-format="typst"}
-**Co-Founder & CTO** — A geography-based social platform. Built the full technical stack from concept to deployment, managing architecture decisions, development, and infrastructure.
+
+```{=typst}
+#let project-card(img-path, title, description) = {
+  block(
+    width: 100%,
+    stroke: 0.5pt + rgb("#e5e7eb"),
+    inset: 12pt,
+    below: 8pt,
+  )[
+    #grid(
+      columns: (80pt, 1fr),
+      gutter: 12pt,
+      box(
+        stroke: 0.5pt + rgb("#e5e7eb"),
+        image(img-path, width: 80pt),
+      ),
+      [
+        #text(weight: "bold", fill: rgb("#111827"), size: 10pt)[#title]\
+        #v(2pt)
+        #text(fill: rgb("#6b7280"), size: 9pt)[#description]
+      ],
+    )
+  ]
+}
+
+#project-card(
+  "images/projects/geosnap.svg",
+  "GeoSnap — Co-Founder & CTO",
+  "A geography-based social platform. Built the full technical stack from concept to deployment, managing architecture decisions, development, and infrastructure.",
+)
+```
+
 :::
 
 ## Freelance & Consulting
 
 ::: {.content-visible when-format="html"}
-:::: {.project-card}
-::: {.project-thumb}
+:::: {.project-featured}
+::: {.project-featured-thumb}
 ![](images/projects/tutoring.svg)
 :::
-::: {.project-body}
-### Freelance Tutoring
-Private tutoring in computer science, mathematics, and programming for university and A-level students.
+::: {.project-featured-body}
+::: {.meta}
+Freelance
+:::
+### Tutoring & Consulting
+Private tutoring in computer science, mathematics, and programming for university and A-level students. Technical consulting for early-stage projects.
 :::
 ::::
 :::
 
 ::: {.content-visible when-format="typst"}
-**Freelance Tutoring** — Private tutoring in computer science, mathematics, and programming for university and A-level students.
+
+```{=typst}
+#project-card(
+  "images/projects/tutoring.svg",
+  "Freelance Tutoring & Consulting",
+  "Private tutoring in computer science, mathematics, and programming for university and A-level students. Technical consulting for early-stage projects.",
+)
+```
+
 :::
 
 ## Personal Projects
 
 ::: {.content-visible when-format="html"}
-::: {.project-grid}
 
 :::: {.project-card}
 ::: {.project-thumb}
@@ -100,13 +237,44 @@ Various full-stack web projects including personal sites and client work using m
 ::::
 
 :::
-:::
 
 ::: {.content-visible when-format="typst"}
-- **Facial Recognition System** — Computer vision project implementing real-time face detection and recognition pipelines.
-- **Autonomous RC Cars** — Hardware/software project combining embedded systems with reinforcement learning for autonomous navigation.
-- **Fighting Game** — Game development project built from scratch, implementing physics, AI opponents, and multiplayer networking.
-- **Automation Tools** — Collection of workflow automation scripts and tools for productivity and system management.
-- **CTF Challenges** — Capture-the-flag security challenges — web exploitation, reverse engineering, and cryptography.
-- **Web Development** — Various full-stack web projects including personal sites and client work using modern frameworks.
+
+```{=typst}
+#grid(
+  columns: (1fr, 1fr),
+  gutter: 8pt,
+  project-grid-card(
+    "images/projects/facial-recognition.svg",
+    "Facial Recognition System",
+    "Computer vision project implementing real-time face detection and recognition pipelines.",
+  ),
+  project-grid-card(
+    "images/projects/rc-cars.svg",
+    "Autonomous RC Cars",
+    "Hardware/software project combining embedded systems with reinforcement learning for autonomous navigation.",
+  ),
+  project-grid-card(
+    "images/projects/fighting-game.svg",
+    "Fighting Game",
+    "Game development project built from scratch, implementing physics, AI opponents, and multiplayer networking.",
+  ),
+  project-grid-card(
+    "images/projects/automation.svg",
+    "Automation Tools",
+    "Collection of workflow automation scripts and tools for productivity and system management.",
+  ),
+  project-grid-card(
+    "images/projects/ctf.svg",
+    "CTF Challenges",
+    "Capture-the-flag security challenges — web exploitation, reverse engineering, and cryptography.",
+  ),
+  project-grid-card(
+    "images/projects/webdev.svg",
+    "Web Development",
+    "Various full-stack web projects including personal sites and client work using modern frameworks.",
+  ),
+)
+```
+
 :::

@@ -1,5 +1,5 @@
 ---
-title: "Curriculum Vitae"
+title: "Luc McCutcheon"
 format:
   html:
     toc: true
@@ -10,8 +10,12 @@ format:
     margin:
       x: 1.5cm
       y: 1.5cm
-    fontsize: 10pt
+    fontsize: 9.5pt
     mainfont: "Liberation Sans"
+    template-partials:
+      - _styles/typst/typst-template.typ
+    include-before-body:
+      - file: _styles/typst/cv-before-body.typ
 ---
 
 {{< include _content/cv.qmd >}}

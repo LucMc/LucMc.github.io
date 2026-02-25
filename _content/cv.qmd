@@ -1,11 +1,9 @@
-# Luc McCutcheon
-
 ::: {.content-visible when-format="html"}
 **Research Engineer & PhD Candidate** | [lucmccutcheon.home@gmail.com](mailto:lucmccutcheon.home@gmail.com) | [GitHub](https://github.com/LucMc) | [LinkedIn](https://www.linkedin.com/in/mccutcheon19313/) | [Google Scholar](https://scholar.google.com/citations?user=4bs1FyUAAAAJ&hl)
 :::
 
 ::: {.content-visible when-format="typst"}
-**Research Engineer & PhD Candidate** | lucmccutcheon.home\@gmail.com | github.com/LucMc | linkedin.com/in/mccutcheon19313
+## Profile
 :::
 
 Research Engineer and PhD Candidate (completing Summer 2026) specialising in RL for distributed VLA post-training. Co-Founder/CTO of GeoSnap. Expert in JAX/PyTorch. Published at ICRA, NeurIPS, and IROS.
@@ -112,19 +110,37 @@ CyberFirst Scholarship recipient. Strong foundation in algorithms, systems, and 
 
 ## Publications
 
+::: {.content-visible when-format="html"}
 ### First Author
+:::
+
+::: {.content-visible when-format="typst"}
+#### First Author
+:::
 
 - **Efficient Neural Lyapunov Function Approximation with Off-Policy Reinforcement Learning** — ICRA 2025
 - **Adaptive PD Control using Deep Reinforcement Learning** — IROS 2023
 - **Learning Continually at Peak Performance** — Under Review
 
+::: {.content-visible when-format="html"}
 ### Co-Author
+:::
+
+::: {.content-visible when-format="typst"}
+#### Co-Author
+:::
 
 - **Meta-World+: Towards a Scalable Multi-Task Reinforcement Learning Benchmark** — ICML 2025 Workshop (Spotlight) & NeurIPS 2025
 - **Exploring In-Context Ensemble Strategies for Reinforcement Learning** — NeurIPS 2024 Workshop
 - **Prediction-Based Decision Making for Autonomous Vehicles** — ITSC 2022
 
+::: {.content-visible when-format="html"}
 ### Reviewing
+:::
+
+::: {.content-visible when-format="typst"}
+#### Reviewing
+:::
 
 ICLR 2026 | NeurIPS 2025 | TNNLS 2025 | IROS 2025
 
