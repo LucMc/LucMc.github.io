@@ -551,12 +551,18 @@ img.hero-avatar {
 
   .project-featured-thumb {
     flex-shrink: 0;
-    width: 200px;
+    width: 280px;
 
     img {
       width: 100%;
-      height: auto;
+      max-height: 250px;
+      object-fit: cover;
       border: 1px solid #1a1a1a;
+    }
+
+    // Crop phone screenshot status/nav bars
+    &.crop-phone-screenshot img {
+      object-position: center center;
     }
   }
 
@@ -589,7 +595,7 @@ img.hero-avatar {
 
     .project-featured-thumb {
       width: 100%;
-      max-width: 200px;
+      max-width: 280px;
     }
   }
 }

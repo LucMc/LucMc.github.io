@@ -1,113 +1,3 @@
-## Professional Projects
-
-::: {.content-visible when-format="html"}
-::: {.project-grid}
-
-:::: {.project-card}
-::: {.project-thumb}
-![](images/projects/cc-medical.svg)
-:::
-::: {.project-body}
-### Medical Device Platform
-Cambridge Consultants — Developed embedded software for a connected medical device, integrating real-time sensor processing with cloud-based analytics.
-:::
-::::
-
-:::: {.project-card}
-::: {.project-thumb}
-![](images/projects/cc-industrial.svg)
-:::
-::: {.project-body}
-### Industrial IoT System
-Cambridge Consultants — Built firmware and data pipeline for an industrial monitoring platform, enabling predictive maintenance through edge computing.
-:::
-::::
-
-:::: {.project-card}
-::: {.project-thumb}
-![](images/projects/cc-consumer.svg)
-:::
-::: {.project-body}
-### Consumer Electronics Prototype
-Cambridge Consultants — Delivered proof-of-concept software for a next-generation consumer device, from low-level drivers to companion app integration.
-:::
-::::
-
-:::: {.project-card}
-::: {.project-thumb}
-![](images/projects/side-project.svg)
-:::
-::: {.project-body}
-### Paid Side Projects
-Contract work across web applications, data tooling, and automation — delivering production systems for small businesses and startups.
-:::
-::::
-
-:::
-:::
-
-::: {.content-visible when-format="typst"}
-
-```{=typst}
-#let project-grid-card(img-path, title, description) = {
-  box(
-    width: 100%,
-    stroke: 0.5pt + rgb("#e5e7eb"),
-    inset: 10pt,
-  )[
-    #image(img-path, width: 100%, height: 80pt, fit: "contain")
-    #v(6pt)
-    #text(weight: "bold", fill: rgb("#111827"), size: 9.5pt)[#title]\
-    #v(2pt)
-    #text(fill: rgb("#6b7280"), size: 8.5pt)[#description]
-  ]
-}
-
-#grid(
-  columns: (1fr, 1fr),
-  gutter: 8pt,
-  project-grid-card(
-    "images/projects/cc-medical.svg",
-    "Medical Device Platform",
-    "Cambridge Consultants — Developed embedded software for a connected medical device, integrating real-time sensor processing with cloud-based analytics.",
-  ),
-  project-grid-card(
-    "images/projects/cc-industrial.svg",
-    "Industrial IoT System",
-    "Cambridge Consultants — Built firmware and data pipeline for an industrial monitoring platform, enabling predictive maintenance through edge computing.",
-  ),
-  project-grid-card(
-    "images/projects/cc-consumer.svg",
-    "Consumer Electronics Prototype",
-    "Cambridge Consultants — Delivered proof-of-concept software for a next-generation consumer device, from low-level drivers to companion app integration.",
-  ),
-  project-grid-card(
-    "images/projects/side-project.svg",
-    "Paid Side Projects",
-    "Contract work across web applications, data tooling, and automation — delivering production systems for small businesses and startups.",
-  ),
-)
-```
-
-:::
-
-## GeoSnap
-
-::: {.content-visible when-format="html"}
-:::: {.project-featured}
-::: {.project-featured-thumb}
-![](images/projects/geosnap.svg)
-:::
-::: {.project-featured-body}
-::: {.meta}
-Co-Founder & CTO
-:::
-### GeoSnap
-A geography-based social platform. Built the full technical stack from concept to deployment, managing architecture decisions, development, and infrastructure.
-:::
-::::
-:::
-
 ::: {.content-visible when-format="typst"}
 
 ```{=typst}
@@ -134,8 +24,253 @@ A geography-based social platform. Built the full technical stack from concept t
   ]
 }
 
+#let project-grid-card(img-path, title, description) = {
+  box(
+    width: 100%,
+    stroke: 0.5pt + rgb("#e5e7eb"),
+    inset: 10pt,
+  )[
+    #image(img-path, width: 100%, height: 80pt, fit: "contain")
+    #v(6pt)
+    #text(weight: "bold", fill: rgb("#111827"), size: 9.5pt)[#title]\
+    #v(2pt)
+    #text(fill: rgb("#6b7280"), size: 8.5pt)[#description]
+  ]
+}
+
+#let project-grid-card-text(title, description) = {
+  box(
+    width: 100%,
+    stroke: 0.5pt + rgb("#e5e7eb"),
+    inset: 10pt,
+  )[
+    #v(40pt)
+    #text(weight: "bold", fill: rgb("#111827"), size: 9.5pt)[#title]\
+    #v(2pt)
+    #text(fill: rgb("#6b7280"), size: 8.5pt)[#description]
+  ]
+}
+```
+
+:::
+
+## Research & Robotics
+
+::: {.content-visible when-format="html"}
+
+:::: {.project-featured}
+::: {.project-featured-thumb}
+![](images/projects/both_stairs.JPG)
+:::
+::: {.project-featured-body}
+::: {.meta}
+Cambridge Consultants — Research Scientist
+:::
+### Unitree G1 Locomotion & Stair Climbing
+Reinforcement learning pipelines for Unitree G1 humanoid locomotion. Developed stair-climbing policies in MuJoCo and Isaac Sim with sim-to-real transfer experiments on physical hardware.
+:::
+::::
+
+:::: {.project-featured}
+::: {.project-featured-thumb}
+![](images/projects/elf_box_picking.png)
+:::
+::: {.project-featured-body}
+::: {.meta}
+Cambridge Consultants — Research Scientist
+:::
+### VLA Manipulation & Box Picking
+Fine-tuned Vision-Language-Action models (GR00T) for robotic manipulation tasks. Context-aware grasping and box picking with Unitree G1 humanoids.
+:::
+::::
+
+:::
+
+::: {.content-visible when-format="typst"}
+
+```{=typst}
 #project-card(
-  "images/projects/geosnap.svg",
+  "images/projects/both_stairs.JPG",
+  "Unitree G1 Locomotion & Stair Climbing — Cambridge Consultants",
+  "Reinforcement learning pipelines for Unitree G1 humanoid locomotion. Developed stair-climbing policies in MuJoCo and Isaac Sim with sim-to-real transfer experiments on physical hardware.",
+)
+
+#project-card(
+  "images/projects/elf_box_picking.png",
+  "VLA Manipulation & Box Picking — Cambridge Consultants",
+  "Fine-tuned Vision-Language-Action models (GR00T) for robotic manipulation tasks. Context-aware grasping and box picking with Unitree G1 humanoids.",
+)
+```
+
+:::
+
+## Agentic AI
+
+::: {.content-visible when-format="html"}
+
+:::: {.project-featured}
+::: {.project-featured-thumb}
+![](images/projects/SAMX.png)
+:::
+::: {.project-featured-body}
+::: {.meta}
+Agile Loop — Lead Research Scientist
+:::
+### SAM-X: Computer Use Agent
+VC-funded computer-use agent. Led a team of 10, combining reinforcement learning with VLM LoRA fine-tuning. Presented to Google Cloud.
+:::
+::::
+
+:::: {.project-featured}
+::: {.project-featured-thumb}
+![](images/projects/lenovo-vantage-agile-loop.jpg)
+:::
+::: {.project-featured-body}
+::: {.meta}
+Agile Loop — Research Scientist (Lenovo Client)
+:::
+### Hybrid Edge/Cloud Model Routing
+Designed a hybrid edge/cloud model routing architecture for Lenovo, optimising inference across device and cloud endpoints. Built computer vision systems and RL environments for software testing and evaluation.
+:::
+::::
+
+:::
+
+::: {.content-visible when-format="typst"}
+
+```{=typst}
+#project-card(
+  "images/projects/SAMX.png",
+  "SAM-X: Computer Use Agent — Agile Loop",
+  "VC-funded computer-use agent. Led a team of 10, combining reinforcement learning with VLM LoRA fine-tuning. Presented to Google Cloud.",
+)
+
+#project-card(
+  "images/projects/lenovo-vantage-agile-loop.jpg",
+  "Hybrid Edge/Cloud Model Routing — Agile Loop (Lenovo)",
+  "Designed a hybrid edge/cloud model routing architecture for Lenovo, optimising inference across device and cloud endpoints. Built CV systems and RL environments for software testing.",
+)
+```
+
+:::
+
+## Autonomous Vehicle Research
+
+::: {.content-visible when-format="html"}
+
+:::: {.project-featured}
+::: {.project-featured-thumb}
+![](images/projects/intelligent_vehicle_design.jpg)
+:::
+::: {.project-featured-body}
+::: {.meta}
+Connected & Autonomous Vehicle Lab — Published at ITSC 2022
+:::
+### Prediction-Based Decision Making
+Deep Q-Learning with Noisy Networks for autonomous vehicle decision making. LSTM-based trajectory forecasting for surrounding vehicles in highway scenarios.
+:::
+::::
+
+:::
+
+::: {.content-visible when-format="typst"}
+
+```{=typst}
+#project-card(
+  "images/projects/intelligent_vehicle_design.jpg",
+  "Prediction-Based Decision Making — ITSC 2022",
+  "Deep Q-Learning with Noisy Networks for autonomous vehicle decision making. LSTM-based trajectory forecasting for surrounding vehicles in highway scenarios.",
+)
+```
+
+:::
+
+## Cybersecurity & Defence
+
+::: {.content-visible when-format="html"}
+
+:::: {.project-featured}
+::: {.project-featured-thumb}
+![](images/projects/MITRE-ATTACK-Framework-Breaking-Down-Attack-Techniques-scaled.webp)
+:::
+::: {.project-featured-body}
+::: {.meta}
+QinetiQ — Software Engineer Intern
+:::
+### MITRE ATT&CK Automation
+Developed software to automate attacks from the MITRE ATT&CK framework for red team security assessments and penetration testing. Built voice cryptography systems in C++ and Python.
+:::
+::::
+
+:::
+
+::: {.content-visible when-format="typst"}
+
+```{=typst}
+#project-card(
+  "images/projects/mitre-attack.png",
+  "MITRE ATT&CK Automation — QinetiQ",
+  "Developed software to automate attacks from the MITRE ATT&CK framework for red team security assessments and penetration testing. Built voice cryptography systems in C++ and Python.",
+)
+```
+
+:::
+
+## PhD Research
+
+::: {.content-visible when-format="html"}
+
+:::: {.project-featured}
+::: {.project-featured-thumb}
+![](images/projects/dexter-veolia.webp)
+:::
+::: {.project-featured-body}
+::: {.meta}
+University of Surrey — Veolia-Sponsored PhD
+:::
+### RL for the DEXTER Robot
+Veolia-sponsored research developing reinforcement learning for the DEXTER industrial robot, entirely in simulation. World models for sample-efficient control, Neural Lyapunov functions for stability verification, and continual reinforcement learning at scale in JAX.
+:::
+::::
+
+:::
+
+::: {.content-visible when-format="typst"}
+
+```{=typst}
+#project-card(
+  "images/projects/dexter-veolia.png",
+  "RL for the DEXTER Robot — Veolia-Sponsored PhD",
+  "Veolia-sponsored research developing reinforcement learning for the DEXTER industrial robot, entirely in simulation. World models for sample-efficient control, Neural Lyapunov functions for stability verification, and continual RL at scale in JAX.",
+)
+```
+
+:::
+
+## GeoSnap
+
+::: {.content-visible when-format="html"}
+
+:::: {.project-featured}
+::: {.project-featured-thumb}
+![](images/projects/Geosnap2.png)
+:::
+::: {.project-featured-body}
+::: {.meta}
+Co-Founder & CTO
+:::
+### GeoSnap
+A geography-based social platform. Built the full technical stack from concept to deployment, managing architecture decisions, development, and infrastructure.
+:::
+::::
+
+:::
+
+::: {.content-visible when-format="typst"}
+
+```{=typst}
+#project-card(
+  "images/projects/Geosnap2.png",
   "GeoSnap — Co-Founder & CTO",
   "A geography-based social platform. Built the full technical stack from concept to deployment, managing architecture decisions, development, and infrastructure.",
 )
@@ -143,38 +278,61 @@ A geography-based social platform. Built the full technical stack from concept t
 
 :::
 
-## Freelance & Consulting
+## Other Projects
 
 ::: {.content-visible when-format="html"}
-:::: {.project-featured}
-::: {.project-featured-thumb}
-![](images/projects/tutoring.svg)
+
+::: {.project-grid}
+
+:::: {.project-card}
+::: {.project-thumb}
+![](images/projects/big_rc_hardware_integration.jpg)
 :::
-::: {.project-featured-body}
-::: {.meta}
-Freelance
-:::
-### Tutoring & Consulting
-Private tutoring in computer science, mathematics, and programming for university and A-level students. Technical consulting for early-stage projects.
+::: {.project-body}
+### Autonomous RC Cars
+Embedded systems combined with reinforcement learning for autonomous navigation.
 :::
 ::::
+
+:::: {.project-card}
+::: {.project-thumb}
+![](images/projects/rc_lane_following.png)
 :::
-
-::: {.content-visible when-format="typst"}
-
-```{=typst}
-#project-card(
-  "images/projects/tutoring.svg",
-  "Freelance Tutoring & Consulting",
-  "Private tutoring in computer science, mathematics, and programming for university and A-level students. Technical consulting for early-stage projects.",
-)
-```
-
+::: {.project-body}
+### RC Lane Following
+End-to-end vision-to-steering on a taped track using convolutional neural networks.
 :::
+::::
 
-## Personal Projects
+:::: {.project-card}
+::: {.project-thumb}
+![](images/projects/openai_hackathon.png)
+:::
+::: {.project-body}
+### ClimateCode
+OpenAI Hackathon project — LLM fine-tuning for compute-optimised code generation.
+:::
+::::
 
-::: {.content-visible when-format="html"}
+:::: {.project-card}
+::: {.project-thumb}
+![](images/projects/cyclopic.jpg)
+:::
+::: {.project-body}
+### Cyclopic
+Contract robotics — communications and networking systems for GPS-denied environments.
+:::
+::::
+
+:::: {.project-card}
+::: {.project-thumb}
+![](images/projects/FUNIPEDIA_1.png)
+:::
+::: {.project-body}
+### Funipedia
+Fun Wikipedia-style article platform. Grokathon honourable mention.
+:::
+::::
 
 :::: {.project-card}
 ::: {.project-thumb}
@@ -182,37 +340,17 @@ Private tutoring in computer science, mathematics, and programming for universit
 :::
 ::: {.project-body}
 ### Facial Recognition System
-Computer vision project implementing real-time face detection and recognition pipelines.
+Real-time face detection and recognition pipelines using computer vision.
 :::
 ::::
 
 :::: {.project-card}
 ::: {.project-thumb}
-![](images/projects/rc-cars.svg)
+![](images/projects/finance.JPG)
 :::
 ::: {.project-body}
-### Autonomous RC Cars
-Hardware/software project combining embedded systems with reinforcement learning for autonomous navigation.
-:::
-::::
-
-:::: {.project-card}
-::: {.project-thumb}
-![](images/projects/fighting-game.svg)
-:::
-::: {.project-body}
-### Fighting Game
-Game development project built from scratch, implementing physics, AI opponents, and multiplayer networking.
-:::
-::::
-
-:::: {.project-card}
-::: {.project-thumb}
-![](images/projects/automation.svg)
-:::
-::: {.project-body}
-### Automation Tools
-Collection of workflow automation scripts and tools for productivity and system management.
+### Stock Price Prediction
+BSc dissertation — LSTM model for 14-day stock price forecasting with a web interface comparing against indicator-based strategies.
 :::
 ::::
 
@@ -222,19 +360,11 @@ Collection of workflow automation scripts and tools for productivity and system 
 :::
 ::: {.project-body}
 ### CTF Challenges
-Capture-the-flag security challenges — web exploitation, reverse engineering, and cryptography.
+Security challenges — web exploitation, reverse engineering, and cryptography.
 :::
 ::::
 
-:::: {.project-card}
-::: {.project-thumb}
-![](images/projects/webdev.svg)
 :::
-::: {.project-body}
-### Web Development
-Various full-stack web projects including personal sites and client work using modern frameworks.
-:::
-::::
 
 :::
 
@@ -245,34 +375,44 @@ Various full-stack web projects including personal sites and client work using m
   columns: (1fr, 1fr),
   gutter: 8pt,
   project-grid-card(
+    "images/projects/big_rc_hardware_integration.jpg",
+    "Autonomous RC Cars",
+    "Embedded systems combined with reinforcement learning for autonomous navigation.",
+  ),
+  project-grid-card(
+    "images/projects/rc_lane_following.png",
+    "RC Lane Following",
+    "End-to-end vision-to-steering on a taped track using convolutional neural networks.",
+  ),
+  project-grid-card(
+    "images/projects/openai_hackathon.png",
+    "ClimateCode",
+    "OpenAI Hackathon project — LLM fine-tuning for compute-optimised code generation.",
+  ),
+  project-grid-card(
+    "images/projects/cyclopic.jpg",
+    "Cyclopic",
+    "Contract robotics — communications and networking systems for GPS-denied environments.",
+  ),
+  project-grid-card(
+    "images/projects/FUNIPEDIA_1.png",
+    "Funipedia",
+    "Fun Wikipedia-style article platform. Grokathon honourable mention.",
+  ),
+  project-grid-card(
     "images/projects/facial-recognition.svg",
     "Facial Recognition System",
-    "Computer vision project implementing real-time face detection and recognition pipelines.",
+    "Real-time face detection and recognition pipelines using computer vision.",
   ),
   project-grid-card(
-    "images/projects/rc-cars.svg",
-    "Autonomous RC Cars",
-    "Hardware/software project combining embedded systems with reinforcement learning for autonomous navigation.",
-  ),
-  project-grid-card(
-    "images/projects/fighting-game.svg",
-    "Fighting Game",
-    "Game development project built from scratch, implementing physics, AI opponents, and multiplayer networking.",
-  ),
-  project-grid-card(
-    "images/projects/automation.svg",
-    "Automation Tools",
-    "Collection of workflow automation scripts and tools for productivity and system management.",
+    "images/projects/finance.JPG",
+    "Stock Price Prediction",
+    "BSc dissertation — LSTM model for 14-day stock price forecasting with a web interface comparing against indicator-based strategies.",
   ),
   project-grid-card(
     "images/projects/ctf.svg",
     "CTF Challenges",
-    "Capture-the-flag security challenges — web exploitation, reverse engineering, and cryptography.",
-  ),
-  project-grid-card(
-    "images/projects/webdev.svg",
-    "Web Development",
-    "Various full-stack web projects including personal sites and client work using modern frameworks.",
+    "Security challenges — web exploitation, reverse engineering, and cryptography.",
   ),
 )
 ```

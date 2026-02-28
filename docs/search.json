@@ -123,14 +123,42 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Cambridge Consultants — Developed embedded software for a connected medical device, integrating real-time sensor processing with cloud-based analytics.\n\n\n\n\n\n\n\n\nCambridge Consultants — Built firmware and data pipeline for an industrial monitoring platform, enabling predictive maintenance through edge computing.\n\n\n\n\n\n\n\n\nCambridge Consultants — Delivered proof-of-concept software for a next-generation consumer device, from low-level drivers to companion app integration.\n\n\n\n\n\n\n\n\nContract work across web applications, data tooling, and automation — delivering production systems for small businesses and startups."
+    "text": "Cambridge Consultants — Research Scientist\n\n\n\nReinforcement learning pipelines for Unitree G1 humanoid locomotion. Developed stair-climbing policies in MuJoCo and Isaac Sim with sim-to-real transfer experiments on physical hardware.\n\n\n\n\n\n\n\n\n\nCambridge Consultants — Research Scientist\n\n\n\nFine-tuned Vision-Language-Action models (GR00T) for robotic manipulation tasks. Context-aware grasping and box picking with Unitree G1 humanoids."
   },
   {
-    "objectID": "projects.html#professional-projects",
-    "href": "projects.html#professional-projects",
+    "objectID": "projects.html#research-robotics",
+    "href": "projects.html#research-robotics",
     "title": "Projects",
     "section": "",
-    "text": "Cambridge Consultants — Developed embedded software for a connected medical device, integrating real-time sensor processing with cloud-based analytics.\n\n\n\n\n\n\n\n\nCambridge Consultants — Built firmware and data pipeline for an industrial monitoring platform, enabling predictive maintenance through edge computing.\n\n\n\n\n\n\n\n\nCambridge Consultants — Delivered proof-of-concept software for a next-generation consumer device, from low-level drivers to companion app integration.\n\n\n\n\n\n\n\n\nContract work across web applications, data tooling, and automation — delivering production systems for small businesses and startups."
+    "text": "Cambridge Consultants — Research Scientist\n\n\n\nReinforcement learning pipelines for Unitree G1 humanoid locomotion. Developed stair-climbing policies in MuJoCo and Isaac Sim with sim-to-real transfer experiments on physical hardware.\n\n\n\n\n\n\n\n\n\nCambridge Consultants — Research Scientist\n\n\n\nFine-tuned Vision-Language-Action models (GR00T) for robotic manipulation tasks. Context-aware grasping and box picking with Unitree G1 humanoids."
+  },
+  {
+    "objectID": "projects.html#agentic-ai",
+    "href": "projects.html#agentic-ai",
+    "title": "Projects",
+    "section": "Agentic AI",
+    "text": "Agentic AI\n\n\n\n\n\n\nAgile Loop — Lead Research Scientist\n\n\nSAM-X: Computer Use Agent\nVC-funded computer-use agent. Led a team of 10, combining reinforcement learning with VLM LoRA fine-tuning. Presented to Google Cloud.\n\n\n\n\n\n\n\n\n\nAgile Loop — Research Scientist (Lenovo Client)\n\n\nHybrid Edge/Cloud Model Routing\nDesigned a hybrid edge/cloud model routing architecture for Lenovo, optimising inference across device and cloud endpoints. Built computer vision systems and RL environments for software testing and evaluation."
+  },
+  {
+    "objectID": "projects.html#autonomous-vehicle-research",
+    "href": "projects.html#autonomous-vehicle-research",
+    "title": "Projects",
+    "section": "Autonomous Vehicle Research",
+    "text": "Autonomous Vehicle Research\n\n\n\n\n\n\nConnected & Autonomous Vehicle Lab — Published at ITSC 2022\n\n\nPrediction-Based Decision Making\nDeep Q-Learning with Noisy Networks for autonomous vehicle decision making. LSTM-based trajectory forecasting for surrounding vehicles in highway scenarios."
+  },
+  {
+    "objectID": "projects.html#cybersecurity-defence",
+    "href": "projects.html#cybersecurity-defence",
+    "title": "Projects",
+    "section": "Cybersecurity & Defence",
+    "text": "Cybersecurity & Defence\n\n\n\n\n\n\nQinetiQ — Software Engineer Intern\n\n\nMITRE ATT&CK Automation\nDeveloped software to automate attacks from the MITRE ATT&CK framework for red team security assessments and penetration testing. Built voice cryptography systems in C++ and Python."
+  },
+  {
+    "objectID": "projects.html#phd-research",
+    "href": "projects.html#phd-research",
+    "title": "Projects",
+    "section": "PhD Research",
+    "text": "PhD Research\n\n\n\n\n\n\nUniversity of Surrey — Veolia-Sponsored PhD\n\n\nRL for the DEXTER Robot\nVeolia-sponsored research developing reinforcement learning for the DEXTER industrial robot, entirely in simulation. World models for sample-efficient control, Neural Lyapunov functions for stability verification, and continual reinforcement learning at scale in JAX."
   },
   {
     "objectID": "projects.html#geosnap",
@@ -140,17 +168,10 @@
     "text": "GeoSnap\n\n\n\n\n\n\nCo-Founder & CTO\n\n\nGeoSnap\nA geography-based social platform. Built the full technical stack from concept to deployment, managing architecture decisions, development, and infrastructure."
   },
   {
-    "objectID": "projects.html#freelance-consulting",
-    "href": "projects.html#freelance-consulting",
+    "objectID": "projects.html#other-projects",
+    "href": "projects.html#other-projects",
     "title": "Projects",
-    "section": "Freelance & Consulting",
-    "text": "Freelance & Consulting\n\n\n\n\n\n\nFreelance\n\n\nTutoring & Consulting\nPrivate tutoring in computer science, mathematics, and programming for university and A-level students. Technical consulting for early-stage projects."
-  },
-  {
-    "objectID": "projects.html#personal-projects",
-    "href": "projects.html#personal-projects",
-    "title": "Projects",
-    "section": "Personal Projects",
-    "text": "Personal Projects\n\n\n\n\n\nFacial Recognition System\nComputer vision project implementing real-time face detection and recognition pipelines.\n\n\n\n\n\n\n\nAutonomous RC Cars\nHardware/software project combining embedded systems with reinforcement learning for autonomous navigation.\n\n\n\n\n\n\n\nFighting Game\nGame development project built from scratch, implementing physics, AI opponents, and multiplayer networking.\n\n\n\n\n\n\n\nAutomation Tools\nCollection of workflow automation scripts and tools for productivity and system management.\n\n\n\n\n\n\n\nCTF Challenges\nCapture-the-flag security challenges — web exploitation, reverse engineering, and cryptography.\n\n\n\n\n\n\n\nWeb Development\nVarious full-stack web projects including personal sites and client work using modern frameworks."
+    "section": "Other Projects",
+    "text": "Other Projects\n\n\n\n\n\n\nAutonomous RC Cars\nEmbedded systems combined with reinforcement learning for autonomous navigation.\n\n\n\n\n\n\n\nRC Lane Following\nEnd-to-end vision-to-steering on a taped track using convolutional neural networks.\n\n\n\n\n\n\n\nClimateCode\nOpenAI Hackathon project — LLM fine-tuning for compute-optimised code generation.\n\n\n\n\n\n\n\nCyclopic\nContract robotics — communications and networking systems for GPS-denied environments.\n\n\n\n\n\n\n\nFunipedia\nFun Wikipedia-style article platform. Grokathon honourable mention.\n\n\n\n\n\n\n\nFacial Recognition System\nReal-time face detection and recognition pipelines using computer vision.\n\n\n\n\n\n\n\nStock Price Prediction\nBSc dissertation — LSTM model for 14-day stock price forecasting with a web interface comparing against indicator-based strategies.\n\n\n\n\n\n\n\nCTF Challenges\nSecurity challenges — web exploitation, reverse engineering, and cryptography."
   }
 ]

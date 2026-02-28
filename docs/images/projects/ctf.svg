@@ -1,12 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="240" viewBox="0 0 400 240">
   <rect width="400" height="240" fill="#1a1a1a"/>
   <rect x="1" y="1" width="398" height="238" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-  <path d="M185 55 L200 45 L215 55 L215 80 L200 90 L185 80 Z" fill="none" stroke="#1d4ed8" stroke-width="1.5" opacity="0.7"/>
-  <line x1="200" y1="55" x2="200" y2="80" stroke="#3b82f6" stroke-width="1" opacity="0.4"/>
-  <line x1="190" y1="65" x2="210" y2="65" stroke="#3b82f6" stroke-width="1" opacity="0.4"/>
-  <rect x="165" y="95" width="70" height="35" fill="none" stroke="#2a2a2a" stroke-width="1" rx="2"/>
-  <line x1="175" y1="105" x2="225" y2="105" stroke="#3b82f6" stroke-width="1" opacity="0.3"/>
-  <line x1="175" y1="115" x2="215" y2="115" stroke="#3b82f6" stroke-width="1" opacity="0.3"/>
-  <text x="200" y="190" text-anchor="middle" fill="#9ca3af" font-family="sans-serif" font-size="11">Replace with screenshot</text>
-  <text x="200" y="210" text-anchor="middle" fill="#4b5563" font-family="sans-serif" font-size="10">ctf.svg</text>
+
+  <!-- Terminal window -->
+  <rect x="80" y="30" width="240" height="150" fill="#0a0a0a" stroke="#2a2a2a" stroke-width="1"/>
+  <!-- Title bar -->
+  <rect x="80" y="30" width="240" height="18" fill="#1a1a1a" stroke="#2a2a2a" stroke-width="1"/>
+  <circle cx="93" cy="39" r="3" fill="#ef4444" opacity="0.6"/>
+  <circle cx="103" cy="39" r="3" fill="#eab308" opacity="0.6"/>
+  <circle cx="113" cy="39" r="3" fill="#22c55e" opacity="0.6"/>
+
+  <!-- Terminal lines -->
+  <text x="90" y="62" fill="#22c55e" font-family="monospace" font-size="9" opacity="0.8">$</text>
+  <text x="100" y="62" fill="#3b82f6" font-family="monospace" font-size="9" opacity="0.7">nmap -sV 10.10.14.2</text>
+  <text x="90" y="76" fill="#6b7280" font-family="monospace" font-size="8" opacity="0.5">22/tcp  open  ssh</text>
+  <text x="90" y="88" fill="#6b7280" font-family="monospace" font-size="8" opacity="0.5">80/tcp  open  http</text>
+  <text x="90" y="100" fill="#6b7280" font-family="monospace" font-size="8" opacity="0.5">443/tcp open  https</text>
+
+  <text x="90" y="118" fill="#22c55e" font-family="monospace" font-size="9" opacity="0.8">$</text>
+  <text x="100" y="118" fill="#3b82f6" font-family="monospace" font-size="9" opacity="0.7">cat flag.txt</text>
+  <text x="90" y="132" fill="#eab308" font-family="monospace" font-size="9" opacity="0.9">CTF{h4ck_th3_pl4n3t}</text>
+
+  <!-- Blinking cursor -->
+  <text x="90" y="150" fill="#22c55e" font-family="monospace" font-size="9" opacity="0.8">$</text>
+  <rect x="100" y="143" width="7" height="11" fill="#3b82f6" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0;0.6" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Flag icon (top-right corner) -->
+  <line x1="295" y1="58" x2="295" y2="100" stroke="#3b82f6" stroke-width="1.5" opacity="0.5"/>
+  <path d="M295 58 L295 58 Q305 63 295 68 Q305 73 295 78" fill="none" stroke="#1d4ed8" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Lock icon (bottom-right) -->
+  <rect x="285" y="120" width="20" height="16" fill="none" stroke="#1d4ed8" stroke-width="1.2" opacity="0.4" rx="2"/>
+  <path d="M290 120 L290 114 Q295 106 300 114 L300 120" fill="none" stroke="#1d4ed8" stroke-width="1.2" opacity="0.4"/>
+  <circle cx="295" cy="129" r="2" fill="#1d4ed8" opacity="0.4"/>
+
+  <!-- Subtle grid pattern -->
+  <line x1="80" y1="200" x2="320" y2="200" stroke="#2a2a2a" stroke-width="0.5" opacity="0.3"/>
+  <text x="200" y="218" text-anchor="middle" fill="#4b5563" font-family="monospace" font-size="9" letter-spacing="2">CAPTURE THE FLAG</text>
 </svg>
