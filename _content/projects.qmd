@@ -67,7 +67,7 @@
 Cambridge Consultants — Research Scientist
 :::
 ### Unitree G1 Locomotion & Stair Climbing
-Reinforcement learning pipelines for Unitree G1 humanoid locomotion. Developed stair-climbing policies in MuJoCo and Isaac Sim with sim-to-real transfer experiments on physical hardware.
+Reinforcement learning pipelines for Unitree G1 humanoid locomotion. Developed stair-climbing policies in MuJoCo and Isaac Sim with sim-to-real transfer experiments on physical hardware. Additionally, I combined an MPC planner for zero-shot generalisation to safely navigate obstructed scenes.
 :::
 ::::
 
@@ -80,7 +80,7 @@ Reinforcement learning pipelines for Unitree G1 humanoid locomotion. Developed s
 Cambridge Consultants — Research Scientist
 :::
 ### VLA Manipulation & Box Picking
-Fine-tuned Vision-Language-Action models (GR00T) for robotic manipulation tasks. Context-aware grasping and box picking with Unitree G1 humanoids.
+Fine-tuned Vision-Language-Action models (GR00T) for robotic manipulation tasks. Context-aware grasping and box picking with Unitree G1 humanoids. I've customised existing pipelines for supervised finetuning to Reinforcement Learning post-training. This was demonstrated at Mobile World Congress (MWC) 2026.
 :::
 ::::
 
@@ -117,7 +117,7 @@ Fine-tuned Vision-Language-Action models (GR00T) for robotic manipulation tasks.
 Agile Loop — Lead Research Scientist
 :::
 ### SAM-X: Computer Use Agent
-VC-funded computer-use agent. Led a team of 10, combining reinforcement learning with VLM LoRA fine-tuning. Presented to Google Cloud.
+VC-funded computer-use agent. Led a team of 10, combining agentic optimisations with VLM LoRA fine-tuning. I presented our work at an agentic workshop at Google Cloud as a keynote speaker/panelist.
 :::
 ::::
 
@@ -130,7 +130,7 @@ VC-funded computer-use agent. Led a team of 10, combining reinforcement learning
 Agile Loop — Research Scientist (Lenovo Client)
 :::
 ### Hybrid Edge/Cloud Model Routing
-Designed a hybrid edge/cloud model routing architecture for Lenovo, optimising inference across device and cloud endpoints. Built computer vision systems and RL environments for software testing and evaluation.
+Designed a hybrid edge/cloud model routing architecture for Lenovo, optimising inference across device and cloud endpoints. Built computer vision systems for software testing and evaluation. I also conducted reinforcement and in-context learning research using custom environments and data.
 :::
 ::::
 
@@ -154,7 +154,7 @@ Designed a hybrid edge/cloud model routing architecture for Lenovo, optimising i
 
 :::
 
-## Autonomous Vehicle Research
+## Intelligent Vehicle Design
 
 ::: {.content-visible when-format="html"}
 
@@ -164,10 +164,10 @@ Designed a hybrid edge/cloud model routing architecture for Lenovo, optimising i
 :::
 ::: {.project-featured-body}
 ::: {.meta}
-Connected & Autonomous Vehicle Lab — Published at ITSC 2022
+University of Surrey — Module Lecturer
 :::
-### Prediction-Based Decision Making
-Deep Q-Learning with Noisy Networks for autonomous vehicle decision making. LSTM-based trajectory forecasting for surrounding vehicles in highway scenarios.
+### Intelligent Vehicle Design Module
+Designed module content and delivered lectures for the "Intelligent Vehicle Design" module. Covered python programming for planning methods (hybrid A*) and intelligent control methods (Q-Learning).
 :::
 ::::
 
@@ -178,8 +178,8 @@ Deep Q-Learning with Noisy Networks for autonomous vehicle decision making. LSTM
 ```{=typst}
 #project-card(
   "images/projects/intelligent_vehicle_design.jpg",
-  "Prediction-Based Decision Making — ITSC 2022",
-  "Deep Q-Learning with Noisy Networks for autonomous vehicle decision making. LSTM-based trajectory forecasting for surrounding vehicles in highway scenarios.",
+  "Intelligent Vehicle Design Module — University of Surrey",
+  "Designed module content and delivered lectures for the Intelligent Vehicle Design module. Covered autonomous vehicle decision making, deep Q-Learning with Noisy Networks, and LSTM-based trajectory forecasting.",
 )
 ```
 
@@ -198,7 +198,7 @@ Deep Q-Learning with Noisy Networks for autonomous vehicle decision making. LSTM
 QinetiQ — Software Engineer Intern
 :::
 ### MITRE ATT&CK Automation
-Developed software to automate attacks from the MITRE ATT&CK framework for red team security assessments and penetration testing. Built voice cryptography systems in C++ and Python.
+Developed software to automate attacks from the MITRE ATT&CK framework for red team security assessments and penetration testing.
 :::
 ::::
 
@@ -229,7 +229,7 @@ Developed software to automate attacks from the MITRE ATT&CK framework for red t
 University of Surrey — Veolia-Sponsored PhD
 :::
 ### RL for the DEXTER Robot
-Veolia-sponsored research developing reinforcement learning for the DEXTER industrial robot, entirely in simulation. World models for sample-efficient control, Neural Lyapunov functions for stability verification, and continual reinforcement learning at scale in JAX.
+Veolia-sponsored research developing reinforcement learning for the DEXTER industrial robot, creating complex local-remote RL environments. Developed World models for sample-efficient control, Neural Lyapunov functions for stability verification, and continual reinforcement learning in JAX.
 :::
 ::::
 
@@ -260,7 +260,7 @@ Veolia-sponsored research developing reinforcement learning for the DEXTER indus
 Co-Founder & CTO
 :::
 ### GeoSnap
-A geography-based social platform. Built the full technical stack from concept to deployment, managing architecture decisions, development, and infrastructure.
+A vision-based localisation and navigation platform. Built the full technical stack from concept to deployment, managing architecture decisions, development, and infrastructure. I presented and secured funding as CTO. It has been used at every University of Surrey open day since October 2024.
 :::
 ::::
 
@@ -272,7 +272,7 @@ A geography-based social platform. Built the full technical stack from concept t
 #project-card(
   "images/projects/Geosnap2.png",
   "GeoSnap — Co-Founder & CTO",
-  "A geography-based social platform. Built the full technical stack from concept to deployment, managing architecture decisions, development, and infrastructure.",
+  "A vision-based localisation and navigation platform. Built the full technical stack from concept to deployment, managing architecture decisions, development, and infrastructure.",
 )
 ```
 
@@ -290,7 +290,7 @@ A geography-based social platform. Built the full technical stack from concept t
 :::
 ::: {.project-body}
 ### Autonomous RC Cars
-Embedded systems combined with reinforcement learning for autonomous navigation.
+Working directly on hardware and sensor integration.
 :::
 ::::
 
@@ -300,7 +300,7 @@ Embedded systems combined with reinforcement learning for autonomous navigation.
 :::
 ::: {.project-body}
 ### RC Lane Following
-End-to-end vision-to-steering on a taped track using convolutional neural networks.
+Developed autonomous lane following using imitation learning.
 :::
 ::::
 
@@ -310,7 +310,7 @@ End-to-end vision-to-steering on a taped track using convolutional neural networ
 :::
 ::: {.project-body}
 ### ClimateCode
-OpenAI Hackathon project — LLM fine-tuning for compute-optimised code generation.
+OpenAI Hackathon project fine-tuning LLMs for compute-optimised code generation.
 :::
 ::::
 
@@ -320,7 +320,7 @@ OpenAI Hackathon project — LLM fine-tuning for compute-optimised code generati
 :::
 ::: {.project-body}
 ### Cyclopic
-Contract robotics — communications and networking systems for GPS-denied environments.
+Contract robotics project architecting communications and networking systems for GPS-denied environments.
 :::
 ::::
 
@@ -330,13 +330,13 @@ Contract robotics — communications and networking systems for GPS-denied envir
 :::
 ::: {.project-body}
 ### Funipedia
-Fun Wikipedia-style article platform. Grokathon honourable mention.
+Fun Wikipedia-style article platform which injects LLM generated code to produce interactable React components, images and videos. Grokathon 2026 honourable mention.
 :::
 ::::
 
 :::: {.project-card}
 ::: {.project-thumb}
-![](images/projects/facial-recognition.svg)
+![](images/projects/image_recognition.jpg)
 :::
 ::: {.project-body}
 ### Facial Recognition System
@@ -350,7 +350,7 @@ Real-time face detection and recognition pipelines using computer vision.
 :::
 ::: {.project-body}
 ### Stock Price Prediction
-BSc dissertation — LSTM model for 14-day stock price forecasting with a web interface comparing against indicator-based strategies.
+BSc dissertation training an LSTM model for 14-day stock price forecasting with a web interface comparing against indicator-based strategies.
 :::
 ::::
 
@@ -360,7 +360,7 @@ BSc dissertation — LSTM model for 14-day stock price forecasting with a web in
 :::
 ::: {.project-body}
 ### CTF Challenges
-Security challenges — web exploitation, reverse engineering, and cryptography.
+Treasurer of InfoSec society attending and organising security competitions.
 :::
 ::::
 
@@ -400,7 +400,7 @@ Security challenges — web exploitation, reverse engineering, and cryptography.
     "Fun Wikipedia-style article platform. Grokathon honourable mention.",
   ),
   project-grid-card(
-    "images/projects/facial-recognition.svg",
+    "images/projects/image_recognition.jpg",
     "Facial Recognition System",
     "Real-time face detection and recognition pipelines using computer vision.",
   ),

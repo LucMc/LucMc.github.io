@@ -13,5 +13,5 @@ Previously, I've held research roles at Cambridge Consultants (humanoid RL) and 
 - Reinforcement learning for robotic control
 - Vision-Language-Action model fine-tuning
 - Neural Lyapunov functions for stability
-- Continual and transfer learning
+- Continual, multi-task and meta-learning
 - World models and model-based RL

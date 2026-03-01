@@ -1,5 +1,5 @@
 ::: {.content-visible when-format="html"}
-**Research Engineer & PhD Candidate** | [lucmccutcheon.home@gmail.com](mailto:lucmccutcheon.home@gmail.com) | [GitHub](https://github.com/LucMc) | [LinkedIn](https://www.linkedin.com/in/mccutcheon19313/) | [Google Scholar](https://scholar.google.com/citations?user=4bs1FyUAAAAJ&hl)
+[lucmccutcheon.home@gmail.com](mailto:lucmccutcheon.home@gmail.com) | [GitHub](https://github.com/LucMc) | [LinkedIn](https://www.linkedin.com/in/mccutcheon19313/) | [Google Scholar](https://scholar.google.com/citations?user=4bs1FyUAAAAJ&hl)
 :::
 
 ::: {.content-visible when-format="typst"}
@@ -58,9 +58,9 @@ Research Engineer and PhD Candidate (completing Summer 2026) specialising in RL 
 
 ::: {.experience-entry}
 ### PhD Reinforcement Learning (Sponsored)
-[University of Surrey — 2021 -- Present]{.meta}
+[University of Surrey — 2021 -- 2026 (expected)]{.meta}
 
-Research focus: world models, Neural Lyapunov functions for stability, time-delay control systems, and large-scale JAX implementations. Supervised research with publications at top robotics and ML venues.
+Research focus: world models, Neural Lyapunov functions for stability, time-delay control systems, and large-scale JAX implementations. Published at top robotics and ML venues, supervised by S. Fallah.
 :::
 
 ::: {.experience-entry}

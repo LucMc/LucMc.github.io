@@ -32,21 +32,21 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Efficient Neural Lyapunov Function Approximation with Off-Policy Reinforcement Learning\nL. McCutcheon, K. Sheridan, P. Hartley\nICRA 2025 — IEEE International Conference on Robotics and Automation\n\n\n\n\n\n\n\nAdaptive PD Control using Deep Reinforcement Learning\nL. McCutcheon, K. Sheridan\nIROS 2023 — IEEE/RSJ International Conference on Intelligent Robots and Systems\n\n\n\n\n\n\n\nLearning Continually at Peak Performance\nL. McCutcheon, K. Sheridan\nUnder Review"
+    "text": "Efficient Neural Lyapunov Function Approximation with Off-Policy Reinforcement Learning\nL. McCutcheon, B. Gharesifard, S. Fallah\nICRA 2025 — IEEE International Conference on Robotics and Automation\n\n\n\n\n\n\n\nAdaptive PD Control using Deep Reinforcement Learning\nL. McCutcheon, S. Fallah\nIROS 2023 — IEEE/RSJ International Conference on Intelligent Robots and Systems\n\n\n\n\n\n\n\nLearning Continually at Peak Performance\nL. McCutcheon, S. Fallah\nUnder Review"
   },
   {
     "objectID": "publications.html#first-author",
     "href": "publications.html#first-author",
     "title": "Publications",
     "section": "",
-    "text": "Efficient Neural Lyapunov Function Approximation with Off-Policy Reinforcement Learning\nL. McCutcheon, K. Sheridan, P. Hartley\nICRA 2025 — IEEE International Conference on Robotics and Automation\n\n\n\n\n\n\n\nAdaptive PD Control using Deep Reinforcement Learning\nL. McCutcheon, K. Sheridan\nIROS 2023 — IEEE/RSJ International Conference on Intelligent Robots and Systems\n\n\n\n\n\n\n\nLearning Continually at Peak Performance\nL. McCutcheon, K. Sheridan\nUnder Review"
+    "text": "Efficient Neural Lyapunov Function Approximation with Off-Policy Reinforcement Learning\nL. McCutcheon, B. Gharesifard, S. Fallah\nICRA 2025 — IEEE International Conference on Robotics and Automation\n\n\n\n\n\n\n\nAdaptive PD Control using Deep Reinforcement Learning\nL. McCutcheon, S. Fallah\nIROS 2023 — IEEE/RSJ International Conference on Intelligent Robots and Systems\n\n\n\n\n\n\n\nLearning Continually at Peak Performance\nL. McCutcheon, S. Fallah\nUnder Review"
   },
   {
     "objectID": "publications.html#co-author",
     "href": "publications.html#co-author",
     "title": "Publications",
     "section": "Co-Author",
-    "text": "Co-Author\n\n\n\n\n\nMeta-World+: Towards a Scalable Multi-Task Reinforcement Learning Benchmark\nCo-authored\nICML 2025 Workshop (Spotlight) & NeurIPS 2025\n\n\n\n\n\n\n\nExploring In-Context Ensemble Strategies for Reinforcement Learning\nCo-authored\nNeurIPS 2024 Workshop\n\n\n\n\n\n\n\nPrediction-Based Decision Making for Autonomous Vehicles\nCo-authored\nITSC 2022 — IEEE International Conference on Intelligent Transportation Systems"
+    "text": "Co-Author\n\n\n\n\n\nMeta-World+: Towards a Scalable Multi-Task Reinforcement Learning Benchmark\nR. McLean, E. Chatzaroulas, L. McCutcheon, F. Roder, T. Yu, Z. He, K.R. Zentner, R. Julian, J.K. Terry, I. Woungang, N. Farsad, P.S. Castro\nICML 2025 Workshop (Spotlight) & NeurIPS 2025\n\n\n\n\n\n\n\nExploring In-Context Ensemble Strategies for Reinforcement Learning\nM. Xu, E. Chatzaroulas, L. McCutcheon, A. Ahad, H. Azeem, J. Marecki, A. Anwar\nNeurIPS 2024 Workshop\n\n\n\n\n\n\n\nPrediction-Based Decision Making for Autonomous Vehicles\nM. Yildirim, S. Mozaffari, L. McCutcheon, M. Dianati, A. Tamaddoni-Nezhad, S. Fallah\nITSC 2022 — IEEE International Conference on Intelligent Transportation Systems"
   },
   {
     "objectID": "publications.html#reviewing",
@@ -67,14 +67,14 @@
     "href": "index.html#research-engineer-vla-post-training",
     "title": "Luc McCutcheon",
     "section": "Research Engineer: VLA Post-Training",
-    "text": "Research Engineer: VLA Post-Training\nI’m a Research Engineer and PhD Candidate (completing Summer 2026) at the University of Surrey, specialising in reinforcement learning for distributed VLA post-training. I’m also Co-Founder and CTO of GeoSnap.\nMy work spans world models, Lyapunov stability functions, and sim-to-real transfer for humanoid robotics, with implementations in JAX and PyTorch. I’ve published at ICRA, NeurIPS, and IROS, and serve as a reviewer for top ML and robotics venues.\nPreviously, I’ve held research roles at Cambridge Consultants (humanoid RL) and Agile Loop (agentic AI pipelines), where I led teams and delivered production research to clients including Google Cloud and Lenovo.\n\n\nResearch Interests\n\nReinforcement learning for robotic control\nVision-Language-Action model fine-tuning\nNeural Lyapunov functions for stability\nContinual and transfer learning\nWorld models and model-based RL"
+    "text": "Research Engineer: VLA Post-Training\nI’m a Research Engineer and PhD Candidate (completing Summer 2026) at the University of Surrey, specialising in reinforcement learning for distributed VLA post-training. I’m also Co-Founder and CTO of GeoSnap.\nMy work spans world models, Lyapunov stability functions, and sim-to-real transfer for humanoid robotics, with implementations in JAX and PyTorch. I’ve published at ICRA, NeurIPS, and IROS, and serve as a reviewer for top ML and robotics venues.\nPreviously, I’ve held research roles at Cambridge Consultants (humanoid RL) and Agile Loop (agentic AI pipelines), where I led teams and delivered production research to clients including Google Cloud and Lenovo.\n\n\nResearch Interests\n\nReinforcement learning for robotic control\nVision-Language-Action model fine-tuning\nNeural Lyapunov functions for stability\nContinual, multi-task and meta-learning\nWorld models and model-based RL"
   },
   {
     "objectID": "cv.html",
     "href": "cv.html",
     "title": "Luc McCutcheon",
     "section": "",
-    "text": "Research Engineer & PhD Candidate | lucmccutcheon.home@gmail.com | GitHub | LinkedIn | Google Scholar\nResearch Engineer and PhD Candidate (completing Summer 2026) specialising in RL for distributed VLA post-training. Co-Founder/CTO of GeoSnap. Expert in JAX/PyTorch. Published at ICRA, NeurIPS, and IROS."
+    "text": "lucmccutcheon.home@gmail.com | GitHub | LinkedIn | Google Scholar\nResearch Engineer and PhD Candidate (completing Summer 2026) specialising in RL for distributed VLA post-training. Co-Founder/CTO of GeoSnap. Expert in JAX/PyTorch. Published at ICRA, NeurIPS, and IROS."
   },
   {
     "objectID": "cv.html#experience",
@@ -88,7 +88,7 @@
     "href": "cv.html#education",
     "title": "Luc McCutcheon",
     "section": "Education",
-    "text": "Education\n\nPhD Reinforcement Learning (Sponsored)\nUniversity of Surrey — 2021 – Present\nResearch focus: world models, Neural Lyapunov functions for stability, time-delay control systems, and large-scale JAX implementations. Supervised research with publications at top robotics and ML venues.\n\n\nBSc Computer Science (Hons) — First Class\nUniversity of Surrey — 2018 – 2021\nCyberFirst Scholarship recipient. Strong foundation in algorithms, systems, and applied machine learning."
+    "text": "Education\n\nPhD Reinforcement Learning (Sponsored)\nUniversity of Surrey — 2021 – 2026 (expected)\nResearch focus: world models, Neural Lyapunov functions for stability, time-delay control systems, and large-scale JAX implementations. Published at top robotics and ML venues, supervised by S. Fallah.\n\n\nBSc Computer Science (Hons) — First Class\nUniversity of Surrey — 2018 – 2021\nCyberFirst Scholarship recipient. Strong foundation in algorithms, systems, and applied machine learning."
   },
   {
     "objectID": "cv.html#skills",
@@ -123,55 +123,55 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Cambridge Consultants — Research Scientist\n\n\n\nReinforcement learning pipelines for Unitree G1 humanoid locomotion. Developed stair-climbing policies in MuJoCo and Isaac Sim with sim-to-real transfer experiments on physical hardware.\n\n\n\n\n\n\n\n\n\nCambridge Consultants — Research Scientist\n\n\n\nFine-tuned Vision-Language-Action models (GR00T) for robotic manipulation tasks. Context-aware grasping and box picking with Unitree G1 humanoids."
+    "text": "Cambridge Consultants — Research Scientist\n\n\n\nReinforcement learning pipelines for Unitree G1 humanoid locomotion. Developed stair-climbing policies in MuJoCo and Isaac Sim with sim-to-real transfer experiments on physical hardware. Additionally, I combined an MPC planner for zero-shot generalisation to safely navigate obstructed scenes.\n\n\n\n\n\n\n\n\n\nCambridge Consultants — Research Scientist\n\n\n\nFine-tuned Vision-Language-Action models (GR00T) for robotic manipulation tasks. Context-aware grasping and box picking with Unitree G1 humanoids. I’ve customised existing pipelines for supervised finetuning to Reinforcement Learning post-training. This was demonstrated at Mobile World Congress (MWC) 2026."
   },
   {
     "objectID": "projects.html#research-robotics",
     "href": "projects.html#research-robotics",
     "title": "Projects",
     "section": "",
-    "text": "Cambridge Consultants — Research Scientist\n\n\n\nReinforcement learning pipelines for Unitree G1 humanoid locomotion. Developed stair-climbing policies in MuJoCo and Isaac Sim with sim-to-real transfer experiments on physical hardware.\n\n\n\n\n\n\n\n\n\nCambridge Consultants — Research Scientist\n\n\n\nFine-tuned Vision-Language-Action models (GR00T) for robotic manipulation tasks. Context-aware grasping and box picking with Unitree G1 humanoids."
+    "text": "Cambridge Consultants — Research Scientist\n\n\n\nReinforcement learning pipelines for Unitree G1 humanoid locomotion. Developed stair-climbing policies in MuJoCo and Isaac Sim with sim-to-real transfer experiments on physical hardware. Additionally, I combined an MPC planner for zero-shot generalisation to safely navigate obstructed scenes.\n\n\n\n\n\n\n\n\n\nCambridge Consultants — Research Scientist\n\n\n\nFine-tuned Vision-Language-Action models (GR00T) for robotic manipulation tasks. Context-aware grasping and box picking with Unitree G1 humanoids. I’ve customised existing pipelines for supervised finetuning to Reinforcement Learning post-training. This was demonstrated at Mobile World Congress (MWC) 2026."
   },
   {
     "objectID": "projects.html#agentic-ai",
     "href": "projects.html#agentic-ai",
     "title": "Projects",
     "section": "Agentic AI",
-    "text": "Agentic AI\n\n\n\n\n\n\nAgile Loop — Lead Research Scientist\n\n\nSAM-X: Computer Use Agent\nVC-funded computer-use agent. Led a team of 10, combining reinforcement learning with VLM LoRA fine-tuning. Presented to Google Cloud.\n\n\n\n\n\n\n\n\n\nAgile Loop — Research Scientist (Lenovo Client)\n\n\nHybrid Edge/Cloud Model Routing\nDesigned a hybrid edge/cloud model routing architecture for Lenovo, optimising inference across device and cloud endpoints. Built computer vision systems and RL environments for software testing and evaluation."
+    "text": "Agentic AI\n\n\n\n\n\n\nAgile Loop — Lead Research Scientist\n\n\nSAM-X: Computer Use Agent\nVC-funded computer-use agent. Led a team of 10, combining agentic optimisations with VLM LoRA fine-tuning. I presented our work at an agentic workshop at Google Cloud as a keynote speaker/panelist.\n\n\n\n\n\n\n\n\n\nAgile Loop — Research Scientist (Lenovo Client)\n\n\nHybrid Edge/Cloud Model Routing\nDesigned a hybrid edge/cloud model routing architecture for Lenovo, optimising inference across device and cloud endpoints. Built computer vision systems for software testing and evaluation. I also conducted reinforcement and in-context learning research using custom environments and data."
   },
   {
-    "objectID": "projects.html#autonomous-vehicle-research",
-    "href": "projects.html#autonomous-vehicle-research",
+    "objectID": "projects.html#intelligent-vehicle-design",
+    "href": "projects.html#intelligent-vehicle-design",
     "title": "Projects",
-    "section": "Autonomous Vehicle Research",
-    "text": "Autonomous Vehicle Research\n\n\n\n\n\n\nConnected & Autonomous Vehicle Lab — Published at ITSC 2022\n\n\nPrediction-Based Decision Making\nDeep Q-Learning with Noisy Networks for autonomous vehicle decision making. LSTM-based trajectory forecasting for surrounding vehicles in highway scenarios."
+    "section": "Intelligent Vehicle Design",
+    "text": "Intelligent Vehicle Design\n\n\n\n\n\n\nUniversity of Surrey — Module Lecturer\n\n\nIntelligent Vehicle Design Module\nDesigned module content and delivered lectures for the “Intelligent Vehicle Design” module. Covered python programming for planning methods (hybrid A*) and intelligent control methods (Q-Learning)."
   },
   {
     "objectID": "projects.html#cybersecurity-defence",
     "href": "projects.html#cybersecurity-defence",
     "title": "Projects",
     "section": "Cybersecurity & Defence",
-    "text": "Cybersecurity & Defence\n\n\n\n\n\n\nQinetiQ — Software Engineer Intern\n\n\nMITRE ATT&CK Automation\nDeveloped software to automate attacks from the MITRE ATT&CK framework for red team security assessments and penetration testing. Built voice cryptography systems in C++ and Python."
+    "text": "Cybersecurity & Defence\n\n\n\n\n\n\nQinetiQ — Software Engineer Intern\n\n\nMITRE ATT&CK Automation\nDeveloped software to automate attacks from the MITRE ATT&CK framework for red team security assessments and penetration testing."
   },
   {
     "objectID": "projects.html#phd-research",
     "href": "projects.html#phd-research",
     "title": "Projects",
     "section": "PhD Research",
-    "text": "PhD Research\n\n\n\n\n\n\nUniversity of Surrey — Veolia-Sponsored PhD\n\n\nRL for the DEXTER Robot\nVeolia-sponsored research developing reinforcement learning for the DEXTER industrial robot, entirely in simulation. World models for sample-efficient control, Neural Lyapunov functions for stability verification, and continual reinforcement learning at scale in JAX."
+    "text": "PhD Research\n\n\n\n\n\n\nUniversity of Surrey — Veolia-Sponsored PhD\n\n\nRL for the DEXTER Robot\nVeolia-sponsored research developing reinforcement learning for the DEXTER industrial robot, creating complex local-remote RL environments. Developed World models for sample-efficient control, Neural Lyapunov functions for stability verification, and continual reinforcement learning in JAX."
   },
   {
     "objectID": "projects.html#geosnap",
     "href": "projects.html#geosnap",
     "title": "Projects",
     "section": "GeoSnap",
-    "text": "GeoSnap\n\n\n\n\n\n\nCo-Founder & CTO\n\n\nGeoSnap\nA geography-based social platform. Built the full technical stack from concept to deployment, managing architecture decisions, development, and infrastructure."
+    "text": "GeoSnap\n\n\n\n\n\n\nCo-Founder & CTO\n\n\nGeoSnap\nA vision-based localisation and navigation platform. Built the full technical stack from concept to deployment, managing architecture decisions, development, and infrastructure. I presented and secured funding as CTO. It has been used at every University of Surrey open day since October 2024."
   },
   {
     "objectID": "projects.html#other-projects",
     "href": "projects.html#other-projects",
     "title": "Projects",
     "section": "Other Projects",
-    "text": "Other Projects\n\n\n\n\n\n\nAutonomous RC Cars\nEmbedded systems combined with reinforcement learning for autonomous navigation.\n\n\n\n\n\n\n\nRC Lane Following\nEnd-to-end vision-to-steering on a taped track using convolutional neural networks.\n\n\n\n\n\n\n\nClimateCode\nOpenAI Hackathon project — LLM fine-tuning for compute-optimised code generation.\n\n\n\n\n\n\n\nCyclopic\nContract robotics — communications and networking systems for GPS-denied environments.\n\n\n\n\n\n\n\nFunipedia\nFun Wikipedia-style article platform. Grokathon honourable mention.\n\n\n\n\n\n\n\nFacial Recognition System\nReal-time face detection and recognition pipelines using computer vision.\n\n\n\n\n\n\n\nStock Price Prediction\nBSc dissertation — LSTM model for 14-day stock price forecasting with a web interface comparing against indicator-based strategies.\n\n\n\n\n\n\n\nCTF Challenges\nSecurity challenges — web exploitation, reverse engineering, and cryptography."
+    "text": "Other Projects\n\n\n\n\n\n\nAutonomous RC Cars\nWorking directly on hardware and sensor integration.\n\n\n\n\n\n\n\nRC Lane Following\nDeveloped autonomous lane following using imitation learning.\n\n\n\n\n\n\n\nClimateCode\nOpenAI Hackathon project fine-tuning LLMs for compute-optimised code generation.\n\n\n\n\n\n\n\nCyclopic\nContract robotics project architecting communications and networking systems for GPS-denied environments.\n\n\n\n\n\n\n\nFunipedia\nFun Wikipedia-style article platform which injects LLM generated code to produce interactable React components, images and videos. Grokathon 2026 honourable mention.\n\n\n\n\n\n\n\nFacial Recognition System\nReal-time face detection and recognition pipelines using computer vision.\n\n\n\n\n\n\n\nStock Price Prediction\nBSc dissertation training an LSTM model for 14-day stock price forecasting with a web interface comparing against indicator-based strategies.\n\n\n\n\n\n\n\nCTF Challenges\nTreasurer of InfoSec society attending and organising security competitions."
   }
 ]

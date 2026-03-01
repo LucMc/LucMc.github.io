@@ -29,7 +29,7 @@ Internal presentations on humanoid robotics, VLA fine-tuning, and sim-to-real tr
 
 I'm passionate about a wide range of activities beyond research:
 
-- **GO** — 1 Dan player
+- **Go** — 1 Dan player
 - **Jazz** — Band member
 - **Climbing** — Bouldering and sport climbing
 - **Calisthenics & Running** — Fitness and endurance training

@@ -7,7 +7,7 @@
 :::
 ::: {.pub-body}
 [**Efficient Neural Lyapunov Function Approximation with Off-Policy Reinforcement Learning**]{.pub-title}\
-[**L. McCutcheon**, K. Sheridan, P. Hartley]{.pub-authors}\
+[**L. McCutcheon**, B. Gharesifard, S. Fallah]{.pub-authors}\
 [ICRA 2025]{.pub-venue} — IEEE International Conference on Robotics and Automation
 :::
 ::::
@@ -18,7 +18,7 @@
 :::
 ::: {.pub-body}
 [**Adaptive PD Control using Deep Reinforcement Learning**]{.pub-title}\
-[**L. McCutcheon**, K. Sheridan]{.pub-authors}\
+[**L. McCutcheon**, S. Fallah]{.pub-authors}\
 [IROS 2023]{.pub-venue} — IEEE/RSJ International Conference on Intelligent Robots and Systems
 :::
 ::::
@@ -29,7 +29,7 @@
 :::
 ::: {.pub-body}
 [**Learning Continually at Peak Performance**]{.pub-title}\
-[**L. McCutcheon**, K. Sheridan]{.pub-authors}\
+[**L. McCutcheon**, S. Fallah]{.pub-authors}\
 [Under Review]{.pub-venue}
 :::
 ::::
@@ -66,21 +66,21 @@
 #pub-entry(
   "images/pubs/Lyapunov.JPG",
   "Efficient Neural Lyapunov Function Approximation with Off-Policy Reinforcement Learning",
-  [*L. McCutcheon*, K. Sheridan, P. Hartley],
+  [*L. McCutcheon*, B. Gharesifard, S. Fallah],
   "ICRA 2025",
 )
 
 #pub-entry(
   "images/pubs/adaptive-pd.JPG",
   "Adaptive PD Control using Deep Reinforcement Learning",
-  [*L. McCutcheon*, K. Sheridan],
+  [*L. McCutcheon*, S. Fallah],
   "IROS 2023",
 )
 
 #pub-entry(
   "images/pubs/CPR.JPG",
   "Learning Continually at Peak Performance",
-  [*L. McCutcheon*, K. Sheridan],
+  [*L. McCutcheon*, S. Fallah],
   "Under Review",
 )
 ```
@@ -96,7 +96,7 @@
 :::
 ::: {.pub-body}
 [**Meta-World+: Towards a Scalable Multi-Task Reinforcement Learning Benchmark**]{.pub-title}\
-[Co-authored]{.pub-authors}\
+[R. McLean, E. Chatzaroulas, **L. McCutcheon**, F. Roder, T. Yu, Z. He, K.R. Zentner, R. Julian, J.K. Terry, I. Woungang, N. Farsad, P.S. Castro]{.pub-authors}\
 [ICML 2025 Workshop (Spotlight) & NeurIPS 2025]{.pub-venue}
 :::
 ::::
@@ -107,7 +107,7 @@
 :::
 ::: {.pub-body}
 [**Exploring In-Context Ensemble Strategies for Reinforcement Learning**]{.pub-title}\
-[Co-authored]{.pub-authors}\
+[M. Xu, E. Chatzaroulas, **L. McCutcheon**, A. Ahad, H. Azeem, J. Marecki, A. Anwar]{.pub-authors}\
 [NeurIPS 2024 Workshop]{.pub-venue}
 :::
 ::::
@@ -118,7 +118,7 @@
 :::
 ::: {.pub-body}
 [**Prediction-Based Decision Making for Autonomous Vehicles**]{.pub-title}\
-[Co-authored]{.pub-authors}\
+[M. Yildirim, S. Mozaffari, **L. McCutcheon**, M. Dianati, A. Tamaddoni-Nezhad, S. Fallah]{.pub-authors}\
 [ITSC 2022]{.pub-venue} — IEEE International Conference on Intelligent Transportation Systems
 :::
 ::::
@@ -130,21 +130,21 @@
 #pub-entry(
   "images/pubs/metaworld.JPG",
   "Meta-World+: Towards a Scalable Multi-Task Reinforcement Learning Benchmark",
-  [Co-authored],
+  [R. McLean, E. Chatzaroulas, *L. McCutcheon*, F. Roder, T. Yu, Z. He, K.R. Zentner, R. Julian, J.K. Terry, I. Woungang, N. Farsad, P.S. Castro],
   "ICML 2025 Workshop (Spotlight) & NeurIPS 2025",
 )
 
 #pub-entry(
   "images/pubs/ICE.JPG",
   "Exploring In-Context Ensemble Strategies for Reinforcement Learning",
-  [Co-authored],
+  [M. Xu, E. Chatzaroulas, *L. McCutcheon*, A. Ahad, H. Azeem, J. Marecki, A. Anwar],
   "NeurIPS 2024 Workshop",
 )
 
 #pub-entry(
   "images/pubs/ITSC.JPG",
   "Prediction-Based Decision Making for Autonomous Vehicles",
-  [Co-authored],
+  [M. Yildirim, S. Mozaffari, *L. McCutcheon*, M. Dianati, A. Tamaddoni-Nezhad, S. Fallah],
   "ITSC 2022 — IEEE Intl. Conf. on Intelligent Transportation Systems",
 )
 ```
