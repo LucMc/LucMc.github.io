@@ -424,6 +424,15 @@ img.hero-avatar {
     font-size: 0.85rem;
   }
 
+  .pub-summary {
+    display: block;
+    font-size: 0.82rem;
+    color: #9ca3af;
+    margin-top: 0.35rem;
+    font-style: italic;
+    line-height: 1.4;
+  }
+
   @media (max-width: 576px) {
     flex-direction: column;
 

@@ -32,21 +32,21 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Efficient Neural Lyapunov Function Approximation with Off-Policy Reinforcement Learning\nL. McCutcheon, B. Gharesifard, S. Fallah\nICRA 2025 — IEEE International Conference on Robotics and Automation\n\n\n\n\n\n\n\nAdaptive PD Control using Deep Reinforcement Learning\nL. McCutcheon, S. Fallah\nIROS 2023 — IEEE/RSJ International Conference on Intelligent Robots and Systems\n\n\n\n\n\n\n\nLearning Continually at Peak Performance\nL. McCutcheon, S. Fallah\nUnder Review"
+    "text": "Efficient Neural Lyapunov Function Approximation with Off-Policy Reinforcement Learning\nL. McCutcheon, B. Gharesifard, S. Fallah\nICRA 2025 — IEEE International Conference on Robotics and Automation\nLearns neural Lyapunov functions via off-policy RL to jointly optimize control performance and stability guarantees.\n\n\n\n\n\n\n\nAdaptive PD Control using Deep Reinforcement Learning\nL. McCutcheon, S. Fallah\nIROS 2023 — IEEE/RSJ International Conference on Intelligent Robots and Systems\nUses deep RL to dynamically adapt PD controller gains online, improving robustness over fixed-gain controllers.\n\n\n\n\n\n\n\nPreventing Policy Collapse in Continual Reinforcement Learning\nL. McCutcheon, E. Chatzaroulas, S. Fallah\nUnder Review\nProposes a method to prevent catastrophic forgetting in continual RL, maintaining peak performance across sequential tasks."
   },
   {
     "objectID": "publications.html#first-author",
     "href": "publications.html#first-author",
     "title": "Publications",
     "section": "",
-    "text": "Efficient Neural Lyapunov Function Approximation with Off-Policy Reinforcement Learning\nL. McCutcheon, B. Gharesifard, S. Fallah\nICRA 2025 — IEEE International Conference on Robotics and Automation\n\n\n\n\n\n\n\nAdaptive PD Control using Deep Reinforcement Learning\nL. McCutcheon, S. Fallah\nIROS 2023 — IEEE/RSJ International Conference on Intelligent Robots and Systems\n\n\n\n\n\n\n\nLearning Continually at Peak Performance\nL. McCutcheon, S. Fallah\nUnder Review"
+    "text": "Efficient Neural Lyapunov Function Approximation with Off-Policy Reinforcement Learning\nL. McCutcheon, B. Gharesifard, S. Fallah\nICRA 2025 — IEEE International Conference on Robotics and Automation\nLearns neural Lyapunov functions via off-policy RL to jointly optimize control performance and stability guarantees.\n\n\n\n\n\n\n\nAdaptive PD Control using Deep Reinforcement Learning\nL. McCutcheon, S. Fallah\nIROS 2023 — IEEE/RSJ International Conference on Intelligent Robots and Systems\nUses deep RL to dynamically adapt PD controller gains online, improving robustness over fixed-gain controllers.\n\n\n\n\n\n\n\nPreventing Policy Collapse in Continual Reinforcement Learning\nL. McCutcheon, E. Chatzaroulas, S. Fallah\nUnder Review\nProposes a method to prevent catastrophic forgetting in continual RL, maintaining peak performance across sequential tasks."
   },
   {
     "objectID": "publications.html#co-author",
     "href": "publications.html#co-author",
     "title": "Publications",
     "section": "Co-Author",
-    "text": "Co-Author\n\n\n\n\n\nMeta-World+: Towards a Scalable Multi-Task Reinforcement Learning Benchmark\nR. McLean, E. Chatzaroulas, L. McCutcheon, F. Roder, T. Yu, Z. He, K.R. Zentner, R. Julian, J.K. Terry, I. Woungang, N. Farsad, P.S. Castro\nICML 2025 Workshop (Spotlight) & NeurIPS 2025\n\n\n\n\n\n\n\nExploring In-Context Ensemble Strategies for Reinforcement Learning\nM. Xu, E. Chatzaroulas, L. McCutcheon, A. Ahad, H. Azeem, J. Marecki, A. Anwar\nNeurIPS 2024 Workshop\n\n\n\n\n\n\n\nPrediction-Based Decision Making for Autonomous Vehicles\nM. Yildirim, S. Mozaffari, L. McCutcheon, M. Dianati, A. Tamaddoni-Nezhad, S. Fallah\nITSC 2022 — IEEE International Conference on Intelligent Transportation Systems"
+    "text": "Co-Author\n\n\n\n\n\nMeta-World+: Towards a Scalable Multi-Task Reinforcement Learning Benchmark\nR. McLean, E. Chatzaroulas, L. McCutcheon, F. Roder, T. Yu, Z. He, K.R. Zentner, R. Julian, J.K. Terry, I. Woungang, N. Farsad, P.S. Castro\nICML 2025 Workshop (Spotlight) & NeurIPS 2025\nImplemented multi-task optimization baselines including PCGrad and conducted large-scale training for MT10 and MT50 benchmark experiments.\n\n\n\n\n\n\n\nExploring In-Context Ensemble Strategies for Reinforcement Learning\nM. Xu, E. Chatzaroulas, L. McCutcheon, A. Ahad, H. Azeem, J. Marecki, A. Anwar\nNeurIPS 2024 Workshop\nSupervised the project and developed the Gemini experiment pipeline.\n\n\n\n\n\n\n\nPrediction-Based Decision Making for Autonomous Vehicles\nM. Yildirim, S. Mozaffari, L. McCutcheon, M. Dianati, A. Tamaddoni-Nezhad, S. Fallah\nITSC 2022 — IEEE International Conference on Intelligent Transportation Systems\nImplemented noisy neural networks, the highest-performing component of the RAINBOW agent."
   },
   {
     "objectID": "publications.html#reviewing",
@@ -102,7 +102,7 @@
     "href": "cv.html#publications",
     "title": "Luc McCutcheon",
     "section": "Publications",
-    "text": "Publications\n\nFirst Author\n\nEfficient Neural Lyapunov Function Approximation with Off-Policy Reinforcement Learning — ICRA 2025\nAdaptive PD Control using Deep Reinforcement Learning — IROS 2023\nLearning Continually at Peak Performance — Under Review\n\n\n\nCo-Author\n\nMeta-World+: Towards a Scalable Multi-Task Reinforcement Learning Benchmark — ICML 2025 Workshop (Spotlight) & NeurIPS 2025\nExploring In-Context Ensemble Strategies for Reinforcement Learning — NeurIPS 2024 Workshop\nPrediction-Based Decision Making for Autonomous Vehicles — ITSC 2022\n\n\n\nReviewing\nICLR 2026 | NeurIPS 2025 | TNNLS 2025 | IROS 2025"
+    "text": "Publications\n\nFirst Author\n\nEfficient Neural Lyapunov Function Approximation with Off-Policy Reinforcement Learning — ICRA 2025\nAdaptive PD Control using Deep Reinforcement Learning — IROS 2023\nPreventing Policy Collapse in Continual Reinforcement Learning — Under Review\n\n\n\nCo-Author\n\nMeta-World+: Towards a Scalable Multi-Task Reinforcement Learning Benchmark — ICML 2025 Workshop (Spotlight) & NeurIPS 2025\nExploring In-Context Ensemble Strategies for Reinforcement Learning — NeurIPS 2024 Workshop\nPrediction-Based Decision Making for Autonomous Vehicles — ITSC 2022\n\n\n\nReviewing\nICLR 2026 | NeurIPS 2025 | TNNLS 2025 | IROS 2025"
   },
   {
     "objectID": "cv.html#awards-certifications",

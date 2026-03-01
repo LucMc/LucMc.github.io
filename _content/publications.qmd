@@ -8,7 +8,8 @@
 ::: {.pub-body}
 [**Efficient Neural Lyapunov Function Approximation with Off-Policy Reinforcement Learning**]{.pub-title}\
 [**L. McCutcheon**, B. Gharesifard, S. Fallah]{.pub-authors}\
-[ICRA 2025]{.pub-venue} — IEEE International Conference on Robotics and Automation
+[ICRA 2025]{.pub-venue} — IEEE International Conference on Robotics and Automation\
+[Learns neural Lyapunov functions via off-policy RL to jointly optimize control performance and stability guarantees.]{.pub-summary}
 :::
 ::::
 
@@ -19,7 +20,8 @@
 ::: {.pub-body}
 [**Adaptive PD Control using Deep Reinforcement Learning**]{.pub-title}\
 [**L. McCutcheon**, S. Fallah]{.pub-authors}\
-[IROS 2023]{.pub-venue} — IEEE/RSJ International Conference on Intelligent Robots and Systems
+[IROS 2023]{.pub-venue} — IEEE/RSJ International Conference on Intelligent Robots and Systems\
+[Uses model-based RL to dynamically adapt PD controller gains online, improving robustness over fixed-gain controllers.]{.pub-summary}
 :::
 ::::
 
@@ -28,9 +30,10 @@
 ![](images/pubs/CPR.JPG)
 :::
 ::: {.pub-body}
-[**Learning Continually at Peak Performance**]{.pub-title}\
-[**L. McCutcheon**, S. Fallah]{.pub-authors}\
-[Under Review]{.pub-venue}
+[**Preventing Policy Collapse in Continual Reinforcement Learning**]{.pub-title}\
+[**L. McCutcheon**, E. Chatzaroulas, S. Fallah]{.pub-authors}\
+[Under Review]{.pub-venue}\
+[Proposes a method to maintain plasticity and training stability in continual RL, preventing policy collapse across sequential tasks.]{.pub-summary}
 :::
 ::::
 :::
@@ -38,7 +41,7 @@
 ::: {.content-visible when-format="typst"}
 
 ```{=typst}
-#let pub-entry(img-path, title, authors, venue) = {
+#let pub-entry(img-path, title, authors, venue, summary: none) = {
   block(
     width: 100%,
     stroke: (bottom: 0.5pt + rgb("#e5e7eb")),
@@ -58,6 +61,10 @@
         #text(weight: "bold", fill: rgb("#111827"), size: 10pt)[#title]\
         #v(2pt)
         #text(fill: rgb("#6b7280"), size: 9pt)[#authors]
+        #if summary != none {
+          v(3pt)
+          text(fill: rgb("#9ca3af"), size: 8pt, style: "italic")[#summary]
+        }
       ],
     )
   ]
@@ -68,6 +75,7 @@
   "Efficient Neural Lyapunov Function Approximation with Off-Policy Reinforcement Learning",
   [*L. McCutcheon*, B. Gharesifard, S. Fallah],
   "ICRA 2025",
+  summary: "Learns neural Lyapunov functions via off-policy RL to jointly optimize control performance and stability guarantees.",
 )
 
 #pub-entry(
@@ -75,13 +83,15 @@
   "Adaptive PD Control using Deep Reinforcement Learning",
   [*L. McCutcheon*, S. Fallah],
   "IROS 2023",
+  summary: "Uses model-based RL to dynamically adapt PD controller gains online, improving robustness over fixed-gain controllers.",
 )
 
 #pub-entry(
   "images/pubs/CPR.JPG",
-  "Learning Continually at Peak Performance",
-  [*L. McCutcheon*, S. Fallah],
+  "Preventing Policy Collapse in Continual Reinforcement Learning",
+  [*L. McCutcheon*, E. Chatzaroulas, S. Fallah],
   "Under Review",
+  summary: "Proposes a method to maintain plasticity and training stability in continual RL, preventing policy collapse across sequential tasks.",
 )
 ```
 
@@ -97,7 +107,8 @@
 ::: {.pub-body}
 [**Meta-World+: Towards a Scalable Multi-Task Reinforcement Learning Benchmark**]{.pub-title}\
 [R. McLean, E. Chatzaroulas, **L. McCutcheon**, F. Roder, T. Yu, Z. He, K.R. Zentner, R. Julian, J.K. Terry, I. Woungang, N. Farsad, P.S. Castro]{.pub-authors}\
-[ICML 2025 Workshop (Spotlight) & NeurIPS 2025]{.pub-venue}
+[ICML 2025 Workshop (Spotlight) & NeurIPS 2025]{.pub-venue}\
+[Implemented multi-task optimization baselines including PCGrad and conducted large-scale training for MT10 and MT50 benchmark experiments.]{.pub-summary}
 :::
 ::::
 
@@ -108,7 +119,8 @@
 ::: {.pub-body}
 [**Exploring In-Context Ensemble Strategies for Reinforcement Learning**]{.pub-title}\
 [M. Xu, E. Chatzaroulas, **L. McCutcheon**, A. Ahad, H. Azeem, J. Marecki, A. Anwar]{.pub-authors}\
-[NeurIPS 2024 Workshop]{.pub-venue}
+[NeurIPS 2024 Workshop]{.pub-venue}\
+[Supervised the project and developed the Gemini experiment pipeline.]{.pub-summary}
 :::
 ::::
 
@@ -119,7 +131,8 @@
 ::: {.pub-body}
 [**Prediction-Based Decision Making for Autonomous Vehicles**]{.pub-title}\
 [M. Yildirim, S. Mozaffari, **L. McCutcheon**, M. Dianati, A. Tamaddoni-Nezhad, S. Fallah]{.pub-authors}\
-[ITSC 2022]{.pub-venue} — IEEE International Conference on Intelligent Transportation Systems
+[ITSC 2022]{.pub-venue} — IEEE International Conference on Intelligent Transportation Systems\
+[Implemented noisy neural networks, the highest-performing component of the RAINBOW agent.]{.pub-summary}
 :::
 ::::
 :::
@@ -132,6 +145,7 @@
   "Meta-World+: Towards a Scalable Multi-Task Reinforcement Learning Benchmark",
   [R. McLean, E. Chatzaroulas, *L. McCutcheon*, F. Roder, T. Yu, Z. He, K.R. Zentner, R. Julian, J.K. Terry, I. Woungang, N. Farsad, P.S. Castro],
   "ICML 2025 Workshop (Spotlight) & NeurIPS 2025",
+  summary: "Implemented multi-task optimization baselines including PCGrad and conducted large-scale training for MT10 and MT50 benchmark experiments.",
 )
 
 #pub-entry(
@@ -139,6 +153,7 @@
   "Exploring In-Context Ensemble Strategies for Reinforcement Learning",
   [M. Xu, E. Chatzaroulas, *L. McCutcheon*, A. Ahad, H. Azeem, J. Marecki, A. Anwar],
   "NeurIPS 2024 Workshop",
+  summary: "Supervised the project and developed the Gemini experiment pipeline.",
 )
 
 #pub-entry(
@@ -146,6 +161,7 @@
   "Prediction-Based Decision Making for Autonomous Vehicles",
   [M. Yildirim, S. Mozaffari, *L. McCutcheon*, M. Dianati, A. Tamaddoni-Nezhad, S. Fallah],
   "ITSC 2022 — IEEE Intl. Conf. on Intelligent Transportation Systems",
+  summary: "Implemented noisy neural networks, the highest-performing component of the RAINBOW agent.",
 )
 ```
 

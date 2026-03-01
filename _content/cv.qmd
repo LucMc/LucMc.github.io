@@ -120,7 +120,7 @@ CyberFirst Scholarship recipient. Strong foundation in algorithms, systems, and 
 
 - **Efficient Neural Lyapunov Function Approximation with Off-Policy Reinforcement Learning** — ICRA 2025
 - **Adaptive PD Control using Deep Reinforcement Learning** — IROS 2023
-- **Learning Continually at Peak Performance** — Under Review
+- **Preventing Policy Collapse in Continual Reinforcement Learning** — Under Review
 
 ::: {.content-visible when-format="html"}
 ### Co-Author
