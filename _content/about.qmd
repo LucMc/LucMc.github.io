@@ -2,17 +2,17 @@
 
 ::: {.talk-card}
 **Google Agents Workshop**\
-Invited talk on agentic AI pipelines and reinforcement learning applications.
+Guest speaker and panel discussion on agentic AI.
 :::
 
 ::: {.talk-card}
-**University of Surrey Research Talks**\
-Presentations on PhD research: Neural Lyapunov functions, continual RL, and stability-constrained control.
+**University of Surrey**\
+Model-based Reinforcement Learning; JAX vs PyTorch.
 :::
 
 ::: {.talk-card}
-**Cambridge Consultants Technical Talks**\
-Internal presentations on humanoid robotics, VLA fine-tuning, and sim-to-real transfer methodology.
+**Cambridge Consultants**\
+Model Optimisation & Compilers; Safe Reinforcement Learning.
 :::
 
 ## Awards & Certifications

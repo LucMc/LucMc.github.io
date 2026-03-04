@@ -1,6 +1,6 @@
 ---
 title: "Luc McCutcheon"
-subtitle: "Research Engineer & PhD Candidate"
+subtitle: "Research Engineer in Reinforcement Learning & VLA Post-Training"
 format: typst
 ---
 
@@ -17,3 +17,4 @@ format: typst
 # Publications
 
 {{< include _content/publications.qmd >}}
+

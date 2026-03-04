@@ -12,7 +12,7 @@ toc: false
 
 ::: {.hero-links}
 [<i class="bi bi-github"></i>](https://github.com/LucMc){target="_blank"}
-[<i class="bi bi-linkedin"></i>](https://www.linkedin.com/in/mccutcheon19313/){target="_blank"}
+[<i class="bi bi-linkedin"></i>](https://www.linkedin.com/in/lucmcc/){target="_blank"}
 [<i class="bi bi-mortarboard-fill"></i>](https://scholar.google.com/citations?user=4bs1FyUAAAAJ&hl){target="_blank"}
 [<i class="bi bi-envelope-fill"></i>](mailto:lucmccutcheon.home@gmail.com)
 :::

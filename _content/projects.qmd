@@ -50,6 +50,18 @@
     #text(fill: rgb("#6b7280"), size: 8.5pt)[#description]
   ]
 }
+
+#let project-compact(title, description) = {
+  box(
+    width: 100%,
+    stroke: 0.5pt + rgb("#e5e7eb"),
+    inset: (x: 10pt, y: 7pt),
+  )[
+    #text(weight: "bold", fill: rgb("#111827"), size: 9pt)[#title]\
+    #v(1pt)
+    #text(fill: rgb("#6b7280"), size: 8pt)[#description]
+  ]
+}
 ```
 
 :::
@@ -67,7 +79,7 @@
 Cambridge Consultants — Research Scientist
 :::
 ### Unitree G1 Locomotion & Stair Climbing
-Reinforcement learning pipelines for Unitree G1 humanoid locomotion. Developed stair-climbing policies in MuJoCo and Isaac Sim with sim-to-real transfer experiments on physical hardware. Additionally, I combined an MPC planner for zero-shot generalisation to safely navigate obstructed scenes.
+Reinforcement learning pipelines for Unitree G1 humanoid locomotion and stair climbing in MuJoCo and Isaac Sim. Early sim-to-real transfers produced dangerous behaviour caused by incorrect reference frames in the integration code. Wrote ROS nodes to correct all transforms relative to the origins expected by the RL policy. Designed and trained gated locomotion behaviour where the agent only acts when foot targets are within a learned safe region, defaulting to a stable standing posture otherwise. This gating was significantly more complex to train but enabled safe deployment on physical hardware. Extensive domain randomisation further improved robustness outside the training distribution. Also developed an MPC planner for zero-shot generalisation in obstructed scenes.
 :::
 ::::
 
@@ -80,7 +92,7 @@ Reinforcement learning pipelines for Unitree G1 humanoid locomotion. Developed s
 Cambridge Consultants — Research Scientist
 :::
 ### VLA Manipulation & Box Picking
-Fine-tuned Vision-Language-Action models (GR00T) for robotic manipulation tasks. Context-aware grasping and box picking with Unitree G1 humanoids. I've customised existing pipelines for supervised finetuning to Reinforcement Learning post-training. This was demonstrated at Mobile World Congress (MWC) 2026.
+Fine-tuned Vision-Language-Action models (GR00T) for context-aware grasping and box picking with Unitree G1 humanoids. Initial training in a low-data regime led to severe overfitting: the model lost recovery behaviours seen earlier in training. Solved this by augmenting data collection with adversarial edge cases, including snatching objects mid-grasp to force recovery and varying backgrounds to prevent visual shortcuts. Achieved 100% box-picking accuracy across final real-world deployed trials. Presented at Mobile World Congress 2026, awarded Best Robotics Product (Tom's Guide Best in Show). Following this, recent work has focused on pipelines from supervised fine-tuning to reinforcement learning post-training in IsaacSim for complex locomotion tasks.
 :::
 ::::
 
@@ -92,13 +104,13 @@ Fine-tuned Vision-Language-Action models (GR00T) for robotic manipulation tasks.
 #project-card(
   "images/projects/both_stairs.JPG",
   "Unitree G1 Locomotion & Stair Climbing — Cambridge Consultants",
-  "Reinforcement learning pipelines for Unitree G1 humanoid locomotion. Developed stair-climbing policies in MuJoCo and Isaac Sim with sim-to-real transfer experiments on physical hardware.",
+  "Reinforcement learning pipelines for Unitree G1 humanoid locomotion and stair climbing in MuJoCo and Isaac Sim. Early sim-to-real transfers produced dangerous behaviour caused by incorrect reference frames. Wrote ROS nodes to correct transforms. Designed gated locomotion behaviour where the agent only acts when foot targets are within a learned safe region, enabling safe deployment on physical hardware.",
 )
 
 #project-card(
   "images/projects/elf_box_picking.png",
   "VLA Manipulation & Box Picking — Cambridge Consultants",
-  "Fine-tuned Vision-Language-Action models (GR00T) for robotic manipulation tasks. Context-aware grasping and box picking with Unitree G1 humanoids.",
+  "Fine-tuned VLA models (GR00T) for context-aware grasping and box picking with Unitree G1 humanoids. Solved overfitting in a low-data regime by augmenting data with adversarial edge cases. Achieved 100% box-picking accuracy across final real-world trials. Presented at MWC 2026, awarded Best Robotics Product (Tom's Guide Best in Show).",
 )
 ```
 
@@ -117,7 +129,7 @@ Fine-tuned Vision-Language-Action models (GR00T) for robotic manipulation tasks.
 Agile Loop — Lead Research Scientist
 :::
 ### SAM-X: Computer Use Agent
-VC-funded computer-use agent. Led a team of 10, combining agentic optimisations with VLM LoRA fine-tuning. I presented our work at an agentic workshop at Google Cloud as a keynote speaker/panelist.
+Led a team of 10 building a VC-funded computer-use agent combining reinforcement learning with VLM fine-tuning. Designed a hybrid routing architecture where a fast, small model classifies query complexity: simple navigation tasks run on a local model, while complex requests route to a larger VLM hosted on Google Cloud. Used CogVLM as the backbone for its ability to output precise pixel coordinates, and fine-tuned it to respond in a structured format parsed directly into executable actions. Presented the system as a keynote speaker and panellist at Google Clouds internal Agent Workshop.
 :::
 ::::
 
@@ -130,7 +142,7 @@ VC-funded computer-use agent. Led a team of 10, combining agentic optimisations 
 Agile Loop — Research Scientist (Lenovo Client)
 :::
 ### Hybrid Edge/Cloud Model Routing
-Designed a hybrid edge/cloud model routing architecture for Lenovo, optimising inference across device and cloud endpoints. Built computer vision systems for software testing and evaluation. I also conducted reinforcement and in-context learning research using custom environments and data.
+Designed a hybrid edge/cloud model routing architecture for Lenovo, optimising inference latency and cost across on-device and cloud endpoints. Built computer vision systems for automated UI testing and evaluating software interaction strategies under realistic constraints. This was one of many workstreams, which varied from software RL environments, to building interaction graphs.
 :::
 ::::
 
@@ -142,13 +154,13 @@ Designed a hybrid edge/cloud model routing architecture for Lenovo, optimising i
 #project-card(
   "images/projects/SAMX.png",
   "SAM-X: Computer Use Agent — Agile Loop",
-  "VC-funded computer-use agent. Led a team of 10, combining reinforcement learning with VLM LoRA fine-tuning. Presented to Google Cloud.",
+  "Led a team of 10 building a VC-funded computer-use agent. Designed a hybrid routing architecture: a fast model classifies query complexity, routing simple tasks locally and complex requests to a cloud VLM. Fine-tuned CogVLM for precise pixel-coordinate output. Presented to Google Cloud.",
 )
 
 #project-card(
   "images/projects/lenovo-vantage-agile-loop.jpg",
   "Hybrid Edge/Cloud Model Routing — Agile Loop (Lenovo)",
-  "Designed a hybrid edge/cloud model routing architecture for Lenovo, optimising inference across device and cloud endpoints. Built CV systems and RL environments for software testing.",
+  "Designed a hybrid edge/cloud model routing architecture for Lenovo, optimising inference latency and cost across on-device and cloud endpoints. Built CV systems for automated UI testing and RL environments for software interaction strategies.",
 )
 ```
 
@@ -167,7 +179,7 @@ Designed a hybrid edge/cloud model routing architecture for Lenovo, optimising i
 University of Surrey — Module Lecturer
 :::
 ### Intelligent Vehicle Design Module
-Designed module content and delivered lectures for the "Intelligent Vehicle Design" module. Covered python programming for planning methods (hybrid A*) and intelligent control methods (Q-Learning).
+Designed module content and delivered lectures for the MSc Intelligent Vehicle Design module. Taught Python programming for path planning (hybrid A*) and intelligent control (Q-Learning), with students implementing and evaluating their own agents.
 :::
 ::::
 
@@ -179,7 +191,7 @@ Designed module content and delivered lectures for the "Intelligent Vehicle Desi
 #project-card(
   "images/projects/intelligent_vehicle_design.jpg",
   "Intelligent Vehicle Design Module — University of Surrey",
-  "Designed module content and delivered lectures for the Intelligent Vehicle Design module. Covered autonomous vehicle decision making, deep Q-Learning with Noisy Networks, and LSTM-based trajectory forecasting.",
+  "Designed module content and delivered lectures for the MSc Intelligent Vehicle Design module. Taught Python programming for path planning (hybrid A*) and intelligent control (Q-Learning), with students implementing and evaluating their own agents.",
 )
 ```
 
@@ -198,7 +210,7 @@ Designed module content and delivered lectures for the "Intelligent Vehicle Desi
 QinetiQ — Software Engineer Intern
 :::
 ### MITRE ATT&CK Automation
-Developed software to automate attacks from the MITRE ATT&CK framework for red team security assessments and penetration testing.
+Developed software to automate adversary techniques from the MITRE ATT&CK framework, enabling red team security assessments to run standardised attack chains at scale. Separately built voice cryptography systems in C++ and Python for secure communications research.
 :::
 ::::
 
@@ -210,7 +222,7 @@ Developed software to automate attacks from the MITRE ATT&CK framework for red t
 #project-card(
   "images/projects/mitre-attack.png",
   "MITRE ATT&CK Automation — QinetiQ",
-  "Developed software to automate attacks from the MITRE ATT&CK framework for red team security assessments and penetration testing. Built voice cryptography systems in C++ and Python.",
+  "Developed software to automate adversary techniques from the MITRE ATT&CK framework, enabling red team assessments to run standardised attack chains at scale. Separately built voice cryptography systems in C++ and Python for secure communications research.",
 )
 ```
 
@@ -229,7 +241,7 @@ Developed software to automate attacks from the MITRE ATT&CK framework for red t
 University of Surrey — Veolia-Sponsored PhD
 :::
 ### RL for the DEXTER Robot
-Veolia-sponsored research developing reinforcement learning for the DEXTER industrial robot, creating complex local-remote RL environments. Developed World models for sample-efficient control, Neural Lyapunov functions for stability verification, and continual reinforcement learning in JAX.
+Veolia-sponsored research developing reinforcement learning for the DEXTER industrial robot. Worked directly with Veolia engineers to understand their operational constraints: strict safety requirements under stochastic communication delays between local and remote control. Developed model-based RL with world models for sample-efficient control in this setting, neural Lyapunov functions for formal stability verification, and continual reinforcement learning methods to adapt trained controllers to new settings. Created complex local-remote RL environments to simulate realistic deployment conditions.
 :::
 ::::
 
@@ -241,7 +253,7 @@ Veolia-sponsored research developing reinforcement learning for the DEXTER indus
 #project-card(
   "images/projects/dexter-veolia.png",
   "RL for the DEXTER Robot — Veolia-Sponsored PhD",
-  "Veolia-sponsored research developing reinforcement learning for the DEXTER industrial robot, entirely in simulation. World models for sample-efficient control, Neural Lyapunov functions for stability verification, and continual RL at scale in JAX.",
+  "Veolia-sponsored research developing RL for the DEXTER industrial robot. Worked with Veolia engineers on strict safety requirements under stochastic communication delays. Developed world models, neural Lyapunov functions for stability verification, and continual RL methods (in JAX). Created complex local-remote environments to simulate deployment conditions.",
 )
 ```
 
@@ -260,7 +272,7 @@ Veolia-sponsored research developing reinforcement learning for the DEXTER indus
 Co-Founder & CTO
 :::
 ### GeoSnap
-A vision-based localisation and navigation platform. Built the full technical stack from concept to deployment, managing architecture decisions, development, and infrastructure. I presented and secured funding as CTO. It has been used at every University of Surrey open day since October 2024.
+A vision-based localisation, information retrieval and navigation platform. Built the full technical stack from concept to deployment, managing architecture decisions, development, and infrastructure. I presented and secured funding as CTO. It has been used at every University of Surrey open day since October 2024.
 :::
 ::::
 
@@ -272,7 +284,7 @@ A vision-based localisation and navigation platform. Built the full technical st
 #project-card(
   "images/projects/Geosnap2.png",
   "GeoSnap — Co-Founder & CTO",
-  "A vision-based localisation and navigation platform. Built the full technical stack from concept to deployment, managing architecture decisions, development, and infrastructure.",
+  "A vision-based localisation, information retrieval and navigation platform. Built the full technical stack from concept to deployment, managing architecture decisions, development, and infrastructure.",
 )
 ```
 
@@ -290,7 +302,7 @@ A vision-based localisation and navigation platform. Built the full technical st
 :::
 ::: {.project-body}
 ### Autonomous RC Cars
-Working directly on hardware and sensor integration.
+Sensor integration and remote teleoperation through 4G.
 :::
 ::::
 
@@ -300,7 +312,7 @@ Working directly on hardware and sensor integration.
 :::
 ::: {.project-body}
 ### RC Lane Following
-Developed autonomous lane following using imitation learning.
+End-to-end vision-based lane following using GAIL and convolutional neural networks.
 :::
 ::::
 
@@ -309,8 +321,8 @@ Developed autonomous lane following using imitation learning.
 ![](images/projects/openai_hackathon.png)
 :::
 ::: {.project-body}
-### ClimateCode
-OpenAI Hackathon project fine-tuning LLMs for compute-optimised code generation.
+### ClimateCode — OpenAI Hackathon
+Fine-tuned LLMs for compute-optimised code generation.
 :::
 ::::
 
@@ -330,7 +342,7 @@ Contract robotics project architecting communications and networking systems for
 :::
 ::: {.project-body}
 ### Funipedia
-Fun Wikipedia-style article platform which injects LLM generated code to produce interactable React components, images and videos. Grokathon 2026 honourable mention.
+Fun Wikipedia-style article platform which injects LLM-generated code to produce interactive React components, images and videos. Grokathon 2026 honourable mention.
 :::
 ::::
 
@@ -360,7 +372,7 @@ BSc dissertation training an LSTM model for 14-day stock price forecasting with 
 :::
 ::: {.project-body}
 ### CTF Challenges
-Treasurer of InfoSec society attending and organising security competitions.
+Treasurer of the InfoSec society. Organised and competed in security competitions.
 :::
 ::::
 
@@ -373,46 +385,38 @@ Treasurer of InfoSec society attending and organising security competitions.
 ```{=typst}
 #grid(
   columns: (1fr, 1fr),
-  gutter: 8pt,
-  project-grid-card(
-    "images/projects/big_rc_hardware_integration.jpg",
+  gutter: 6pt,
+  project-compact(
     "Autonomous RC Cars",
-    "Embedded systems combined with reinforcement learning for autonomous navigation.",
+    "Sensor integration and remote teleoperation through 4G.",
   ),
-  project-grid-card(
-    "images/projects/rc_lane_following.png",
+  project-compact(
     "RC Lane Following",
-    "End-to-end vision-to-steering on a taped track using convolutional neural networks.",
+    "Vision-based lane following using GAIL and CNNs.",
   ),
-  project-grid-card(
-    "images/projects/openai_hackathon.png",
-    "ClimateCode",
-    "OpenAI Hackathon project — LLM fine-tuning for compute-optimised code generation.",
+  project-compact(
+    "ClimateCode — OpenAI Hackathon",
+    "Fine-tuned LLMs for compute-optimised code generation.",
   ),
-  project-grid-card(
-    "images/projects/cyclopic.jpg",
+  project-compact(
     "Cyclopic",
-    "Contract robotics — communications and networking systems for GPS-denied environments.",
+    "Contract robotics; comms for GPS-denied environments.",
   ),
-  project-grid-card(
-    "images/projects/FUNIPEDIA_1.png",
+  project-compact(
     "Funipedia",
-    "Fun Wikipedia-style article platform. Grokathon honourable mention.",
+    "Interactive wiki platform. Grokathon honourable mention.",
   ),
-  project-grid-card(
-    "images/projects/image_recognition.jpg",
+  project-compact(
     "Facial Recognition System",
-    "Real-time face detection and recognition pipelines using computer vision.",
+    "Real-time face detection and recognition pipelines.",
   ),
-  project-grid-card(
-    "images/projects/finance.JPG",
+  project-compact(
     "Stock Price Prediction",
-    "BSc dissertation — LSTM model for 14-day stock price forecasting with a web interface comparing against indicator-based strategies.",
+    "BSc LSTM forecasting dissertation with web interface.",
   ),
-  project-grid-card(
-    "images/projects/ctf.svg",
+  project-compact(
     "CTF Challenges",
-    "Security challenges — web exploitation, reverse engineering, and cryptography.",
+    "InfoSec society treasurer. Organising computer cyber security competitions.",
   ),
 )
 ```

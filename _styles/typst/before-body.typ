@@ -28,9 +28,15 @@
       #line(length: 100%, stroke: 0.5pt + border)
       #v(2pt)
       #text(size: 8pt, fill: text-muted, font: "Liberation Mono")[
-        lucmccutcheon.home\@gmail.com
+        #link("mailto:lucmccutcheon.home@gmail.com")[lucmccutcheon.home\@gmail.com]
         #h(1fr)
-        github.com/LucMc
+        #link("https://lucmc.github.io")[lucmc.github.io]
+        #h(6pt) | #h(6pt)
+        #link("https://github.com/LucMc")[GitHub]
+        #h(6pt) | #h(6pt)
+        #link("https://www.linkedin.com/in/lucmcc/")[LinkedIn]
+        #h(6pt) | #h(6pt)
+        #link("https://scholar.google.com/citations?user=4bs1FyUAAAAJ&hl")[Scholar]
       ]
     ]
   },

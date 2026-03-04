@@ -1,9 +1,19 @@
 ::: {.content-visible when-format="html"}
-[lucmccutcheon.home@gmail.com](mailto:lucmccutcheon.home@gmail.com) | [GitHub](https://github.com/LucMc) | [LinkedIn](https://www.linkedin.com/in/mccutcheon19313/) | [Google Scholar](https://scholar.google.com/citations?user=4bs1FyUAAAAJ&hl)
+[lucmccutcheon.home@gmail.com](mailto:lucmccutcheon.home@gmail.com) | [GitHub](https://github.com/LucMc) | [LinkedIn](https://www.linkedin.com/in/lucmcc/) | [Google Scholar](https://scholar.google.com/citations?user=4bs1FyUAAAAJ&hl)
 :::
 
 ::: {.content-visible when-format="typst"}
 ## Profile
+
+```{=typst}
+#text(size: 9pt)[
+  #link("mailto:lucmccutcheon.home@gmail.com")[lucmccutcheon.home\@gmail.com] #h(6pt) | #h(6pt)
+  #link("https://github.com/LucMc")[GitHub] #h(6pt) | #h(6pt)
+  #link("https://www.linkedin.com/in/lucmcc/")[LinkedIn] #h(6pt) | #h(6pt)
+  #link("https://scholar.google.com/citations?user=4bs1FyUAAAAJ&hl")[Google Scholar]
+]
+```
+
 :::
 
 Research Engineer and PhD Candidate (completing Summer 2026) specialising in RL for distributed VLA post-training. Co-Founder/CTO of GeoSnap. Expert in JAX/PyTorch. Published at ICRA, NeurIPS, and IROS.
@@ -18,6 +28,7 @@ Research Engineer and PhD Candidate (completing Summer 2026) specialising in RL 
 - Fine-tuned Vision-Language-Action models (GR00T) for manipulation tasks
 - Built simulation environments in MuJoCo and NVIDIA Isaac Sim
 - Designed and executed sim-to-real transfer experiments
+- Demonstrated VLA manipulation work at Mobile World Congress (MWC) 2026
 :::
 
 ::: {.experience-entry}
@@ -35,7 +46,8 @@ Research Engineer and PhD Candidate (completing Summer 2026) specialising in RL 
 
 - Built RL environments for software testing and evaluation
 - Developed computer vision systems for product applications
-- Designed hybrid edge/cloud model routing architecture for Lenovo
+- Designed hybrid edge/cloud computer vision and reinforcement learning model routing architecture for Lenovo
+- Conducted in-context learning research using custom environments
 :::
 
 ::: {.experience-entry}
@@ -43,7 +55,7 @@ Research Engineer and PhD Candidate (completing Summer 2026) specialising in RL 
 [Connected & Autonomous Vehicle Lab — Jun 2022 -- Aug 2022]{.meta}
 
 - Implemented Noisy Neural Networks and Deep Q-Learning for autonomous driving
-- Developed LSTM-based prediction models for vehicle trajectory forecasting
+- Tackled partial observability using LSTMs
 :::
 
 ::: {.experience-entry}
@@ -118,8 +130,8 @@ CyberFirst Scholarship recipient. Strong foundation in algorithms, systems, and 
 #### First Author
 :::
 
-- **Efficient Neural Lyapunov Function Approximation with Off-Policy Reinforcement Learning** — ICRA 2025
-- **Adaptive PD Control using Deep Reinforcement Learning** — IROS 2023
+- **Neural Lyapunov Function Approximation with Self-Supervised Reinforcement Learning** — ICRA 2025
+- **Adaptive PD Control using Deep Reinforcement Learning for Local-Remote Teleoperation with Stochastic Time Delays** — IROS 2023
 - **Preventing Policy Collapse in Continual Reinforcement Learning** — Under Review
 
 ::: {.content-visible when-format="html"}
@@ -130,9 +142,9 @@ CyberFirst Scholarship recipient. Strong foundation in algorithms, systems, and 
 #### Co-Author
 :::
 
-- **Meta-World+: Towards a Scalable Multi-Task Reinforcement Learning Benchmark** — ICML 2025 Workshop (Spotlight) & NeurIPS 2025
-- **Exploring In-Context Ensemble Strategies for Reinforcement Learning** — NeurIPS 2024 Workshop
-- **Prediction-Based Decision Making for Autonomous Vehicles** — ITSC 2022
+- **Meta-World+: An Improved, Standardized, RL Benchmark** — ICML 2025 Workshop (Spotlight) & NeurIPS 2025
+- **In-Context Ensemble Learning from Pseudo Labels Improves Video-Language Models for Low-Level Workflow Understanding** — NeurIPS 2024 Workshop
+- **Prediction Based Decision Making for Autonomous Highway Driving** — ITSC 2022
 
 ::: {.content-visible when-format="html"}
 ### Reviewing
@@ -156,6 +168,6 @@ ICLR 2026 | NeurIPS 2025 | TNNLS 2025 | IROS 2025
 
 ## Speaking
 
-- **Google Agents Workshop** — Invited talk on agentic AI and reinforcement learning
-- **University of Surrey** — Research talks on Neural Lyapunov functions and continual RL
-- **Cambridge Consultants** — Technical talks on humanoid robotics and sim-to-real transfer
+- **Google Agents Workshop** — Guest speaker and panel discussion on agentic AI
+- **University of Surrey** — Model-based Reinforcement Learning; JAX vs PyTorch
+- **Cambridge Consultants** — Model Optimisation & Compilers; Safe Reinforcement Learning
