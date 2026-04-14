@@ -16,108 +16,113 @@
 
 :::
 
-Research Engineer and PhD Candidate (completing Summer 2026) specialising in RL for distributed VLA post-training. Co-Founder/CTO of GeoSnap. Expert in JAX/PyTorch. Published at ICRA, NeurIPS, and IROS.
+Research Scientist & PhD Candidate (completing June 2026) specialising in Reinforcement Learning for distributed VLA post-training. Co-Founder/CTO with experience deploying full-stack AI solutions and leading technical teams. Expert in JAX/PyTorch for policy optimisation, with published research (ICRA, NeurIPS, IROS) focusing on world models and optimisation algorithms.
 
 ## Experience
 
 ::: {.experience-entry}
 ### Research Scientist (Fixed-Term)
-[Cambridge Consultants — Oct 2025 -- Mar 2026]{.meta}
+[Cambridge Consultants — Oct 2025 -- Apr 2026]{.meta}
 
-- Developed reinforcement learning pipelines for the Unitree G1 humanoid robot
-- Fine-tuned Vision-Language-Action models (GR00T) for manipulation tasks
-- Built simulation environments in MuJoCo and NVIDIA Isaac Sim
-- Designed and executed sim-to-real transfer experiments
-- Demonstrated VLA manipulation work at Mobile World Congress (MWC) 2026
+- Led the Reinforcement Learning workstream for the Unitree G1 humanoid, delivering robust policies for dynamic environments.
+- Engineered an RL fine-tuning pipeline for VLA models (GR00T 1.6) using PPO/GRPO within custom Isaac Sim environments.
+- Designed MuJoCo and Isaac Sim environments supporting curriculum and continual learning to minimise the sim-to-real gap.
+- Coupled individual foot control with MPC planners to achieve precise, stability-aware foot placement in 3D space.
+- Executed sim-to-real transfer via ONNX to deploy blind stair traversal locomotion on physical hardware.
+- Trained cooperative multi-agent RL policies for a safety-critical defence application, using Kubernetes for distributed training.
 :::
 
 ::: {.experience-entry}
 ### Lead Research Scientist (Part-Time)
 [Agile Loop — Oct 2023 -- Apr 2025]{.meta}
 
-- Led a team of 10 researchers across multiple agentic AI projects
-- Developed agentic pipelines combining RL and VLM LoRA fine-tuning
-- Presented technical results and product demos to Google Cloud stakeholders
+- Led a team of 10 researchers developing autonomous AI agents, driving technical recruitment and presenting to VC firms.
+- Architected agentic pipelines from scratch and steered the internal research strategy, ranging from fundamental deep learning architecture to RL and VLM LoRA fine-tuning.
+- Presented our full-stack approach to the Google Cloud team during their workshop for AI agents.
 :::
 
 ::: {.experience-entry}
 ### Research Scientist (Part-Time)
 [Agile Loop — Jun 2023 -- Oct 2023]{.meta}
 
-- Built RL environments for software testing and evaluation
-- Developed computer vision systems for product applications
-- Designed hybrid edge/cloud computer vision and reinforcement learning model routing architecture for Lenovo
-- Conducted in-context learning research using custom environments
+- Pioneered RL environments for software and web-apps, using computer vision for icon recognition, and creating systems for distributed multi-task training.
+- Developed software and infrastructure allowing hybrid edge/cloud model routing based on task complexity for Lenovo POC.
 :::
 
 ::: {.experience-entry}
-### Assistant Research Volunteer
+### Research Assistant (Volunteer)
 [Connected & Autonomous Vehicle Lab — Jun 2022 -- Aug 2022]{.meta}
 
-- Implemented Noisy Neural Networks and Deep Q-Learning for autonomous driving
-- Tackled partial observability using LSTMs
+- Improved exploration using Noisy Neural Networks and tackled partial observability using LSTMs and Deep Q-Learning.
 :::
 
 ::: {.experience-entry}
 ### Software Engineer Intern
-[QinetiQ — Jul 2018--Sep 2018 & Jul 2019--Sep 2019]{.meta}
+[QinetiQ — Jul 2018 -- Sep 2018 & Jul 2019 -- Sep 2019]{.meta}
 
-- Developed voice cryptography systems in C++ and Python
-- Conducted red team security assessments and penetration testing
+- Engineered tactical voice cryptography (C++/Python) and automated red team attacks across two placements, bridging offensive and defensive security operations.
 :::
 
 ## Education
 
 ::: {.experience-entry}
-### PhD Reinforcement Learning (Sponsored)
-[University of Surrey — 2021 -- 2026 (expected)]{.meta}
+### PhD Reinforcement Learning (sponsored by Veolia Nuclear Solutions)
+[University of Surrey — 2021 -- present]{.meta}
 
-Research focus: world models, Neural Lyapunov functions for stability, time-delay control systems, and large-scale JAX implementations. Published at top robotics and ML venues, supervised by S. Fallah.
+- Designed and implemented time-delay mitigating controller for Veolia Nuclear Solutions' local-remote manipulator (DEXTER).
+- Learned a probabilistic World Model to "undelay" RL environments to provide adaptive PD gains in highly stochastic conditions.
+- Improved stability analysis through learning a Lyapunov function, using RL to generate counter-examples improving robustness.
+- Co-designed and lectured "Intelligent Vehicle Design" university course, teaching planning methods for robotic control.
+- Implemented various papers and algorithms from scratch in JAX, such as PCGrad, PPO, ReDo, CBP, VAE, ResNet and many more.
+- Implemented numerous custom RL environments, creating complex wrappers for random time delayed environments and local-remote system parallelism.
 :::
 
 ::: {.experience-entry}
 ### BSc Computer Science (Hons) — First Class
 [University of Surrey — 2018 -- 2021]{.meta}
 
-CyberFirst Scholarship recipient. Strong foundation in algorithms, systems, and applied machine learning.
+- Recipient of the prestigious CyberFirst Scholarship, sponsored by QinetiQ.
+- 1st Class Degree, key modules: Artificial Intelligence (92%), Data Structures & Algorithms (86%), Computational Intelligence (83%).
+- Dissertation in time-series financial forecasting using an LSTM Neural Network with various financial indicators.
+- Key takeaways: CUDA programming, evolutionary algorithms and fundamental mathematics.
 :::
 
 ## Skills
 
 ::: {.content-visible when-format="html"}
 ::: {.content-block}
-**Frameworks & Libraries**
+**Frameworks**
 
 [JAX]{.skill-badge} [PyTorch]{.skill-badge} [Gymnasium]{.skill-badge} [vLLM]{.skill-badge} [NumPy]{.skill-badge}
 
-**Languages**
+**Code**
 
-[Python]{.skill-badge} [C++]{.skill-badge} [Rust]{.skill-badge} [JavaScript]{.skill-badge}
+[Python]{.skill-badge} [C++]{.skill-badge} [Rust]{.skill-badge} [JavaScript]{.skill-badge} [Lua]{.skill-badge} [Bash]{.skill-badge}
 
-**RL & ML**
+**Methods**
 
-[PPO]{.skill-badge} [GRPO]{.skill-badge} [LoRA]{.skill-badge} [VLA]{.skill-badge} [SAC]{.skill-badge} [RAINBOW]{.skill-badge} [ResNet]{.skill-badge}
+[PPO]{.skill-badge} [GRPO]{.skill-badge} [LoRA]{.skill-badge} [VLA]{.skill-badge} [SAC]{.skill-badge} [Rainbow]{.skill-badge} [ResNet]{.skill-badge}
 
-**Infrastructure & Tools**
+**Compute / Infrastructure**
 
 [Unitree G1]{.skill-badge} [SLURM]{.skill-badge} [GCP]{.skill-badge} [AWS]{.skill-badge} [Docker]{.skill-badge}
 
-**Languages (Human)**
+**Languages**
 
-[French (C1)]{.skill-badge}
+[English (Native)]{.skill-badge} [French (C1)]{.skill-badge}
 :::
 :::
 
 ::: {.content-visible when-format="typst"}
-**Frameworks & Libraries:** JAX, PyTorch, Gymnasium, vLLM, NumPy
+**Frameworks:** JAX, PyTorch, Gymnasium, vLLM, NumPy
 
-**Languages:** Python, C++, Rust, JavaScript
+**Code:** Python, C++, Rust, JavaScript, Lua, Bash
 
-**RL & ML:** PPO, GRPO, LoRA, VLA, SAC, RAINBOW, ResNet
+**Methods:** PPO, GRPO, LoRA, VLA, SAC, Rainbow, ResNet
 
-**Infrastructure & Tools:** Unitree G1, SLURM, GCP, AWS, Docker
+**Compute / Infrastructure:** Unitree G1, SLURM, GCP, AWS, Docker
 
-**Languages (Human):** French (C1)
+**Languages:** English (Native), French (C1)
 :::
 
 ## Publications
@@ -130,9 +135,9 @@ CyberFirst Scholarship recipient. Strong foundation in algorithms, systems, and 
 #### First Author
 :::
 
-- **Neural Lyapunov Function Approximation with Self-Supervised Reinforcement Learning** — ICRA 2025
-- **Adaptive PD Control using Deep Reinforcement Learning for Local-Remote Teleoperation with Stochastic Time Delays** — IROS 2023
-- **Preventing Policy Collapse in Continual Reinforcement Learning** — Under Review
+- **Preventing Policy Collapse in Continual Reinforcement Learning** — Under Review. Implemented PPO, Continual Backpropagation (CBP), Recycling Dormant Neurons (ReDo) and a custom optimiser (CPR). Identifies parameter resets as a source of policy collapse in continual RL and improves stability through soft parameter transformations.
+- **Neural Lyapunov Function Approximation with Self-Supervised Reinforcement Learning** — ICRA 2025. Efficient probabilistic world model for stable RL under stochastic conditions, jointly learning a SAC control policy, world model and Lyapunov function and exploiting geometric properties for stability analysis.
+- **Adaptive PD Control using Deep RL for Local-Remote Teleoperation with Stochastic Time Delays** — IROS 2023. Proposed PMDC, a model-based RL framework using a learned world model ensemble to mitigate stochastic delays up to 290ms.
 
 ::: {.content-visible when-format="html"}
 ### Co-Author
@@ -142,9 +147,11 @@ CyberFirst Scholarship recipient. Strong foundation in algorithms, systems, and 
 #### Co-Author
 :::
 
-- **Meta-World+: An Improved, Standardized, RL Benchmark** — ICML 2025 Workshop (Spotlight) & NeurIPS 2025
-- **In-Context Ensemble Learning from Pseudo Labels Improves Video-Language Models for Low-Level Workflow Understanding** — NeurIPS 2024 Workshop
-- **Prediction Based Decision Making for Autonomous Highway Driving** — ITSC 2022
+- **Meta-World+: An Improved, Standardized, RL Benchmark** — ICML 2025 Workshop (Spotlight) & NeurIPS 2025. Implemented optimiser algorithms such as PCGrad and GradNorm for multi-task learning.
+- **Exploring In-Context Ensemble with Video-Language Models for Low-Level Workflow Understanding** — NeurIPS 2024 Workshop. Project definition and implementation of Gemini models into a novel in-context ensemble learning framework.
+- **Prediction Based Decision Making for Autonomous Highway Driving** — ITSC 2022. Implemented the "Noisy Networks" baseline and part of the Rainbow algorithm.
+
+All implementations are created from scratch using PyTorch or JAX/Flax and trained on a SLURM cluster or Google Cloud, each demonstrating state-of-the-art performance against baselines on challenging benchmarks.
 
 ::: {.content-visible when-format="html"}
 ### Reviewing
@@ -156,18 +163,21 @@ CyberFirst Scholarship recipient. Strong foundation in algorithms, systems, and 
 
 ICLR 2026 | NeurIPS 2025 | TNNLS 2025 | IROS 2025
 
-## Awards & Certifications
+## Awards & Courses
 
-- Honourable Mention — Grokathon 2026
-- Bronze Medal — Mathematics & Informatics Olympiad
-- Grace Hopper Award — University of Surrey
-- Foundership Award
-- NVIDIA Deep Learning Certificate
+- Honourable Mention — (xAI) Grokathon 2026
+- Bronze — Mathematics Olympiad
+- Bronze — British Informatics Olympiad
+- Grace Hopper Award — Computer Science
+- Foundership Award — Student Enterprise
+- NVIDIA Fundamentals of Deep Learning
 - Coursera Reinforcement Learning Specialisation
-- Extended Project Qualification (EPQ)
+- EPQ in Mathematics
 
 ## Speaking
 
-- **Google Agents Workshop** — Guest speaker and panel discussion on agentic AI
-- **University of Surrey** — Model-based Reinforcement Learning; JAX vs PyTorch
-- **Cambridge Consultants** — Model Optimisation & Compilers; Safe Reinforcement Learning
+- **Guest Speaker & Panel Discussion (Agents Workshop)** — Google
+- **Model-based Reinforcement Learning** — UoS School of Engineering
+- **JAX vs PyTorch** — UoS School of Engineering
+- **Model Optimisation & Compilers** — Cambridge Consultants
+- **Safe Reinforcement Learning** — Cambridge Consultants

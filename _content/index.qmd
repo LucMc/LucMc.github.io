@@ -6,7 +6,7 @@
 ## Profile
 :::
 
-I'm a Research Engineer and PhD Candidate (completing Summer 2026) at the University of Surrey, specialising in **reinforcement learning for distributed VLA post-training**. I'm also Co-Founder and CTO of GeoSnap.
+I'm a Research Engineer and PhD Candidate (completing June 2026) at the University of Surrey, specialising in **reinforcement learning for distributed VLA post-training**. I'm also Co-Founder and CTO of GeoSnap.
 
 My work spans **world models**, **Lyapunov stability functions**, and **sim-to-real transfer for humanoid robotics**, with implementations in JAX and PyTorch. I've published at **ICRA**, **NeurIPS**, and **IROS**, and serve as a reviewer for top ML and robotics venues.
 
