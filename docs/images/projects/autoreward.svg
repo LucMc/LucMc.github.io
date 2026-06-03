@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="240" viewBox="0 0 400 240">
+  <rect width="400" height="240" fill="#1a1a1a"/>
+  <rect x="1" y="1" width="398" height="238" fill="none" stroke="#2a2a2a" stroke-width="1"/>
+
+  <!-- Plot axes -->
+  <line x1="64" y1="40" x2="64" y2="188" stroke="#2a2a2a" stroke-width="1.5"/>
+  <line x1="64" y1="188" x2="356" y2="188" stroke="#2a2a2a" stroke-width="1.5"/>
+  <text x="56" y="46" text-anchor="end" fill="#4b5563" font-family="sans-serif" font-size="9">1.0</text>
+  <text x="56" y="191" text-anchor="end" fill="#4b5563" font-family="sans-serif" font-size="9">0.0</text>
+  <text x="26" y="118" text-anchor="middle" fill="#6b7280" font-family="sans-serif" font-size="9" transform="rotate(-90 26 118)">success rate</text>
+
+  <!-- LLM-generated dense reward function -->
+  <text x="78" y="64" fill="#3b82f6" font-family="monospace" font-size="12">def reward(s, a):</text>
+  <text x="90" y="80" fill="#6b7280" font-family="monospace" font-size="11">return dense_r</text>
+
+  <!-- Sparse success baseline -->
+  <polyline points="64,180 122,179 180,178 238,177 296,178 356,176" fill="none" stroke="#4b5563" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="352" y="170" text-anchor="end" fill="#6b7280" font-family="sans-serif" font-size="9">sparse</text>
+
+  <!-- Learned dense-reward success curve -->
+  <polyline points="64,181 112,177 158,160 206,124 252,86 304,62 356,52" fill="none" stroke="#3b82f6" stroke-width="2.5"/>
+  <circle cx="158" cy="160" r="3" fill="#1d4ed8"/>
+  <circle cx="206" cy="124" r="3" fill="#1d4ed8"/>
+  <circle cx="252" cy="86" r="3.5" fill="#3b82f6"/>
+  <circle cx="304" cy="62" r="3.5" fill="#3b82f6"/>
+  <text x="352" y="48" text-anchor="end" fill="#3b82f6" font-family="sans-serif" font-size="9">dense</text>
+</svg>

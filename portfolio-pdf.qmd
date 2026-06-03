@@ -1,6 +1,6 @@
 ---
 title: "Luc McCutcheon"
-subtitle: "Research Engineer in Reinforcement Learning & VLA Post-Training"
+subtitle: "Senior Research Scientist in Reinforcement Learning & Embodied Robotics"
 format: typst
 ---
 

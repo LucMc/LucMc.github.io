@@ -17,23 +17,24 @@ Model Optimisation & Compilers; Safe Reinforcement Learning.
 
 ## Awards & Certifications
 
-- **Honourable Mention** — Grokathon 2026
-- **Bronze Medal** — Mathematics & Informatics Olympiad
-- **Grace Hopper Award** — University of Surrey
-- **Foundership Award** — Entrepreneurship recognition
-- **NVIDIA Deep Learning Certificate**
+- **3rd Place:** Complex Worlds (General Reasoning) Hackathon
+- **Honourable Mention:** (xAI) Grokathon 2026
+- **Bronze Medal:** Mathematics Olympiad
+- **Bronze Medal:** British Informatics Olympiad
+- **Grace Hopper Award:** Computer Science
+- **Foundership Award:** Student Enterprise
+- **NVIDIA Fundamentals of Deep Learning**
 - **Coursera Reinforcement Learning Specialisation**
-- **Extended Project Qualification (EPQ)**
 
 ## Interests
 
 I'm passionate about a wide range of activities beyond research:
 
-- **Go** — 1 Dan player
-- **Jazz** — Band member
-- **Climbing** — Bouldering and sport climbing
-- **Calisthenics & Running** — Fitness and endurance training
-- **Life Drawing** — Regular practice
-- **Reading** — Philosophy, psychology, and science fiction
-- **Open Source** — Active in the EleutherAI community and RL reading groups
-- **Tools** — Neovim enthusiast
+- 1 Dan Go player
+- Guitarist and songwriter in a local jazz band
+- Bouldering and sport climbing
+- Calisthenics and running
+- Life drawing classes
+- Reading philosophy, psychology and science fiction
+- Active in the EleutherAI community and RL reading groups
+- Neovim and Linux enthusiast

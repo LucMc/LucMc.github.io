@@ -662,8 +662,12 @@ img.hero-avatar {
   background-color: transparent;
   border: none;
   border-left: 2px solid #1d4ed8;
-  padding: 0.75rem 1.25rem;
-  margin-bottom: 0.75rem;
+  padding: 0.15rem 1.25rem;
+  margin-bottom: 0.15rem;
+
+  p {
+    margin-bottom: 0;
+  }
 
   &:hover {
     border-left-color: #3b82f6;

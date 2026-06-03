@@ -30,7 +30,7 @@
 ![](images/pubs/CPR.JPG)
 :::
 ::: {.pub-body}
-[**Preventing Policy Collapse in Continual Reinforcement Learning**]{.pub-title}\
+[**Calibrated Partial Resets: Preventing Policy Collapse in Continual Reinforcement Learning**]{.pub-title}\
 [**L. McCutcheon**, E. Chatzaroulas, S. Fallah]{.pub-authors}\
 [Under Review]{.pub-venue}\
 [Proposes a method to maintain plasticity and training stability in continual RL, preventing policy collapse across sequential tasks.]{.pub-summary}
@@ -95,7 +95,7 @@
 
 #pub-entry(
   "images/pubs/CPR.JPG",
-  "Preventing Policy Collapse in Continual Reinforcement Learning",
+  "Calibrated Partial Resets: Preventing Policy Collapse in Continual Reinforcement Learning",
   [*L. McCutcheon*, E. Chatzaroulas, S. Fallah],
   "Under Review",
   summary: "Proposes a method to maintain plasticity and training stability in continual RL, preventing policy collapse across sequential tasks.",
@@ -114,7 +114,7 @@
 ::: {.pub-body}
 [**Meta-World+: An Improved, Standardized, RL Benchmark**]{.pub-title} [[pdf]{.pub-link}](https://arxiv.org/abs/2505.11289)\
 [R. McLean, E. Chatzaroulas, **L. McCutcheon**, F. Roder, T. Yu, Z. He, K.R. Zentner, R. Julian, J.K. Terry, I. Woungang, N. Farsad, P.S. Castro]{.pub-authors}\
-[ICML 2025 Workshop (Spotlight) & NeurIPS 2025]{.pub-venue}\
+[NeurIPS 2025 & ICML 2025 Workshop (Spotlight)]{.pub-venue}\
 [Implemented multi-task optimisation baselines including PCGrad and conducted large-scale training for MT10 and MT50 benchmark experiments.]{.pub-summary}
 :::
 ::::
@@ -151,7 +151,7 @@
   "images/pubs/metaworld.JPG",
   "Meta-World+: An Improved, Standardized, RL Benchmark",
   [R. McLean, E. Chatzaroulas, *L. McCutcheon*, F. Roder, T. Yu, Z. He, K.R. Zentner, R. Julian, J.K. Terry, I. Woungang, N. Farsad, P.S. Castro],
-  "ICML 2025 Workshop (Spotlight) & NeurIPS 2025",
+  "NeurIPS 2025 & ICML 2025 Workshop (Spotlight)",
   summary: "Implemented multi-task optimisation baselines including PCGrad and conducted large-scale training for MT10 and MT50 benchmark experiments.",
   url: "https://arxiv.org/abs/2505.11289",
 )

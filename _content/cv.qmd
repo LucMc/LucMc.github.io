@@ -16,13 +16,13 @@
 
 :::
 
-Research Scientist & PhD Candidate (completing June 2026) specialising in Reinforcement Learning for distributed VLA post-training. Co-Founder/CTO with experience deploying full-stack AI solutions and leading technical teams. Expert in JAX/PyTorch for policy optimisation, with published research (ICRA, NeurIPS, IROS) focusing on world models and optimisation algorithms.
+Senior Research Scientist specialising in Reinforcement Learning, world models and distributed post-training for embodied robotics. Experience deploying full-stack AI solutions and leading technical teams. Expert in coding algorithms from scratch in PyTorch/JAX, with published research (ICRA, NeurIPS, IROS) focusing on real-world embodied AI challenges.
 
 ## Experience
 
 ::: {.experience-entry}
 ### Research Scientist (Fixed-Term)
-[Cambridge Consultants — Oct 2025 -- Apr 2026]{.meta}
+[Cambridge Consultants · Oct 2025 -- Apr 2026]{.meta}
 
 - Led the Reinforcement Learning workstream for the Unitree G1 humanoid, delivering robust policies for dynamic environments.
 - Engineered an RL fine-tuning pipeline for VLA models (GR00T 1.6) using PPO/GRPO within custom Isaac Sim environments.
@@ -34,7 +34,7 @@ Research Scientist & PhD Candidate (completing June 2026) specialising in Reinfo
 
 ::: {.experience-entry}
 ### Lead Research Scientist (Part-Time)
-[Agile Loop — Oct 2023 -- Apr 2025]{.meta}
+[Agile Loop · Oct 2023 -- Apr 2025]{.meta}
 
 - Led a team of 10 researchers developing autonomous AI agents, driving technical recruitment and presenting to VC firms.
 - Architected agentic pipelines from scratch and steered the internal research strategy, ranging from fundamental deep learning architecture to RL and VLM LoRA fine-tuning.
@@ -43,7 +43,7 @@ Research Scientist & PhD Candidate (completing June 2026) specialising in Reinfo
 
 ::: {.experience-entry}
 ### Research Scientist (Part-Time)
-[Agile Loop — Jun 2023 -- Oct 2023]{.meta}
+[Agile Loop · Jun 2023 -- Oct 2023]{.meta}
 
 - Pioneered RL environments for software and web-apps, using computer vision for icon recognition, and creating systems for distributed multi-task training.
 - Developed software and infrastructure allowing hybrid edge/cloud model routing based on task complexity for Lenovo POC.
@@ -51,14 +51,14 @@ Research Scientist & PhD Candidate (completing June 2026) specialising in Reinfo
 
 ::: {.experience-entry}
 ### Research Assistant (Volunteer)
-[Connected & Autonomous Vehicle Lab — Jun 2022 -- Aug 2022]{.meta}
+[Connected & Autonomous Vehicle Lab · Jun 2022 -- Aug 2022]{.meta}
 
 - Improved exploration using Noisy Neural Networks and tackled partial observability using LSTMs and Deep Q-Learning.
 :::
 
 ::: {.experience-entry}
 ### Software Engineer Intern
-[QinetiQ — Jul 2018 -- Sep 2018 & Jul 2019 -- Sep 2019]{.meta}
+[QinetiQ · Jul 2018 -- Sep 2018 & Jul 2019 -- Sep 2019]{.meta}
 
 - Engineered tactical voice cryptography (C++/Python) and automated red team attacks across two placements, bridging offensive and defensive security operations.
 :::
@@ -67,7 +67,7 @@ Research Scientist & PhD Candidate (completing June 2026) specialising in Reinfo
 
 ::: {.experience-entry}
 ### PhD Reinforcement Learning (sponsored by Veolia Nuclear Solutions)
-[University of Surrey — 2021 -- present]{.meta}
+[University of Surrey · 2021 -- present]{.meta}
 
 - Designed and implemented time-delay mitigating controller for Veolia Nuclear Solutions' local-remote manipulator (DEXTER).
 - Learned a probabilistic World Model to "undelay" RL environments to provide adaptive PD gains in highly stochastic conditions.
@@ -78,8 +78,8 @@ Research Scientist & PhD Candidate (completing June 2026) specialising in Reinfo
 :::
 
 ::: {.experience-entry}
-### BSc Computer Science (Hons) — First Class
-[University of Surrey — 2018 -- 2021]{.meta}
+### BSc Computer Science (Hons), First Class
+[University of Surrey · 2018 -- 2021]{.meta}
 
 - Recipient of the prestigious CyberFirst Scholarship, sponsored by QinetiQ.
 - 1st Class Degree, key modules: Artificial Intelligence (92%), Data Structures & Algorithms (86%), Computational Intelligence (83%).
@@ -93,7 +93,7 @@ Research Scientist & PhD Candidate (completing June 2026) specialising in Reinfo
 ::: {.content-block}
 **Frameworks**
 
-[JAX]{.skill-badge} [PyTorch]{.skill-badge} [Gymnasium]{.skill-badge} [vLLM]{.skill-badge} [NumPy]{.skill-badge}
+[JAX]{.skill-badge} [PyTorch]{.skill-badge} [Gymnasium]{.skill-badge} [vLLM]{.skill-badge} [Raylib]{.skill-badge}
 
 **Code**
 
@@ -101,7 +101,7 @@ Research Scientist & PhD Candidate (completing June 2026) specialising in Reinfo
 
 **Methods**
 
-[PPO]{.skill-badge} [GRPO]{.skill-badge} [LoRA]{.skill-badge} [VLA]{.skill-badge} [SAC]{.skill-badge} [Rainbow]{.skill-badge} [ResNet]{.skill-badge}
+[World Models]{.skill-badge} [PPO]{.skill-badge} [GRPO]{.skill-badge} [SAC]{.skill-badge} [LoRA]{.skill-badge} [VLA]{.skill-badge} [Sim2Real]{.skill-badge}
 
 **Compute / Infrastructure**
 
@@ -114,11 +114,11 @@ Research Scientist & PhD Candidate (completing June 2026) specialising in Reinfo
 :::
 
 ::: {.content-visible when-format="typst"}
-**Frameworks:** JAX, PyTorch, Gymnasium, vLLM, NumPy
+**Frameworks:** JAX, PyTorch, Gymnasium, vLLM, Raylib
 
 **Code:** Python, C++, Rust, JavaScript, Lua, Bash
 
-**Methods:** PPO, GRPO, LoRA, VLA, SAC, Rainbow, ResNet
+**Methods:** World models, PPO/GRPO, SAC, LoRA, VLA, Sim2Real
 
 **Compute / Infrastructure:** Unitree G1, SLURM, GCP, AWS, Docker
 
@@ -135,9 +135,9 @@ Research Scientist & PhD Candidate (completing June 2026) specialising in Reinfo
 #### First Author
 :::
 
-- **Preventing Policy Collapse in Continual Reinforcement Learning** — Under Review. Implemented PPO, Continual Backpropagation (CBP), Recycling Dormant Neurons (ReDo) and a custom optimiser (CPR). Identifies parameter resets as a source of policy collapse in continual RL and improves stability through soft parameter transformations.
-- **Neural Lyapunov Function Approximation with Self-Supervised Reinforcement Learning** — ICRA 2025. Efficient probabilistic world model for stable RL under stochastic conditions, jointly learning a SAC control policy, world model and Lyapunov function and exploiting geometric properties for stability analysis.
-- **Adaptive PD Control using Deep RL for Local-Remote Teleoperation with Stochastic Time Delays** — IROS 2023. Proposed PMDC, a model-based RL framework using a learned world model ensemble to mitigate stochastic delays up to 290ms.
+- **Calibrated Partial Resets: Preventing Policy Collapse in Continual Reinforcement Learning** · Under Review. Implemented PPO, Continual Backpropagation (CBP), Recycling Dormant Neurons (ReDo) and a custom optimiser (CPR). Identifies parameter resets as a source of policy collapse in continual RL and improves stability through soft parameter transformations.
+- **Neural Lyapunov Function Approximation with Self-Supervised Reinforcement Learning** · ICRA 2025. Efficient probabilistic world model for stable RL under stochastic conditions, jointly learning a SAC control policy, world model and Lyapunov function and exploiting geometric properties for stability analysis.
+- **Adaptive PD Control using Deep RL for Local-Remote Teleoperation with Stochastic Time Delays** · IROS 2023. Proposed PMDC, a model-based RL framework using a learned world model ensemble to mitigate stochastic delays up to ~300ms.
 
 ::: {.content-visible when-format="html"}
 ### Co-Author
@@ -147,9 +147,9 @@ Research Scientist & PhD Candidate (completing June 2026) specialising in Reinfo
 #### Co-Author
 :::
 
-- **Meta-World+: An Improved, Standardized, RL Benchmark** — ICML 2025 Workshop (Spotlight) & NeurIPS 2025. Implemented optimiser algorithms such as PCGrad and GradNorm for multi-task learning.
-- **Exploring In-Context Ensemble with Video-Language Models for Low-Level Workflow Understanding** — NeurIPS 2024 Workshop. Project definition and implementation of Gemini models into a novel in-context ensemble learning framework.
-- **Prediction Based Decision Making for Autonomous Highway Driving** — ITSC 2022. Implemented the "Noisy Networks" baseline and part of the Rainbow algorithm.
+- **Meta-World+: An Improved, Standardized, RL Benchmark** · NeurIPS 2025 & ICML 2025 Workshop (Spotlight). Implemented optimiser algorithms such as PCGrad and GradNorm for multi-task learning.
+- **Exploring In-Context Ensemble with Video-Language Models for Low-Level Workflow Understanding** · NeurIPS 2024 Workshop. Project definition and implementation of Gemini models into a novel in-context ensemble learning framework.
+- **Prediction Based Decision Making for Autonomous Highway Driving** · ITSC 2022. Implemented the "Noisy Networks" baseline and part of the Rainbow algorithm.
 
 All implementations are created from scratch using PyTorch or JAX/Flax and trained on a SLURM cluster or Google Cloud, each demonstrating state-of-the-art performance against baselines on challenging benchmarks.
 
@@ -165,19 +165,19 @@ ICLR 2026 | NeurIPS 2025 | TNNLS 2025 | IROS 2025
 
 ## Awards & Courses
 
-- Honourable Mention — (xAI) Grokathon 2026
-- Bronze — Mathematics Olympiad
-- Bronze — British Informatics Olympiad
-- Grace Hopper Award — Computer Science
-- Foundership Award — Student Enterprise
+- 3rd Place: Complex Worlds (General Reasoning) Hackathon
+- Honourable Mention: (xAI) Grokathon 2026
+- Bronze: Mathematics Olympiad
+- Bronze: British Informatics Olympiad
+- Grace Hopper Award: Computer Science
+- Foundership Award: Student Enterprise
 - NVIDIA Fundamentals of Deep Learning
 - Coursera Reinforcement Learning Specialisation
-- EPQ in Mathematics
 
 ## Speaking
 
-- **Guest Speaker & Panel Discussion (Agents Workshop)** — Google
-- **Model-based Reinforcement Learning** — UoS School of Engineering
-- **JAX vs PyTorch** — UoS School of Engineering
-- **Model Optimisation & Compilers** — Cambridge Consultants
-- **Safe Reinforcement Learning** — Cambridge Consultants
+- **Guest Speaker & Panel Discussion (Agents Workshop)** · Google
+- **Model-based Reinforcement Learning** · UoS School of Engineering
+- **JAX vs PyTorch** · UoS School of Engineering
+- **Model Optimisation & Compilers** · Cambridge Consultants
+- **Safe Reinforcement Learning** · Cambridge Consultants

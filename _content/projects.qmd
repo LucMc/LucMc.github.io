@@ -146,6 +146,19 @@ Designed a hybrid edge/cloud model routing architecture for Lenovo, optimising i
 :::
 ::::
 
+:::: {.project-featured}
+::: {.project-featured-thumb}
+![](images/projects/autoreward.svg)
+:::
+::: {.project-featured-body}
+::: {.meta}
+Complex Worlds (General Reasoning) Hackathon — 3rd Place
+:::
+### AutoReward
+An LLM agent that learns to design dense reward functions for MuJoCo RL environments, rewarded for writing rewards that improve task success against a held-out sparse criterion.
+:::
+::::
+
 :::
 
 ::: {.content-visible when-format="typst"}
@@ -161,6 +174,12 @@ Designed a hybrid edge/cloud model routing architecture for Lenovo, optimising i
   "images/projects/lenovo-vantage-agile-loop.jpg",
   "Hybrid Edge/Cloud Model Routing — Agile Loop (Lenovo)",
   "Designed a hybrid edge/cloud model routing architecture for Lenovo, optimising inference latency and cost across on-device and cloud endpoints. Built CV systems for automated UI testing and RL environments for software interaction strategies.",
+)
+
+#project-card(
+  "images/projects/autoreward.svg",
+  "AutoReward — Complex Worlds Hackathon",
+  "LLM agent that learns dense reward functions for MuJoCo RL environments, rewarded for improving success on a held-out sparse criterion. 3rd place, Complex Worlds (General Reasoning) Hackathon.",
 )
 ```
 
@@ -321,7 +340,7 @@ End-to-end vision-based lane following using GAIL and convolutional neural netwo
 ![](images/projects/openai_hackathon.png)
 :::
 ::: {.project-body}
-### ClimateCode — OpenAI Hackathon
+### ClimateCode · OpenAI Hackathon
 Fine-tuned LLMs for compute-optimised code generation.
 :::
 ::::
@@ -341,7 +360,7 @@ Contract robotics project architecting communications and networking systems for
 ![](images/projects/FUNIPEDIA_1.png)
 :::
 ::: {.project-body}
-### Funipedia
+### Funipedia · xAI Hackathon
 Fun Wikipedia-style article platform which injects LLM-generated code to produce interactive React components, images and videos. Grokathon 2026 honourable mention.
 :::
 ::::
@@ -395,7 +414,7 @@ Treasurer of the InfoSec society. Organised and competed in security competition
     "Vision-based lane following using GAIL and CNNs.",
   ),
   project-compact(
-    "ClimateCode — OpenAI Hackathon",
+    "ClimateCode · OpenAI Hackathon",
     "Fine-tuned LLMs for compute-optimised code generation.",
   ),
   project-compact(
@@ -403,7 +422,7 @@ Treasurer of the InfoSec society. Organised and competed in security competition
     "Contract robotics; comms for GPS-denied environments.",
   ),
   project-compact(
-    "Funipedia",
+    "Funipedia · xAI Hackathon",
     "Interactive wiki platform. Grokathon honourable mention.",
   ),
   project-compact(

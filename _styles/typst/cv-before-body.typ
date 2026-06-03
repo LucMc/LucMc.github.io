@@ -39,7 +39,7 @@
   ]
   #v(1pt)
   #text(size: 8pt, tracking: 5pt, fill: text-gray)[
-    #upper[Research Engineer #h(6pt) · #h(6pt) VLA Post-Training]
+    #upper[Senior Research Scientist]
   ]
   #v(6pt)
   #line(length: 100%, stroke: 0.5pt + luma(180))
