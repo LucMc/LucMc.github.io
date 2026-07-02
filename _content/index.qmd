@@ -1,12 +1,12 @@
 ::: {.content-visible when-format="html"}
-## Senior Research Scientist
+## Machine Learning Engineer
 :::
 
 ::: {.content-visible when-format="typst"}
 ## Profile
 :::
 
-I'm a Senior Research Scientist specialising in **reinforcement learning, world models, and distributed post-training for embodied robotics**. 
+I'm a Machine Learning Engineer specialising in **reinforcement learning, world models, and distributed post-training for embodied robotics**. 
 
 My work spans **world models**, **Lyapunov stability functions**, and **sim-to-real transfer for humanoid robotics**, with algorithms implemented from scratch in JAX and PyTorch. I've published at **ICRA**, **NeurIPS**, and **IROS**, and serve as a reviewer for top ML and robotics venues.
 

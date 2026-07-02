@@ -63,11 +63,11 @@
     "text": "LUC MCCUTCHEON"
   },
   {
-    "objectID": "index.html#senior-research-scientist",
-    "href": "index.html#senior-research-scientist",
+    "objectID": "index.html#machine-learning-engineer",
+    "href": "index.html#machine-learning-engineer",
     "title": "Luc McCutcheon",
-    "section": "Senior Research Scientist",
-    "text": "Senior Research Scientist\nI’m a Senior Research Scientist specialising in reinforcement learning, world models, and distributed post-training for embodied robotics.\nMy work spans world models, Lyapunov stability functions, and sim-to-real transfer for humanoid robotics, with algorithms implemented from scratch in JAX and PyTorch. I’ve published at ICRA, NeurIPS, and IROS, and serve as a reviewer for top ML and robotics venues.\nPreviously, I’ve held research roles at Cambridge Consultants (humanoid RL & VLAs) and Agile Loop (agentic AI pipelines), where I led teams and delivered production research to clients including Google Cloud and Lenovo.\n\n\nResearch Interests\n\nReinforcement learning for robotic control\nVLA/WAM post-training\nNeural Lyapunov functions for stability\nContinual, multi-task and meta-learning\nWorld models and model-based RL"
+    "section": "Machine Learning Engineer",
+    "text": "Machine Learning Engineer\nI’m a Machine Learning Engineer specialising in reinforcement learning, world models, and distributed post-training for embodied robotics.\nMy work spans world models, Lyapunov stability functions, and sim-to-real transfer for humanoid robotics, with algorithms implemented from scratch in JAX and PyTorch. I’ve published at ICRA, NeurIPS, and IROS, and serve as a reviewer for top ML and robotics venues.\nPreviously, I’ve held research roles at Cambridge Consultants (humanoid RL & VLAs) and Agile Loop (agentic AI pipelines), where I led teams and delivered production research to clients including Google Cloud and Lenovo.\n\n\nResearch Interests\n\nReinforcement learning for robotic control\nVLA/WAM post-training\nNeural Lyapunov functions for stability\nContinual, multi-task and meta-learning\nWorld models and model-based RL"
   },
   {
     "objectID": "cv.html",
